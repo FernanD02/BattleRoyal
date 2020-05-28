@@ -857,3 +857,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.28-00.48.55:476][432]LogAssetRegistry: Asset discovery search completed in 120.2073 seconds
 [2020.05.28-00.48.55:490][432]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2020.05.28-00.48.55:490][432]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
+[2020.05.28-00.59.09:849][960]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.819 sec). This should never happen. Something is wrong with the timer delegate!
