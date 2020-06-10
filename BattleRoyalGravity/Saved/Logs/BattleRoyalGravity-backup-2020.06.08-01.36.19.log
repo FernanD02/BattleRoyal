@@ -1,0 +1,708 @@
+﻿Log file open, 06/08/20 00:26:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleRoyalGravity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.500013
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin FalseDirectionalGravity
+LogStreaming: Display: Took  0.639s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 5500
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.06.08-05.26.27:776][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-05.26.27:776][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.08-05.26.27:876][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.08-05.26.27:876][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.06.08-05.26.27:876][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.08-05.26.27:879][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
+[2020.06.08-05.26.27:879][  0]LogInit: User: FernanD02
+[2020.06.08-05.26.27:879][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.08-05.26.27:879][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.08-05.26.27:880][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.08-05.26.27:880][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.08-05.26.27:880][  0]LogMemory: Process Physical Memory: 99.57 MB used, 99.57 MB peak
+[2020.06.08-05.26.27:880][  0]LogMemory: Process Virtual Memory: 90.34 MB used, 90.34 MB peak
+[2020.06.08-05.26.27:880][  0]LogMemory: Physical Memory: 6197.05 MB used,  1909.41 MB free, 8106.46 MB total
+[2020.06.08-05.26.27:880][  0]LogMemory: Virtual Memory: 4610.55 MB used,  1909.41 MB free, 134217728.00 MB total
+[2020.06.08-05.26.28:008][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.08-05.26.28:008][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.08-05.26.29:370][  0]LogStreaming: Display: Took  1.362s to InitEngineTextLocalization.
+[2020.06.08-05.26.29:370][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.08-05.26.29:698][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.08-05.26.29:698][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.08-05.26.37:027][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-05.26.37:027][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.08-05.26.37:039][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2020.06.08-05.26.37:039][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.08-05.26.37:767][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
+[2020.06.08-05.26.37:767][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.06.08-05.26.37:829][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.08-05.26.37:829][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.08-05.26.37:829][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.06.08-05.26.37:860][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.08-05.26.37:861][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.08-05.26.37:861][  0]LogWindows: EnumDisplayDevices:
+[2020.06.08-05.26.37:861][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2020.06.08-05.26.37:862][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2020.06.08-05.26.37:862][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2020.06.08-05.26.37:863][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:863][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:864][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:864][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:865][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:866][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:866][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:867][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:868][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:869][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:870][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:871][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:872][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:873][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:874][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:875][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.26.37:875][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
+[2020.06.08-05.26.37:875][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
+[2020.06.08-05.26.37:876][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2020.06.08-05.26.37:876][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2020.06.08-05.26.37:876][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.06.08-05.26.37:952][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.08-05.26.37:970][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.08-05.26.37:972][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/232432/).
+[2020.06.08-05.26.37:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/81BA2CE34ED896D3C8031C9C4CB5D25F/'.
+[2020.06.08-05.26.43:570][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.08-05.26.43:590][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.06.08-05.26.43:611][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.08-05.26.43:634][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.06.08-05.26.43:661][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.06.08-05.26.43:682][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.08-05.26.43:701][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.08-05.26.43:721][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.08-05.26.43:732][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.26.43:876][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.06.08-05.26.43:963][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-05.26.43:963][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-05.26.43:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-05.26.43:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-05.26.44:020][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.08-05.26.44:042][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.08-05.26.44:061][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.08-05.26.44:116][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.06.08-05.26.44:129][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.06.08-05.26.44:129][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.08-05.26.44:252][  0]LogXGEController: Cleaning working directory: C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.08-05.26.44:252][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.08-05.26.44:252][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.08-05.26.44:252][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.08-05.26.48:299][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.08-05.26.49:562][  0]LogDerivedDataCache: Loaded boot cache 1.26s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-05.26.49:563][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.06.08-05.26.49:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.08-05.26.49:563][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.08-05.26.49:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.08-05.26.49:563][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.08-05.26.49:585][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.08-05.26.49:598][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.08-05.26.49:598][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.08-05.26.49:598][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.08-05.26.49:624][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.08-05.26.49:625][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.08-05.26.49:664][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.08-05.26.49:962][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2020.06.08-05.26.50:450][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-05.26.50:659][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.08-05.26.50:668][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.08-05.26.50:668][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.08-05.26.50:668][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.08-05.26.50:668][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.06.08-05.26.50:690][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
+[2020.06.08-05.26.51:358][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.108266 seconds
+[2020.06.08-05.26.51:367][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.06.08-05.26.51:367][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.06.08-05.26.51:367][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.08-05.26.54:092][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.08-05.26.54:108][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.08-05.26.54:368][  0]SourceControl: Source control is disabled
+[2020.06.08-05.26.54:368][  0]SourceControl: Source control is disabled
+[2020.06.08-05.26.54:372][  0]SourceControl: Source control is disabled
+[2020.06.08-05.26.54:375][  0]SourceControl: Source control is disabled
+[2020.06.08-05.26.54:649][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.08-05.26.54:793][  0]LogOcInput: OculusInput pre-init called
+[2020.06.08-05.26.54:907][  0]LogEngine: Initializing Engine...
+[2020.06.08-05.26.54:908][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-05.26.54:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-05.26.54:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-05.26.54:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.08-05.26.54:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-05.26.55:171][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.08-05.26.55:201][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.08-05.26.55:241][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.08-05.26.55:256][  0]LogInit: FAudioDevice initialized.
+[2020.06.08-05.26.55:256][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.08-05.26.55:494][  0]LogDerivedDataCache: Saved boot cache 0.24s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-05.26.55:517][  0]LogInit: Texture streaming: Enabled
+[2020.06.08-05.26.55:549][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.08-05.26.55:590][  0]LogInit: Transaction tracking system initialized
+[2020.06.08-05.26.55:639][  0]BlueprintLog: New page: Editor Load
+[2020.06.08-05.26.55:802][  0]LocalizationService: Localization service is disabled
+[2020.06.08-05.26.56:220][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.08-05.26.56:220][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.08-05.26.56:220][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.06.08-05.26.56:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-05.26.56:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-05.26.56:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.08-05.26.56:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-05.26.56:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/' took 0.02s
+[2020.06.08-05.26.56:450][  0]SourceControl: Source control is disabled
+[2020.06.08-05.26.56:450][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.08-05.26.56:451][  0]LightingResults: New page: Lighting Build
+[2020.06.08-05.26.56:454][  0]MapCheck: New page: Map Check
+[2020.06.08-05.26.56:454][  0]LightingResults: New page: Lighting Build
+[2020.06.08-05.26.58:450][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.08-05.26.58:467][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.08-05.26.58:498][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.08-05.26.58:647][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 148.885ms to complete.
+[2020.06.08-05.26.58:647][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.196
+[2020.06.08-05.26.58:779][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.26.58:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.26.58:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.26.58:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.26.58:824][  0]LogCollectionManager: Loaded 0 collections in 0.002237 seconds
+[2020.06.08-05.26.58:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Collections/' took 0.01s
+[2020.06.08-05.26.58:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
+[2020.06.08-05.26.58:872][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Collections/' took 0.01s
+[2020.06.08-05.26.58:872][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.06.08-05.26.58:884][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2578 classes and 606 folders.
+[2020.06.08-05.26.58:892][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.08-05.26.59:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.08-05.26.59:113][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.06.08-05.26.59:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.08-05.26.59:158][  0]LogLoad: (Engine Initialization) Total time: 43.86 seconds
+[2020.06.08-05.26.59:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.08-05.26.59:195][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.08-05.26.59:197][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.08-05.26.59:203][  0]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.08-05.26.59:207][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.08-05.26.59:309][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-05.26.59:345][  1]LogRenderer: Reallocating scene render targets to support 708x596 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-05.26.59:553][  2]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.08-05.26.59:689][  3]LogAssetRegistry: Asset discovery search completed in 9.7506 seconds
+[2020.06.08-05.26.59:693][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.06.08-05.26.59:693][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2020.06.08-05.27.00:241][ 28]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-05.27.21:779][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-05.27.22:898][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-05.27.23:038][240]LogRenderer: Reallocating scene render targets to support 756x652 Format 10 NumSamples 1 (Frame:1225).
+[2020.06.08-05.27.59:208][929]LogHttp: Warning: 0000020DC334A700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.08-05.27.59:208][929]LogHttp: Warning: 0000020DC334A700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.08-05.27.59:208][929]LogHttp: Warning: 0000020DC334A700: libcurl info message cache 1 (Closing connection 0)
+[2020.06.08-05.28.00:544][  2]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-05.28.01:342][  2]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2020.06.08-05.28.04:307][ 99]LogSlate: Window 'GravityPlayer' being destroyed
+[2020.06.08-05.28.05:287][185]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-05.28.05:853][185]LogSlate: Took 0.013663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.08-05.28.07:446][272]LogSlate: Window 'GravityPlayer' being destroyed
+[2020.06.08-05.28.08:366][346]LogRenderer: Reallocating scene render targets to support 828x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-05.28.09:273][401]LogSlate: Took 0.011441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.08-05.28.19:280][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-05.28.19:281][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:281][ 26]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2020.06.08-05.28.19:282][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-05.28.19:283][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:283][ 26]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2020.06.08-05.28.19:284][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-05.28.19:285][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:285][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-05.28.19:286][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:286][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-05.28.19:286][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:286][ 26]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset
+[2020.06.08-05.28.19:287][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-05.28.19:287][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:287][ 26]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2020.06.08-05.28.19:287][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-05.28.19:288][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:288][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-05.28.19:288][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-05.28.19:290][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-05.28.19:290][ 26]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2020.06.08-05.28.19:290][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2020.06.08-05.28.19:291][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-05.28.19:291][ 26]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2020.06.08-05.28.19:291][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2020.06.08-05.28.19:292][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-05.28.19:292][ 26]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2020.06.08-05.28.19:292][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2020.06.08-05.28.19:293][ 26]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-05.28.19:293][ 26]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2020.06.08-05.28.19:293][ 26]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2020.06.08-05.28.19:350][ 26]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2020.06.08-05.28.19:444][ 26]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/Geometry/Meshes/SK_Mannequin.SK_Mannequin
+[2020.06.08-05.28.19:484][ 26]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.28.19:484][ 26]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.28.19:583][ 27]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.28.46:126][592]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-05.28.46:407][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-05.28.51:234][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-05.29.02:171][848]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:196][849]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:263][852]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:280][853]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:300][854]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:323][855]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:355][856]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:454][859]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:471][860]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:495][861]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:517][862]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:549][863]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:579][864]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:608][865]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:640][866]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:672][867]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:703][868]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:734][869]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:766][870]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:797][871]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:828][872]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:858][873]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:890][874]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:920][875]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:952][876]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.02:986][877]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:018][878]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:049][879]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:082][880]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:110][881]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:144][882]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:173][883]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:203][884]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:234][885]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:266][886]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:298][887]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:330][888]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:361][889]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:392][890]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:423][891]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:454][892]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:486][893]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:518][894]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:550][895]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:580][896]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:617][897]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:643][898]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:675][899]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:705][900]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:737][901]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:768][902]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:799][903]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:831][904]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:861][905]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:892][906]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:922][907]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:953][908]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.03:985][909]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:016][910]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:048][911]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:079][912]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:111][913]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:142][914]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:172][915]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:203][916]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.04:270][917]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-05.29.04:374][917]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-05.29.05:990][ 26]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:242][ 39]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:260][ 40]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:286][ 41]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:301][ 42]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:332][ 43]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:365][ 44]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:672][ 60]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:689][ 61]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:704][ 62]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:731][ 63]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:768][ 64]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:794][ 65]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:826][ 66]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:857][ 67]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:888][ 68]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:919][ 69]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:951][ 70]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.06:986][ 71]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:018][ 72]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:045][ 73]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:076][ 74]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:107][ 75]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:138][ 76]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:169][ 77]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:202][ 78]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:232][ 79]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:265][ 80]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:294][ 81]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:325][ 82]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:358][ 83]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:388][ 84]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:419][ 85]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:451][ 86]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:484][ 87]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:519][ 88]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:551][ 89]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:577][ 90]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:608][ 91]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:639][ 92]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:671][ 93]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:703][ 94]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:734][ 95]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:768][ 96]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:801][ 97]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:833][ 98]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:859][ 99]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:890][100]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:921][101]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:952][102]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.07:983][103]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:017][104]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:051][105]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:079][106]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:110][107]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:141][108]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:173][109]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:204][110]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:235][111]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:266][112]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:298][113]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:330][114]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:360][115]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:392][116]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:423][117]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:454][118]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:486][119]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:518][120]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:550][121]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:585][122]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:612][123]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:643][124]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:674][125]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:706][126]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:737][127]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.08:804][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-05.29.12:291][305]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:672][326]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:692][327]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:709][328]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:733][329]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:765][330]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:795][331]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:826][332]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:857][333]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:890][334]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:923][335]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:955][336]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.12:987][337]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:016][338]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:049][339]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:081][340]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:108][341]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:140][342]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:173][343]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:202][344]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:234][345]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:266][346]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:296][347]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:328][348]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:359][349]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:390][350]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:420][351]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:452][352]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:483][353]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:514][354]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:546][355]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:576][356]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:607][357]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:638][358]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:669][359]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:701][360]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:732][361]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:765][362]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.13:830][363]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-05.29.26:205][248]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.27:303][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-05.29.32:907][611]LogSlate: Window 'Plugins' being destroyed
+[2020.06.08-05.29.32:917][611]LogSlate: Window 'Plugins' being destroyed
+[2020.06.08-05.29.32:918][611]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.06.08-05.29.32:918][611]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Plugins/' was aborted.
+[2020.06.08-05.29.34:423][675]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:438][676]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:458][677]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:487][678]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:519][679]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:552][680]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:580][681]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:609][682]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:640][683]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:670][684]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:702][685]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:734][686]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:765][687]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:800][688]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:830][689]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:859][690]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:890][691]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:921][692]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:952][693]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.34:983][694]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:015][695]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:050][696]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:079][697]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:110][698]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:140][699]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:171][700]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:203][701]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:234][702]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:265][703]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:297][704]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:329][705]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:360][706]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:392][707]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:422][708]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:454][709]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:484][710]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:517][711]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:550][712]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:577][713]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:608][714]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:640][715]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:670][716]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:701][717]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:732][718]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:763][719]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:795][720]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:826][721]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:857][722]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:889][723]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:920][724]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:951][725]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.35:982][726]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:013][727]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:046][728]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:076][729]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:107][730]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:138][731]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:169][732]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:200][733]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:231][734]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:262][735]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:294][736]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:325][737]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:356][738]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:387][739]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:418][740]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:449][741]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:480][742]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:513][743]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:543][744]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:574][745]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:605][746]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:636][747]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:667][748]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:698][749]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:730][750]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:762][751]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:792][752]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:823][753]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:854][754]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:885][755]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:916][756]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:947][757]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.36:980][758]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:010][759]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:041][760]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:073][761]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:104][762]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:135][763]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:166][764]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:197][765]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:229][766]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:260][767]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:291][768]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:321][769]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:352][770]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:383][771]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:414][772]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:447][773]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:477][774]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:539][776]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:574][777]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:591][778]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:619][779]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:650][780]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.37:681][781]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.41:375][ 11]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.42:516][ 72]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-05.29.43:324][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-05.36.24:322][800]LogSlate: Window 'Save Content' being destroyed
+[2020.06.08-05.36.24:697][800]LogSlate: Window 'BattleRoyalGravity - Unreal Editor' being destroyed
+[2020.06.08-05.36.25:007][801]Cmd: QUIT_EDITOR
+[2020.06.08-05.36.25:084][801]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.08-05.36.25:113][801]LogExit: Preparing to exit.
