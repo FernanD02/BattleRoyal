@@ -1,0 +1,962 @@
+﻿Log file open, 06/08/20 02:21:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleRoyalGravity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.223752
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin FalseDirectionalGravity
+LogStreaming: Display: Took  0.314s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 5500
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.06.08-07.21.02:739][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-07.21.02:739][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.08-07.21.02:774][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.08-07.21.02:774][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.06.08-07.21.02:774][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.08-07.21.02:775][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
+[2020.06.08-07.21.02:775][  0]LogInit: User: FernanD02
+[2020.06.08-07.21.02:775][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.08-07.21.02:775][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.08-07.21.02:776][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.08-07.21.02:776][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.08-07.21.02:776][  0]LogMemory: Process Physical Memory: 99.78 MB used, 99.79 MB peak
+[2020.06.08-07.21.02:776][  0]LogMemory: Process Virtual Memory: 89.97 MB used, 89.97 MB peak
+[2020.06.08-07.21.02:776][  0]LogMemory: Physical Memory: 5726.51 MB used,  2379.95 MB free, 8106.46 MB total
+[2020.06.08-07.21.02:776][  0]LogMemory: Virtual Memory: 4610.55 MB used,  2379.95 MB free, 134217728.00 MB total
+[2020.06.08-07.21.02:806][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.08-07.21.02:806][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.08-07.21.03:489][  0]LogStreaming: Display: Took  0.683s to InitEngineTextLocalization.
+[2020.06.08-07.21.03:489][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.08-07.21.03:545][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.08-07.21.03:545][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.08-07.21.03:985][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-07.21.03:985][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.08-07.21.03:995][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2020.06.08-07.21.03:995][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.08-07.21.04:045][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
+[2020.06.08-07.21.04:045][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.06.08-07.21.04:051][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.08-07.21.04:051][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.08-07.21.04:051][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.06.08-07.21.04:060][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.08-07.21.04:061][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.08-07.21.04:061][  0]LogWindows: EnumDisplayDevices:
+[2020.06.08-07.21.04:061][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2020.06.08-07.21.04:061][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2020.06.08-07.21.04:062][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2020.06.08-07.21.04:063][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:078][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:079][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:080][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:081][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:082][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:083][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:084][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:084][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:085][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:086][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:086][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:087][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:087][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:088][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:088][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-07.21.04:089][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
+[2020.06.08-07.21.04:089][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
+[2020.06.08-07.21.04:089][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2020.06.08-07.21.04:089][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2020.06.08-07.21.04:089][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.06.08-07.21.04:164][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.08-07.21.04:183][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.08-07.21.04:185][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/8364/).
+[2020.06.08-07.21.04:186][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/D1A68FD147B53D804D0FA5B7C2E7EED7/'.
+[2020.06.08-07.21.04:869][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.08-07.21.04:900][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.06.08-07.21.04:930][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.08-07.21.04:956][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.06.08-07.21.04:984][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.06.08-07.21.05:010][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.08-07.21.05:039][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.08-07.21.05:070][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.08-07.21.05:086][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-07.21.05:265][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.06.08-07.21.05:361][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-07.21.05:361][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-07.21.05:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-07.21.05:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-07.21.05:445][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.08-07.21.05:468][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.08-07.21.05:499][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.08-07.21.05:528][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.06.08-07.21.05:546][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.06.08-07.21.05:547][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.08-07.21.05:672][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.08-07.21.05:672][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.08-07.21.05:672][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.08-07.21.07:318][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.08-07.21.07:431][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-07.21.07:432][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.06.08-07.21.07:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.08-07.21.07:432][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.08-07.21.07:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.08-07.21.07:432][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.08-07.21.07:461][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.08-07.21.07:474][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.08-07.21.07:474][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.08-07.21.07:474][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.08-07.21.07:512][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.08-07.21.07:514][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.08-07.21.07:514][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.08-07.21.07:653][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2020.06.08-07.21.08:320][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-07.21.08:401][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.08-07.21.08:405][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.08-07.21.08:406][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.08-07.21.08:406][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.08-07.21.08:406][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.06.08-07.21.08:580][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
+[2020.06.08-07.21.09:408][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.092566 seconds
+[2020.06.08-07.21.09:421][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.06.08-07.21.09:421][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.06.08-07.21.09:421][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.08-07.21.11:974][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.08-07.21.11:989][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.08-07.21.12:217][  0]SourceControl: Source control is disabled
+[2020.06.08-07.21.12:217][  0]SourceControl: Source control is disabled
+[2020.06.08-07.21.12:219][  0]SourceControl: Source control is disabled
+[2020.06.08-07.21.12:221][  0]SourceControl: Source control is disabled
+[2020.06.08-07.21.12:443][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.08-07.21.12:568][  0]LogOcInput: OculusInput pre-init called
+[2020.06.08-07.21.12:664][  0]LogEngine: Initializing Engine...
+[2020.06.08-07.21.12:665][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-07.21.12:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-07.21.12:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-07.21.12:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.08-07.21.12:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-07.21.13:026][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.08-07.21.13:051][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.08-07.21.13:113][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.08-07.21.13:134][  0]LogInit: FAudioDevice initialized.
+[2020.06.08-07.21.13:135][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.08-07.21.13:356][  0]LogDerivedDataCache: Saved boot cache 0.22s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-07.21.13:372][  0]LogInit: Texture streaming: Enabled
+[2020.06.08-07.21.13:402][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.08-07.21.13:421][  0]LogInit: Transaction tracking system initialized
+[2020.06.08-07.21.13:459][  0]BlueprintLog: New page: Editor Load
+[2020.06.08-07.21.13:587][  0]LocalizationService: Localization service is disabled
+[2020.06.08-07.21.14:033][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.08-07.21.14:033][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.08-07.21.14:033][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.06.08-07.21.14:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-07.21.14:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-07.21.14:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.08-07.21.14:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-07.21.14:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/' took 0.03s
+[2020.06.08-07.21.14:361][  0]SourceControl: Source control is disabled
+[2020.06.08-07.21.14:361][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.08-07.21.14:362][  0]LightingResults: New page: Lighting Build
+[2020.06.08-07.21.14:366][  0]MapCheck: New page: Map Check
+[2020.06.08-07.21.14:366][  0]LightingResults: New page: Lighting Build
+[2020.06.08-07.21.15:265][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.08-07.21.15:284][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.08-07.21.15:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.08-07.21.15:469][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.148ms to complete.
+[2020.06.08-07.21.15:469][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.108
+[2020.06.08-07.21.15:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-07.21.15:667][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-07.21.15:679][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-07.21.15:692][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-07.21.15:718][  0]LogCollectionManager: Loaded 0 collections in 0.002366 seconds
+[2020.06.08-07.21.15:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Collections/' took 0.01s
+[2020.06.08-07.21.15:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
+[2020.06.08-07.21.15:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Collections/' took 0.01s
+[2020.06.08-07.21.15:769][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.06.08-07.21.15:784][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2578 classes and 606 folders.
+[2020.06.08-07.21.15:796][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.08-07.21.15:933][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.08-07.21.15:950][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.06.08-07.21.15:986][  0]LogSlate: Took 0.020578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.08-07.21.15:999][  0]LogSlate: Took 0.004021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.08-07.21.16:020][  0]LogSlate: Took 0.015840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.08-07.21.16:131][  0]LogRenderer: Reallocating scene render targets to support 756x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-07.21.16:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.08-07.21.16:413][  0]LogLoad: (Engine Initialization) Total time: 16.63 seconds
+[2020.06.08-07.21.16:413][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.08-07.21.16:464][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.08-07.21.16:482][  0]LogSlate: Took 0.002205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-07.21.16:657][  3]LogAssetRegistry: Asset discovery search completed in 9.0267 seconds
+[2020.06.08-07.21.16:663][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.06.08-07.21.16:663][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2020.06.08-07.26.08:311][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-07.26.09:759][513]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.08-07.28.11:553][ 69]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-07.28.11:583][ 69]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-07.28.13:239][ 69]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2020.06.08-07.28.18:604][225]LogSlate: Window 'GravityPlayer' being destroyed
+[2020.06.08-07.28.19:827][331]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-07.28.20:513][331]LogSlate: Took 0.013195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.08-07.28.22:355][412]LogSlate: Window 'GravityPlayer' being destroyed
+[2020.06.08-07.28.23:114][473]LogSlate: Took 0.028260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.08-07.28.23:860][529]LogRenderer: Reallocating scene render targets to support 792x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-07.28.35:679][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-07.28.35:679][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:679][477]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2020.06.08-07.28.35:680][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-07.28.35:680][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:680][477]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2020.06.08-07.28.35:680][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-07.28.35:681][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:681][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-07.28.35:681][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:682][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-07.28.35:682][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:682][477]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset
+[2020.06.08-07.28.35:682][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-07.28.35:683][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:683][477]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2020.06.08-07.28.35:683][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-07.28.35:683][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:684][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-07.28.35:684][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-07.28.35:687][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-07.28.35:687][477]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2020.06.08-07.28.35:688][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2020.06.08-07.28.35:688][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-07.28.35:689][477]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2020.06.08-07.28.35:689][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2020.06.08-07.28.35:690][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-07.28.35:690][477]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2020.06.08-07.28.35:690][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2020.06.08-07.28.35:691][477]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-07.28.35:691][477]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2020.06.08-07.28.35:691][477]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2020.06.08-07.28.35:881][477]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.35:882][477]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.35:937][478]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.35:954][479]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.36:039][480]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.36:058][481]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.36:084][482]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.36:115][483]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.43:613][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-07.28.45:234][ 23]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:375][ 30]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:391][ 31]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:403][ 32]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:427][ 33]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:455][ 34]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:486][ 35]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:517][ 36]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:549][ 37]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:581][ 38]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:612][ 39]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:644][ 40]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:675][ 41]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:707][ 42]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:741][ 43]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:769][ 44]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:800][ 45]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:831][ 46]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:862][ 47]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:893][ 48]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:925][ 49]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:956][ 50]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.45:989][ 51]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:019][ 52]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:051][ 53]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:082][ 54]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:116][ 55]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:145][ 56]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:176][ 57]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:208][ 58]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:239][ 59]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:272][ 60]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.46:452][ 66]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.28.53:444][533]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.06.08-07.28.53:638][533]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.06.08-07.28.53:744][533]LogShaderCompilers: Display: Shaders left to compile 128
+[2020.06.08-07.28.53:744][533]LogShaderCompilers: Display: Shaders left to compile 118
+[2020.06.08-07.28.53:744][533]LogShaderCompilers: Display: Shaders left to compile 108
+[2020.06.08-07.28.53:744][533]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2020.06.08-07.28.53:860][533]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.06.08-07.28.53:913][533]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.29.05:002][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-07.29.18:419][248]LogShaderCompilers: Display: Shaders left to compile 226
+[2020.06.08-07.29.19:190][270]LogShaderCompilers: Display: Shaders left to compile 216
+[2020.06.08-07.29.20:013][289]LogShaderCompilers: Display: Shaders left to compile 206
+[2020.06.08-07.29.58:284][328]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-07.30.03:085][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-07.30.18:594][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-07.30.18:786][438]LogShaderCompilers: Display: Shaders left to compile 196
+[2020.06.08-07.30.19:165][444]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.30.20:784][531]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-07.30.27:153][854]LogShaderCompilers: Display: Shaders left to compile 186
+[2020.06.08-07.30.42:122][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.08-07.30.53:538][242]LogShaderCompilers: Display: Shaders left to compile 176
+[2020.06.08-07.31.03:372][830]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-07.31.05:607][886]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerA4C3AF714B05DC2B3902B58035A8685B.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-07.31.06:127][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-07.31.08:829][ 17]LogShaderCompilers: Display: Shaders left to compile 166
+[2020.06.08-07.31.14:575][211]LogShaderCompilers: Display: Shaders left to compile 156
+[2020.06.08-07.31.15:468][245]LogShaderCompilers: Display: Shaders left to compile 146
+[2020.06.08-07.31.15:884][269]LogShaderCompilers: Display: Shaders left to compile 136
+[2020.06.08-07.31.21:708][467]LogShaderCompilers: Display: Shaders left to compile 126
+[2020.06.08-07.31.27:657][638]LogShaderCompilers: Display: Shaders left to compile 116
+[2020.06.08-07.31.31:588][724]LogShaderCompilers: Display: Shaders left to compile 106
+[2020.06.08-07.31.32:396][736]LogShaderCompilers: Display: Shaders left to compile 96
+[2020.06.08-07.31.33:641][761]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-07.31.56:622][942]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.08-07.31.58:105][ 18]LogEditorTransaction: Undo Edit Anim Class
+[2020.06.08-07.31.58:140][ 18]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.GravityPlayer_C_0.CollisionCylinder) Component already registered.
+[2020.06.08-07.31.59:389][ 89]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.08-07.31.59:890][114]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.08-07.32.02:158][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-07.32.04:563][331]LogScript: Warning: Attempted to access CharMoveComp via property CallFunc_GetMovementComponent_ReturnValue, but CharMoveComp is pending kill
+	FirstPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.GravityPlayer_C_0.FirstPersonArms.FirstPerson_AnimBP_C_0
+	Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP:0229
+[2020.06.08-07.32.04:566][331]LogScript: Warning: Attempted to access CharMoveComp via property CallFunc_GetMovementComponent_ReturnValue, but CharMoveComp is pending kill
+	FirstPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.GravityPlayer_C_0.FirstPersonArms.FirstPerson_AnimBP_C_0
+	Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP:0229
+[2020.06.08-07.32.04:583][331]LogScript: Warning: Attempted to access CharMoveComp via property CallFunc_GetMovementComponent_ReturnValue, but CharMoveComp is pending kill
+	FirstPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.GravityPlayer_C_0.FirstPersonArms.FirstPerson_AnimBP_C_0
+	Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP:0229
+[2020.06.08-07.32.04:585][331]LogScript: Warning: Attempted to access CharMoveComp via property CallFunc_GetMovementComponent_ReturnValue, but CharMoveComp is pending kill
+	FirstPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.GravityPlayer_C_0.FirstPersonArms.FirstPerson_AnimBP_C_0
+	Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP:0229
+[2020.06.08-07.32.12:321][742]LogShaderCompilers: Display: Shaders left to compile 86
+[2020.06.08-07.32.18:001][840]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.06.08-07.32.19:024][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-07.32.19:060][868]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-07.32.20:379][882]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer7072D60243655E1EA855999BE189EFCD.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-07.32.30:516][301]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.06.08-07.32.34:137][367]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.06.08-07.32.34:490][373]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.06.08-07.32.42:167][494]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.06.08-07.32.47:717][601]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.06.08-07.32.50:420][648]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.06.08-07.32.51:291][666]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.06.08-07.39.50:678][195]LogSlate: Took 0.036512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.08-07.42.00:314][149]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.084
+[2020.06.08-07.42.00:318][149]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-07.42.00:373][149]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-07.42.00:373][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-07.42.00:481][149]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto1A4D0B11C455E5BA7371948AC04DC96DD.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto1.uasset'
+[2020.06.08-07.42.00:485][149]LogFileHelpers: Auto-saving content packages took 0.169
+[2020.06.08-07.43.56:411][215]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-07.43.57:295][260]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerC3F18E9340523D92693D6AB5E7BAFACF.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-07.44.02:420][517]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-07.44.15:206][252]LogMetaData: Removing '/Game/BluePrints/BPP_Arma.BPP_Arma:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/NewBlueprint.PackageMetaData'
+[2020.06.08-07.44.15:206][252]LogMetaData: Removing '/Game/BluePrints/BPP_Arma.SKEL_BPP_Arma_C' ref from Metadata '/Game/BluePrints/NewBlueprint.PackageMetaData'
+[2020.06.08-07.44.15:206][252]LogMetaData: Removing '/Game/BluePrints/BPP_Arma.BPP_Arma_C' ref from Metadata '/Game/BluePrints/NewBlueprint.PackageMetaData'
+[2020.06.08-07.44.15:206][252]LogMetaData: Removing '/Game/BluePrints/BPP_Arma.BPP_Arma:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/NewBlueprint.PackageMetaData'
+[2020.06.08-07.44.15:206][252]LogMetaData: Removing '/Game/BluePrints/BPP_Arma.BPP_Arma:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/NewBlueprint.PackageMetaData'
+[2020.06.08-07.44.15:206][252]LogMetaData: Removing '/Game/BluePrints/BPP_Arma.BPP_Arma:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/NewBlueprint.PackageMetaData'
+[2020.06.08-07.44.15:313][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-07.44.15:338][252]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma6DF8CBF24E98FC54EA0E14A5F8314C7A.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-07.44.18:224][395]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPP_Arma.BPP_Arma
+[2020.06.08-07.45.45:507][151]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-07.50.01:172][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-07.50.01:294][307]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma74EE8D2A4659A4AF201BF9992C77EFA4.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-07.50.05:360][720]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-07.50.06:334][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-07.50.06:375][788]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma55A75BC946F9747C09B0A9A614F348D7.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-08.00.24:875][325]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-08.00.29:664][730]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer20CFBCCF42FAFE46878CEAAC41093856.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-08.03.55:214][246]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-08.03.56:090][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-08.03.56:218][281]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_ArmaFADFA0984C50A466D8EEBD8E24DF8850.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-08.05.08:207][785]LogEditorTransaction: Undo Move Nodes
+[2020.06.08-08.05.34:510][520]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-08.05.35:283][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-08.05.35:368][546]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma6E088F034BA4A2D5440C0AA448F3B842.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-08.09.10:570][ 29]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-08.09.12:120][ 84]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerB01FBDA846EEE6E0865314B2B9F7A5E7.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-08.15.47:331][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.076
+[2020.06.08-08.15.47:334][786]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-08.15.47:382][786]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-08.15.47:382][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-08.15.47:453][786]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto20309836A4C401B5C6DD32C8C0A943BB2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto2.uasset'
+[2020.06.08-08.15.47:456][786]LogFileHelpers: Auto-saving content packages took 0.124
+[2020.06.08-08.21.34:504][250]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-08.21.35:421][277]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerDE602CB94B405A509F9C57B99F4EBD2D.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-08.31.13:763][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.264
+[2020.06.08-08.31.13:778][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-08.31.13:899][386]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-08.31.13:899][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-08.31.14:646][386]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto30CED5572418D7C4CC67BBBAD7C9FDE6F.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto3.uasset'
+[2020.06.08-08.31.14:709][386]LogFileHelpers: Auto-saving content packages took 0.938
+[2020.06.08-08.31.45:103][477]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-08.31.45:945][489]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerEED56E944AA7D0C0CE607791D08272C0.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-08.32.19:912][941]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.06.08-08.32.20:609][950]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleRoyalGravity
+[2020.06.08-08.32.20:609][950]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.06.08-08.32.20:609][950]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2020.06.08-08.32.20:609][950]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.06.08-08.32.20:638][953]LogTemp: BranchPath = DESKTOP-TMVGJ7Q/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-TMVGJ7Q/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2020.06.08-08.32.20:678][958]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dell Inspiron 5548\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.06.08-08.35.15:504][479]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-08.35.30:793][383]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PickUp/BP_PickUp.BP_PickUp
+[2020.06.08-08.36.27:830][637]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.06.08-08.36.28:326][662]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleRoyalGravity
+[2020.06.08-08.36.28:327][662]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.06.08-08.36.28:327][662]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2020.06.08-08.36.28:327][662]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.06.08-08.36.28:344][664]LogTemp: BranchPath = DESKTOP-TMVGJ7Q/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-TMVGJ7Q/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2020.06.08-08.36.28:390][669]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dell Inspiron 5548\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.06.08-08.36.54:484][195]LogSlate: Window 'New Channel' being destroyed
+[2020.06.08-08.36.58:848][491]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerFA91BDFD4546EB561D3080865CC1F85D.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-08.36.58:909][491]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_PickUpBB1A2D2F4B4345931871788B33608B95.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_PickUp.uasset'
+[2020.06.08-08.37.22:297][467]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.06.08-08.37.22:712][486]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleRoyalGravity
+[2020.06.08-08.37.22:713][486]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.06.08-08.37.22:713][486]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2020.06.08-08.37.22:713][486]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2020.06.08-08.37.22:730][488]LogTemp: BranchPath = DESKTOP-TMVGJ7Q/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-TMVGJ7Q/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2020.06.08-08.37.22:775][493]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dell Inspiron 5548\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.06.08-08.37.43:026][498]BlueprintLog: New page: Compile BP_PickUp
+[2020.06.08-08.37.50:768][762]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.06.08-08.38.20:441][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-08.48.21:490][385]BlueprintLog: New page: Compile BP_PickUp
+[2020.06.08-08.48.22:672][424]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_PickUpCB349AFF46A844496D5B53A40359DFF9.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_PickUp.uasset'
+[2020.06.08-08.48.52:049][552]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PickUp/BP_Arma_PickUp.BP_Arma_PickUp
+[2020.06.08-08.49.23:343][127]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.063
+[2020.06.08-08.49.23:348][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PickUp/BP_Arma_PickUp] ([1] browsable assets)...
+[2020.06.08-08.49.23:348][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PickUp/BP_Arma_PickUp]
+[2020.06.08-08.49.23:380][127]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp_Auto416A004A442C9CC3845653F873A2B799C.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/PickUp/BP_Arma_PickUp_Auto4.uasset'
+[2020.06.08-08.49.23:383][127]LogFileHelpers: Auto-saving content packages took 0.037
+[2020.06.08-08.59.26:003][756]BlueprintLog: New page: Compile BP_Arma_PickUp
+[2020.06.08-08.59.27:066][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.052
+[2020.06.08-08.59.27:069][816]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PickUp/BP_Arma_PickUp] ([1] browsable assets)...
+[2020.06.08-08.59.27:069][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PickUp/BP_Arma_PickUp]
+[2020.06.08-08.59.27:195][816]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp_Auto578908683450F232C471E82836F66C79B.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/PickUp/BP_Arma_PickUp_Auto5.uasset'
+[2020.06.08-08.59.27:197][816]LogFileHelpers: Auto-saving content packages took 0.129
+[2020.06.08-08.59.27:458][830]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp6C7593CC41837D5E8430B4A1E9B67264.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.01.06:397][444]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.01.07:402][459]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerE0B8CABE4DBCB3F9F6ED5B8137EAF1EB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.03.34:232][ 98]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUpCF8F5067409E9FC9E6E9BFBE37487C0B.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.03.40:192][530]BlueprintLog: New page: Compile BP_Arma_PickUp
+[2020.06.08-09.03.41:284][578]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp4AFCB1D4463DD589E33FCBBC4ED4F4FE.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.05.46:788][321]BlueprintLog: New page: Compile BP_Arma_PickUp
+[2020.06.08-09.05.47:659][346]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUpCEBABE774F2024055BB0E4B445137BBE.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.07.40:423][240]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.07.41:786][255]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer3A4AD70641509DBF4AC753A28D0C3D23.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.11.08:526][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.055
+[2020.06.08-09.11.08:530][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-09.11.08:576][847]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-09.11.08:576][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-09.11.08:686][847]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto6A037059F4718D249A5FDF6B838BB1F1D.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto6.uasset'
+[2020.06.08-09.11.08:689][847]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PickUp/BP_Arma_PickUp] ([1] browsable assets)...
+[2020.06.08-09.11.08:689][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PickUp/BP_Arma_PickUp]
+[2020.06.08-09.11.08:746][847]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp_Auto672E7521C4E5FF9E70333B7B1DAB54B02.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/PickUp/BP_Arma_PickUp_Auto6.uasset'
+[2020.06.08-09.11.08:799][847]LogFileHelpers: Auto-saving content packages took 0.270
+[2020.06.08-09.14.35:647][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-09.14.35:825][900]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_ArmaFFA4BAB848F2E3F44D3031A6D9729B71.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-09.17.53:360][280]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.17.53:494][280]LogBlueprint: Error: [Compiler GravityPlayer] The property associated with  Damage  could not be found in '/Game/GravityBP/GravityPlayer.GravityPlayer_C'
+[2020.06.08-09.17.53:917][280]LogBlueprint: Warning: [Compiler GravityPlayer] [7014.13] Compile of GravityPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 557 ms] (/Game/GravityBP/GravityPlayer.GravityPlayer)
+[2020.06.08-09.17.54:709][316]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer76AF54D34EA70036FB5E3EAF081A6029.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.18.37:159][272]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp90CD8E3A4299A81572455A9BC327D7EB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.18.39:432][441]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.18.41:786][530]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerC476405140287D666BF885911AA23019.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.18.44:084][692]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp87F26E5A4AA5FE9A5F0EA08E9444FE88.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.19.53:888][992]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer263428FB44ED744D13512F85BBDCB637.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.26.27:242][152]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2020.06.08-09.26.27:265][152]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_22) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.08-09.26.27:344][152]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2020.06.08-09.26.27:742][152]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0030 seconds. Added 1 classes and 2 folders.
+[2020.06.08-09.26.29:424][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-09.26.29:502][152]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0022 seconds. Added 1 classes and 0 folders.
+[2020.06.08-09.26.29:960][152]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-09.26.31:101][152]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2020.06.08-09.26.31:140][152]LogRenderer: Reallocating scene render targets to support 808x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-09.26.31:140][152]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.08-09.26.59:374][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-09.27.29:068][455]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.08-09.27.34:229][704]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Fire_Rifle_Ironsights_2.Fire_Rifle_Ironsights_2
+[2020.06.08-09.27.34:230][704]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Fire_Rifle_Ironsights_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.08-09.27.34:251][704]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.06.08-09.27.37:839][827]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Fire_Rifle_Ironsights_2.Fire_Rifle_Ironsights_2
+[2020.06.08-09.27.37:875][827]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-09.27.37:919][827]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-09.27.38:720][827]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.08-09.27.45:923][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-09.28.09:901][884]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/FirstPersonFire_Montage.FirstPersonFire_Montage
+[2020.06.08-09.28.12:356][993]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/FirstPersonFire_Montage7A2417034A9B738B666CBAAD1C14CC76.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPersonFire_Montage.uasset'
+[2020.06.08-09.28.17:433][119]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Fire_Rifle_Ironsights_2.Fire_Rifle_Ironsights_2
+[2020.06.08-09.28.17:464][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-09.28.17:513][119]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-09.28.18:231][119]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.08-09.28.19:964][197]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Fire_Rifle_Ironsights_2074E7BA74744343E895BE899F0E7A89A.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Fire_Rifle_Ironsights_2.uasset'
+[2020.06.08-09.36.00:861][642]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.356
+[2020.06.08-09.36.00:866][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton] ([1] browsable assets)...
+[2020.06.08-09.36.00:866][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton]
+[2020.06.08-09.36.01:018][642]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/SK_Mannequin_Arms_Skeleton_Auto79C87B8B24D96DB112E5BCEB44DF16FC6.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton_Auto7.uasset'
+[2020.06.08-09.36.01:022][642]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-09.36.01:074][642]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-09.36.01:074][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-09.36.01:352][642]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto73B00165D49ED67ECCC57469291307B52.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto7.uasset'
+[2020.06.08-09.36.01:415][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2020.06.08-09.36.01:415][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2020.06.08-09.36.01:447][642]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/UE4_Mannequin_Skeleton_Auto707DA8C85408E413F3E33818BC8EECD66.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto7.uasset'
+[2020.06.08-09.36.01:451][642]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Fire_Rifle_Ironsights_2] ([1] browsable assets)...
+[2020.06.08-09.36.01:495][642]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights_2.Fire_Rifle_Ironsights_2]
+[2020.06.08-09.36.01:496][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Fire_Rifle_Ironsights_2]
+[2020.06.08-09.36.01:534][642]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Fire_Rifle_Ironsights_2_Auto7CD08855E43EAA2A22BBEEAB84C3DA4EC.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/AnimStarterPack/Fire_Rifle_Ironsights_2_Auto7.uasset'
+[2020.06.08-09.36.01:536][642]LogFileHelpers: Auto-saving content packages took 0.673
+[2020.06.08-09.36.27:645][830]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-09.36.28:595][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-09.36.28:695][860]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma504CF3EA447578A30E49EEBD655488B8.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-09.36.46:604][  0]BlueprintLog: New page: Compile BP_Arma_PickUp
+[2020.06.08-09.37.03:493][406]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.37.03:963][406]LogBlueprint: Error: [Compiler GravityPlayer] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2020.06.08-09.37.04:425][406]LogBlueprint: Warning: [Compiler GravityPlayer] [8164.64] Compile of GravityPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 931 ms] (/Game/GravityBP/GravityPlayer.GravityPlayer)
+[2020.06.08-09.37.06:329][479]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer1D4EEF1B43AB0FB82F4B73A1A20C3C58.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.39.57:853][459]BlueprintLog: New page: Compile BP_Arma_PickUp
+[2020.06.08-09.39.59:286][480]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp39B5CF324067A9B0FEDB069FC124833A.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.40.49:203][498]BlueprintLog: New page: Compile BP_Arma_PickUp
+[2020.06.08-09.40.50:213][506]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp6E393E914B2DC00D007E6F90591620E2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.43.51:015][262]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.43.51:341][262]LogBlueprint: Error: [Compiler GravityPlayer] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.06.08-09.43.51:342][262]LogBlueprint: Error: [Compiler GravityPlayer] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.06.08-09.43.51:732][262]LogBlueprint: Warning: [Compiler GravityPlayer] [8571.95] Compile of GravityPlayer failed. 2 Fatal Issue(s) 0 Warning(s) [in 717 ms] (/Game/GravityBP/GravityPlayer.GravityPlayer)
+[2020.06.08-09.43.52:393][283]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer6D056F024CB5E92C0E2B20BF48C0581D.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.44.26:655][357]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.44.26:906][357]LogBlueprint: Error: [Compiler GravityPlayer] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.06.08-09.44.26:907][357]LogBlueprint: Error: [Compiler GravityPlayer] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.06.08-09.44.27:309][357]LogBlueprint: Warning: [Compiler GravityPlayer] [8607.52] Compile of GravityPlayer failed. 2 Fatal Issue(s) 0 Warning(s) [in 653 ms] (/Game/GravityBP/GravityPlayer.GravityPlayer)
+[2020.06.08-09.44.28:005][383]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer248A6FF24EA928C3FAF4D9A564283024.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.44.47:115][617]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.45.43:900][928]LogEditorTransaction: Undo Rename Node
+[2020.06.08-09.45.45:454][  2]LogEditorTransaction: Undo Add Node
+[2020.06.08-09.46.04:392][667]LogEditorTransaction: Undo Resize Node
+[2020.06.08-09.51.45:531][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.158
+[2020.06.08-09.51.45:542][ 25]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-09.51.45:592][ 25]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-09.51.45:592][ 25]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-09.51.45:806][ 25]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto885E4C38E4FE3C4C2013805AD258838ED.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto8.uasset'
+[2020.06.08-09.51.45:810][ 25]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PickUp/BP_Arma_PickUp] ([1] browsable assets)...
+[2020.06.08-09.51.45:810][ 25]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PickUp/BP_Arma_PickUp]
+[2020.06.08-09.51.45:891][ 25]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp_Auto8EF53929B4B8F4D864565F28C86595B93.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/PickUp/BP_Arma_PickUp_Auto8.uasset'
+[2020.06.08-09.51.45:894][ 25]LogFileHelpers: Auto-saving content packages took 0.354
+[2020.06.08-09.51.47:229][ 92]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-09.51.49:124][112]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer81B6CD534E2BD48D8816E3A9DEE0C8B2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-09.51.52:233][240]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/SK_Mannequin_Arms_Skeleton84EE4C7F44AAE03AB8FBFDBE558551E2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset'
+[2020.06.08-09.51.52:340][240]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUpB56F29CC4F3877031BDAE7AEA044667C.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-09.51.52:442][240]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/UE4_Mannequin_SkeletonF76541D640A91B216AAABC99C339FC80.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2020.06.08-09.51.52:484][240]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Fire_Rifle_Ironsights_25EB9024E4452B52AF5ECE98ADED516D2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/AnimStarterPack/Fire_Rifle_Ironsights_2.uasset'
+[2020.06.08-09.54.02:457][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave GL_Reload01...
+[2020.06.08-09.54.02:458][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.02:856][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.GL_Reload_Cue:SoundCueGraph_20.SoundCueGraphNode_47' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.02:856][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.GL_Reload_Cue:SoundCueGraph_20.SoundCueGraphNode_48' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.02:856][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.GL_Reload_Cue:SoundCueGraph_20.SoundCueGraphNode_49' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.02:857][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.GL_Reload_Cue:SoundCueGraph_20.SoundCueGraphNode_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.02:857][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.GL_Reload_Cue:SoundCueGraph_20.SoundCueGraphNode_Root_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.02:932][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave GL_Reload03...
+[2020.06.08-09.54.02:932][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.02:958][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave GL_Reload02...
+[2020.06.08-09.54.02:959][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:094][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave GL_ReloadGrab...
+[2020.06.08-09.54.03:094][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:109][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab_Cue.GL_ReloadGrab_Cue:SoundCueGraph_19.SoundCueGraphNode_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:109][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab_Cue.GL_ReloadGrab_Cue:SoundCueGraph_19.SoundCueGraphNode_Root_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:205][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave GL_ReloadInsert...
+[2020.06.08-09.54.03:206][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:232][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert_Cue.GL_ReloadInsert_Cue:SoundCueGraph_18.SoundCueGraphNode_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:232][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert_Cue.GL_ReloadInsert_Cue:SoundCueGraph_18.SoundCueGraphNode_Root_18' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:484][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Pistol_Reload03...
+[2020.06.08-09.54.03:484][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:511][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Pistol_Reload02...
+[2020.06.08-09.54.03:511][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:538][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Pistol_Reload01...
+[2020.06.08-09.54.03:538][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:559][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.Pistol_Reload_Cue:SoundCueGraph_36.SoundCueGraphNode_112' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:559][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.Pistol_Reload_Cue:SoundCueGraph_36.SoundCueGraphNode_113' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:560][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.Pistol_Reload_Cue:SoundCueGraph_36.SoundCueGraphNode_114' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:560][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.Pistol_Reload_Cue:SoundCueGraph_36.SoundCueGraphNode_115' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:560][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.Pistol_Reload_Cue:SoundCueGraph_36.SoundCueGraphNode_Root_36' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:680][423]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Pistol_ReloadMagEject01...
+[2020.06.08-09.54.03:680][423]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.03:699][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject_Cue.Pistol_ReloadMagEject_Cue:SoundCueGraph_37.SoundCueGraphNode_110' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.03:699][423]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject_Cue.Pistol_ReloadMagEject_Cue:SoundCueGraph_37.SoundCueGraphNode_Root_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.06:426][535]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert_Cue.Pistol_ReloadMagInsert_Cue:SoundCueGraph_38.SoundCueGraphNode_111' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.06:427][535]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert_Cue.Pistol_ReloadMagInsert_Cue:SoundCueGraph_38.SoundCueGraphNode_Root_38' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.06.08-09.54.06:443][535]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Pistol_ReloadMagInsert...
+[2020.06.08-09.54.06:443][535]LogTemp: Couldn't find amount to resample to.
+[2020.06.08-09.54.29:651][470]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.06.08-09.54.29:651][470]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_50) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.08-09.54.34:092][632]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.08-09.54.37:982][773]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.06.08-09.54.37:983][773]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Reload_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.08-09.54.38:009][773]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.06.08-09.54.59:668][212]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/ReloadFPSMontage.ReloadFPSMontage
+[2020.06.08-09.54.59:720][212]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-09.54.59:814][212]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-09.55.00:940][212]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.08-09.55.03:175][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ReloadFPSMontage" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/ReloadFPSMontage.uasset" SILENT=true
+[2020.06.08-09.55.03:212][307]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/ReloadFPSMontage37D698354C1D5163619FCEA5D63FB14C.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/ReloadFPSMontage.uasset'
+[2020.06.08-09.55.04:978][358]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.06.08-09.55.06:063][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Reload_Rifle_Hip" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Reload_Rifle_Hip.uasset" SILENT=true
+[2020.06.08-09.55.06:177][386]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Reload_Rifle_Hip76AE15E24C2D6F0E74571DBD7654D565.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Reload_Rifle_Hip.uasset'
+[2020.06.08-09.57.57:183][ 10]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/AnimStarterPack/ReloadingFPSMontage.ReloadingFPSMontage
+[2020.06.08-09.57.57:244][ 10]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-09.57.57:302][ 10]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-09.57.57:995][ 10]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.08-09.57.59:205][ 62]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/ReloadingFPSMontage3D8A05934508A6D6E4D7189D09B98316.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/AnimStarterPack/ReloadingFPSMontage.uasset'
+[2020.06.08-10.02.14:620][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.166
+[2020.06.08-10.02.14:627][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton] ([1] browsable assets)...
+[2020.06.08-10.02.14:628][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton]
+[2020.06.08-10.02.14:694][713]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/SK_Mannequin_Arms_Skeleton_Auto991CFD1A94294908B3E8932846AA60CFA.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton_Auto9.uasset'
+[2020.06.08-10.02.14:699][713]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-10.02.14:759][713]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-10.02.14:759][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-10.02.15:094][713]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto98CB63C274012AEE5E78E7B9CCBE48F4A.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto9.uasset'
+[2020.06.08-10.02.15:099][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2020.06.08-10.02.15:099][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2020.06.08-10.02.15:145][713]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/UE4_Mannequin_Skeleton_Auto90DD45DCE4A384BC839721B9ED1207817.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto9.uasset'
+[2020.06.08-10.02.15:149][713]LogFileHelpers: Auto-saving content packages took 0.524
+[2020.06.08-10.02.30:670][762]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-10.02.32:444][794]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer0F80F3904F46D898DF32BFB6590D0452.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-10.03.11:651][287]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerBBF0058E431EC28479C9CD9691FBE271.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-10.03.13:731][448]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/SK_Mannequin_Arms_Skeleton13754F8A4C05A6EB202622A27DB1D192.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset'
+[2020.06.08-10.03.13:817][448]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp2DEC70E1429A73235A266788DE15736E.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-10.03.13:857][448]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/UE4_Mannequin_SkeletonC49631D545C2E5F0115FF99C01F38390.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2020.06.08-10.04.05:161][748]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-10.04.21:409][183]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/BPPlayerController.BPPlayerController
+[2020.06.08-10.08.10:600][150]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/HUD/GameplayHUD.GameplayHUD
+[2020.06.08-10.08.53:192][397]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.08-10.12.51:032][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.132
+[2020.06.08-10.12.51:036][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PickUp/BP_Arma_PickUp] ([1] browsable assets)...
+[2020.06.08-10.12.51:037][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PickUp/BP_Arma_PickUp]
+[2020.06.08-10.12.51:198][ 51]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp_Auto03C2ED3654C7E2F4BEB74F594BEBD71CC.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/PickUp/BP_Arma_PickUp_Auto0.uasset'
+[2020.06.08-10.12.51:204][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GravityBP/BPPlayerController] ([1] browsable assets)...
+[2020.06.08-10.12.51:204][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/BPPlayerController]
+[2020.06.08-10.12.51:267][ 51]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController_Auto0FCF36DC74452C1CEDB0EE5AB101927FC.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/BPPlayerController_Auto0.uasset'
+[2020.06.08-10.12.51:272][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/GameplayHUD] ([1] browsable assets)...
+[2020.06.08-10.12.51:272][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/GameplayHUD]
+[2020.06.08-10.12.51:336][ 51]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUD_Auto0D98E46BB43A3DE74B8EC2AAF028EBC40.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/HUD/GameplayHUD_Auto0.uasset'
+[2020.06.08-10.12.51:339][ 51]LogFileHelpers: Auto-saving content packages took 0.305
+[2020.06.08-10.35.52:274][671]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.075
+[2020.06.08-10.35.52:283][671]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/GameplayHUD] ([1] browsable assets)...
+[2020.06.08-10.35.52:283][671]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/GameplayHUD]
+[2020.06.08-10.35.52:319][671]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUD_Auto18173F4C4463FCCD10F35F18E466217AE.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/HUD/GameplayHUD_Auto1.uasset'
+[2020.06.08-10.35.52:322][671]LogFileHelpers: Auto-saving content packages took 0.044
+[2020.06.08-10.40.57:144][ 84]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.40.57:257][ 84]LogBlueprint: Error: [Compiler GameplayHUD] Binding: Property ' Brush Delegate ' on Widget ' Image_48 ': Binding: 'None' : 'None' was not found on 'Gameplay HUD'.
+[2020.06.08-10.40.57:419][ 84]LogBlueprint: Warning: [Compiler GameplayHUD] [1997.63] Compile of GameplayHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 274 ms] (/Game/HUD/GameplayHUD.GameplayHUD)
+[2020.06.08-10.40.57:970][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/GameplayHUD" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset" SILENT=true
+[2020.06.08-10.40.58:035][111]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUDA83CE2A74BCC16099E08B8B96A5B66C9.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset'
+[2020.06.08-10.43.20:126][462]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-10.43.21:340][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-10.43.21:458][493]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma307881144692D276F5989D8862394E2C.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-10.44.00:053][522]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.44.00:229][522]LogBlueprint: Error: [Compiler GameplayHUD] Binding: Property ' Brush Delegate ' on Widget ' Image_48 ': Binding: 'None' : 'None' was not found on 'Gameplay HUD'.
+[2020.06.08-10.44.00:323][522]LogBlueprint: Warning: [Compiler GameplayHUD] [2180.54] Compile of GameplayHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 270 ms] (/Game/HUD/GameplayHUD.GameplayHUD)
+[2020.06.08-10.44.03:750][785]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.44.03:780][785]LogBlueprint: Error: [Compiler GameplayHUD] Binding: Property ' Brush Delegate ' on Widget ' Image_48 ': Binding: 'None' : 'None' was not found on 'Gameplay HUD'.
+[2020.06.08-10.44.03:860][785]LogBlueprint: Warning: [Compiler GameplayHUD] [2184.07] Compile of GameplayHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 109 ms] (/Game/HUD/GameplayHUD.GameplayHUD)
+[2020.06.08-10.44.08:090][121]LogBlueprint: Warning: Unknown type of hyperlinked object (Image_48), cannot focus it
+[2020.06.08-10.44.09:412][264]LogBlueprint: Warning: Unknown type of hyperlinked object (BrushDelegate), cannot focus it
+[2020.06.08-10.44.15:392][739]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.44.15:411][739]LogBlueprint: Error: [Compiler GameplayHUD] Binding: Property ' Brush Delegate ' on Widget ' Image_48 ': Binding: 'None' : 'None' was not found on 'Gameplay HUD'.
+[2020.06.08-10.44.15:552][739]LogBlueprint: Warning: [Compiler GameplayHUD] [2195.76] Compile of GameplayHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 161 ms] (/Game/HUD/GameplayHUD.GameplayHUD)
+[2020.06.08-10.44.36:708][791]LogBlueprint: Warning: Unknown type of hyperlinked object (BrushDelegate), cannot focus it
+[2020.06.08-10.44.37:512][886]LogBlueprint: Warning: Unknown type of hyperlinked object (BrushDelegate), cannot focus it
+[2020.06.08-10.44.38:581][  1]LogBlueprint: Warning: Unknown type of hyperlinked object (Image_48), cannot focus it
+[2020.06.08-10.45.05:505][440]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.45.06:510][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/GameplayHUD" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset" SILENT=true
+[2020.06.08-10.45.06:611][471]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUD6F579A61480A8BC7EFB0CE8DFF982FE2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset'
+[2020.06.08-10.45.08:432][575]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.45.52:691][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.064
+[2020.06.08-10.45.52:695][430]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PickUp/BP_Arma_PickUp] ([1] browsable assets)...
+[2020.06.08-10.45.52:695][430]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PickUp/BP_Arma_PickUp]
+[2020.06.08-10.45.52:776][430]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp_Auto2601748054DAE927AFD9799A9E91EF79A.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/PickUp/BP_Arma_PickUp_Auto2.uasset'
+[2020.06.08-10.45.52:779][430]LogFileHelpers: Auto-saving content packages took 0.086
+[2020.06.08-10.48.33:288][998]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.48.34:050][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/GameplayHUD" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset" SILENT=true
+[2020.06.08-10.48.34:117][ 32]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUDB0CD30A44D14A59771F13495DAAF3BA1.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset'
+[2020.06.08-10.51.50:790][518]BlueprintLog: New page: Compile GameplayHUD
+[2020.06.08-10.51.51:787][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/GameplayHUD" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset" SILENT=true
+[2020.06.08-10.51.51:953][583]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUD52951D2147F71B5CBDD41E8F9FD3D509.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset'
+[2020.06.08-10.52.50:423][404]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-10.58.23:320][101]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-10.58.23:569][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.080
+[2020.06.08-10.58.23:574][102]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GravityBP/BPPlayerController] ([1] browsable assets)...
+[2020.06.08-10.58.23:574][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/BPPlayerController]
+[2020.06.08-10.58.23:655][102]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController_Auto331BF02334CDA0F72638628A4FE8A798C.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/BPPlayerController_Auto3.uasset'
+[2020.06.08-10.58.23:657][102]LogFileHelpers: Auto-saving content packages took 0.085
+[2020.06.08-10.58.32:042][332]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-10.58.38:099][506]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/Espectador.Espectador
+[2020.06.08-11.01.22:354][ 10]BlueprintLog: New page: Compile Espectador
+[2020.06.08-11.01.24:115][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/Espectador" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/Espectador.uasset" SILENT=true
+[2020.06.08-11.01.24:150][120]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/EspectadorF9A095A04A58B3835892E4B491199A04.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/Espectador.uasset'
+[2020.06.08-11.01.32:107][658]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-11.06.34:071][459]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-11.06.50:109][886]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/BRGameState.BRGameState
+[2020.06.08-11.07.32:750][311]BlueprintLog: New page: Compile BRGameState
+[2020.06.08-11.07.33:592][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/BRGameState" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BRGameState.uasset" SILENT=true
+[2020.06.08-11.07.33:662][336]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BRGameStateA42F5C3D4C9DE72DFD30B889EB8F0DEB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BRGameState.uasset'
+[2020.06.08-11.09.14:125][208]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/HUD/EspectadorHUD.EspectadorHUD
+[2020.06.08-11.09.40:593][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.085
+[2020.06.08-11.09.40:605][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GravityBP/BPPlayerController] ([1] browsable assets)...
+[2020.06.08-11.09.40:606][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/BPPlayerController]
+[2020.06.08-11.09.40:741][193]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController_Auto4972DCBBC4B504485D0ABEE92288648CB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/BPPlayerController_Auto4.uasset'
+[2020.06.08-11.09.40:747][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/EspectadorHUD] ([1] browsable assets)...
+[2020.06.08-11.09.40:747][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/EspectadorHUD]
+[2020.06.08-11.09.40:781][193]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/EspectadorHUD_Auto45A9124B04F5D5747068C2096719E0222.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/HUD/EspectadorHUD_Auto4.uasset'
+[2020.06.08-11.09.40:785][193]LogFileHelpers: Auto-saving content packages took 0.187
+[2020.06.08-11.10.57:485][833]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.08-11.15.52:324][629]BlueprintLog: New page: Compile EspectadorHUD
+[2020.06.08-11.15.52:346][629]LogBlueprint: Error: [Compiler EspectadorHUD] The property associated with  Killed By  could not be found in '/Game/HUD/EspectadorHUD.EspectadorHUD_C'
+[2020.06.08-11.15.52:437][629]LogBlueprint: Warning: [Compiler EspectadorHUD] [4092.65] Compile of EspectadorHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 112 ms] (/Game/HUD/EspectadorHUD.EspectadorHUD)
+[2020.06.08-11.16.25:808][748]BlueprintLog: New page: Compile BPPlayerController
+[2020.06.08-11.16.27:009][792]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController8A90FB6C41FC935FA25401ADD9EC8C81.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BPPlayerController.uasset'
+[2020.06.08-11.16.30:027][  0]BlueprintLog: New page: Compile EspectadorHUD
+[2020.06.08-11.16.31:006][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/EspectadorHUD" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/EspectadorHUD.uasset" SILENT=true
+[2020.06.08-11.16.31:055][ 38]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/EspectadorHUDC87AE9904F4233996F4194B498499A2E.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/EspectadorHUD.uasset'
+[2020.06.08-11.17.07:868][622]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-11.17.56:474][156]BlueprintLog: New page: Compile BPPlayerController
+[2020.06.08-11.18.00:081][328]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController786BBF014DE67DD91462769D8184CAF2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BPPlayerController.uasset'
+[2020.06.08-11.18.30:944][ 70]LogEditorTransaction: Undo Move Node
+[2020.06.08-11.20.53:442][856]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-11.21.13:482][227]BlueprintLog: New page: Compile BPPlayerController
+[2020.06.08-11.21.14:716][258]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController7FD1405A47D263AD7422A5A053ACC6CC.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BPPlayerController.uasset'
+[2020.06.08-11.24.14:449][490]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-11.25.02:671][ 74]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-11.25.06:056][121]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer2D432A154FC5D349034AC6BDDD62AB46.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-11.26.28:016][ 39]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD
+[2020.06.08-11.26.35:759][407]BlueprintLog: New page: Compile FirstPersonHUD
+[2020.06.08-11.26.36:799][428]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/FirstPersonHUDD3FEAE0F442132359841DB94FD4C4F69.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2020.06.08-11.27.05:400][810]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer4E9665864332E7D2F6EF2E9B0EA1BC22.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-11.27.05:564][810]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUpF2A681A141460090BF87F49516F6957E.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-11.27.05:582][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/GameplayHUD" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset" SILENT=true
+[2020.06.08-11.27.05:801][810]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GameplayHUD4E83715B4E2DCE4C869239962333E697.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/HUD/GameplayHUD.uasset'
+[2020.06.08-11.27.26:223][175]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-11.27.38:150][619]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/BRGameMode.BRGameMode
+[2020.06.08-11.27.53:694][490]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-11.28.33:206][548]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.081
+[2020.06.08-11.28.33:214][548]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GravityBP/BRGameMode] ([1] browsable assets)...
+[2020.06.08-11.28.33:214][548]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/BRGameMode]
+[2020.06.08-11.28.33:343][548]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BRGameMode_Auto5FB2F1F5341BE3DBE6A56B7A58A7FE291.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/BRGameMode_Auto5.uasset'
+[2020.06.08-11.28.33:346][548]LogFileHelpers: Auto-saving content packages took 0.135
+[2020.06.08-11.28.42:098][617]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.08-11.28.57:120][ 97]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.08-11.29.34:256][456]BlueprintLog: New page: Compile BRGameMode
+[2020.06.08-11.29.44:654][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.29.47:144][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.29.49:842][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.29.51:432][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.29.54:766][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.29.58:035][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.30.06:037][401]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-11.30.48:752][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/BRGameMode" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BRGameMode.uasset" SILENT=true
+[2020.06.08-11.30.48:823][184]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BRGameModeF0D745C147473EB664C03A9FBF658D07.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BRGameMode.uasset'
+[2020.06.08-11.30.48:866][184]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BRPlayerState0730258E4DCC406FC24296B03672A4D0.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BRPlayerState.uasset'
+[2020.06.08-11.30.54:787][358]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/BPPlayerController.BPPlayerController
+[2020.06.08-11.34.52:356][ 78]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-11.38.39:375][423]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPP_Arma.BPP_Arma
+[2020.06.08-11.41.26:472][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.316
+[2020.06.08-11.41.26:478][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/GravityPlayer] ([1] browsable assets)...
+[2020.06.08-11.41.26:666][527]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer]
+[2020.06.08-11.41.26:667][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/GravityPlayer]
+[2020.06.08-11.41.27:957][527]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer_Auto6A9259D4D4CB2D2102F9456886EF42AD1.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/GravityPlayer_Auto6.uasset'
+[2020.06.08-11.41.27:990][527]LogFileHelpers: Auto-saving content packages took 1.514
+[2020.06.08-11.41.35:878][704]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.36:217][711]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.36:436][715]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.36:566][719]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.36:757][723]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.36:914][727]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.37:108][731]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.37:252][735]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.37:419][739]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.37:593][743]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.37:751][747]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.37:923][751]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.38:090][755]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.38:338][760]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.06.08-11.41.38:743][760]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-11.41.39:232][760]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-11.41.40:736][761]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.41:002][765]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.41:216][769]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.41:453][773]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.44:849][877]LogSlate: Window 'SK_Mannequin' being destroyed
+[2020.06.08-11.41.45:793][912]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.45:986][916]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.46:124][920]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.46:294][924]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.46:470][928]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.46:635][932]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.46:805][936]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.46:972][940]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.47:144][944]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.47:314][948]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.47:487][952]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.47:654][956]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.47:826][960]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.47:995][964]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.48:175][968]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.41.50:510][ 59]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.06.08-11.41.50:592][ 59]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-11.41.50:785][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-11.42.47:633][402]LogSlate: FSceneViewport::OnFocusLost() reason 0

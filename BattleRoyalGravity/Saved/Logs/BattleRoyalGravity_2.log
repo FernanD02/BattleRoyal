@@ -1,0 +1,556 @@
+﻿Log file open, 06/08/20 06:55:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleRoyalGravity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.227010
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin FalseDirectionalGravity
+LogStreaming: Display: Took  0.304s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 5500
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.06.08-11.55.28:503][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-11.55.28:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.08-11.55.28:523][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.08-11.55.28:523][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.06.08-11.55.28:523][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.08-11.55.28:523][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
+[2020.06.08-11.55.28:523][  0]LogInit: User: FernanD02
+[2020.06.08-11.55.28:523][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.08-11.55.28:523][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.08-11.55.28:524][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.08-11.55.28:524][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.08-11.55.28:524][  0]LogMemory: Process Physical Memory: 100.36 MB used, 100.37 MB peak
+[2020.06.08-11.55.28:524][  0]LogMemory: Process Virtual Memory: 86.36 MB used, 86.36 MB peak
+[2020.06.08-11.55.28:524][  0]LogMemory: Physical Memory: 4940.78 MB used,  3165.68 MB free, 8106.46 MB total
+[2020.06.08-11.55.28:524][  0]LogMemory: Virtual Memory: 4606.99 MB used,  3165.68 MB free, 134217728.00 MB total
+[2020.06.08-11.55.28:543][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.08-11.55.28:543][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.08-11.55.29:047][  0]LogStreaming: Display: Took  0.504s to InitEngineTextLocalization.
+[2020.06.08-11.55.29:047][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.08-11.55.29:089][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.08-11.55.29:089][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.08-11.55.29:399][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-11.55.29:399][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.08-11.55.29:409][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2020.06.08-11.55.29:409][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.08-11.55.29:433][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
+[2020.06.08-11.55.29:433][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.06.08-11.55.29:438][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.08-11.55.29:438][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.08-11.55.29:438][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.06.08-11.55.29:448][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.08-11.55.29:448][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.08-11.55.29:448][  0]LogWindows: EnumDisplayDevices:
+[2020.06.08-11.55.29:448][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2020.06.08-11.55.29:449][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2020.06.08-11.55.29:449][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2020.06.08-11.55.29:449][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:450][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:451][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:451][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:452][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:453][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:453][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:453][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:454][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:454][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:455][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:455][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:456][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:456][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:457][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:458][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-11.55.29:458][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
+[2020.06.08-11.55.29:458][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
+[2020.06.08-11.55.29:458][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2020.06.08-11.55.29:458][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2020.06.08-11.55.29:458][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.06.08-11.55.29:532][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.08-11.55.29:547][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.08-11.55.29:550][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/6540/).
+[2020.06.08-11.55.29:550][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/1136A9BF4B1FCFE20A0145A67A2FAF8D/'.
+[2020.06.08-11.55.30:010][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.08-11.55.30:036][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.06.08-11.55.30:056][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.08-11.55.30:076][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.06.08-11.55.30:097][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.06.08-11.55.30:118][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.08-11.55.30:140][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.08-11.55.30:163][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.08-11.55.30:172][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-11.55.30:302][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.06.08-11.55.30:386][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-11.55.30:386][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-11.55.30:431][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-11.55.30:431][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-11.55.30:454][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.08-11.55.30:477][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.08-11.55.30:500][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.08-11.55.30:523][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.06.08-11.55.30:539][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.06.08-11.55.30:539][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.08-11.55.30:621][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.08-11.55.30:622][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.08-11.55.30:622][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.08-11.55.31:968][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.08-11.55.32:071][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-11.55.32:072][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.06.08-11.55.32:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.08-11.55.32:072][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.08-11.55.32:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.08-11.55.32:072][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.08-11.55.32:100][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.08-11.55.32:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.08-11.55.32:113][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.08-11.55.32:113][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.08-11.55.32:147][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.08-11.55.32:149][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.08-11.55.32:150][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.08-11.55.32:262][  0]LogAssetRegistry: FAssetRegistry took 0.0321 seconds to start up
+[2020.06.08-11.55.32:964][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-11.55.33:048][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.08-11.55.33:054][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.08-11.55.33:054][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.08-11.55.33:054][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.08-11.55.33:054][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.06.08-11.55.33:226][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
+[2020.06.08-11.55.34:093][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.086803 seconds
+[2020.06.08-11.55.34:104][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.06.08-11.55.34:104][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.06.08-11.55.34:104][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.08-11.55.36:122][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.08-11.55.36:157][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.08-11.55.36:511][  0]SourceControl: Source control is disabled
+[2020.06.08-11.55.36:512][  0]SourceControl: Source control is disabled
+[2020.06.08-11.55.36:515][  0]SourceControl: Source control is disabled
+[2020.06.08-11.55.36:519][  0]SourceControl: Source control is disabled
+[2020.06.08-11.55.36:916][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.08-11.55.37:150][  0]LogOcInput: OculusInput pre-init called
+[2020.06.08-11.55.37:338][  0]LogEngine: Initializing Engine...
+[2020.06.08-11.55.37:340][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-11.55.37:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-11.55.37:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-11.55.37:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.08-11.55.37:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-11.55.38:025][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.08-11.55.38:075][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.08-11.55.38:204][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.08-11.55.38:242][  0]LogInit: FAudioDevice initialized.
+[2020.06.08-11.55.38:243][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.08-11.55.38:572][  0]LogDerivedDataCache: Saved boot cache 0.33s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-11.55.38:596][  0]LogInit: Texture streaming: Enabled
+[2020.06.08-11.55.38:655][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.08-11.55.38:655][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FB381C9E-4F25-E197-F647-7CBB40B56FFD}
+[2020.06.08-11.55.38:697][  0]LogInit: Transaction tracking system initialized
+[2020.06.08-11.55.38:779][  0]BlueprintLog: New page: Editor Load
+[2020.06.08-11.55.39:016][  0]LocalizationService: Localization service is disabled
+[2020.06.08-11.55.39:755][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.08-11.55.39:756][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.08-11.55.39:756][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.06.08-11.55.39:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-11.55.39:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-11.55.39:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2020.06.08-11.55.39:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-11.55.40:124][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/' took 0.04s
+[2020.06.08-11.55.40:124][  0]SourceControl: Source control is disabled
+[2020.06.08-11.55.40:125][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.08-11.55.40:126][  0]LightingResults: New page: Lighting Build
+[2020.06.08-11.55.40:133][  0]MapCheck: New page: Map Check
+[2020.06.08-11.55.40:133][  0]LightingResults: New page: Lighting Build
+[2020.06.08-11.55.42:222][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.08-11.55.42:266][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.08-11.55.42:405][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.08-11.55.42:720][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 314.523ms to complete.
+[2020.06.08-11.55.42:721][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.596
+[2020.06.08-11.55.42:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-11.55.42:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-11.55.42:959][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-11.55.42:974][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-11.55.43:000][  0]LogCollectionManager: Loaded 0 collections in 0.004150 seconds
+[2020.06.08-11.55.43:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Collections/' took 0.01s
+[2020.06.08-11.55.43:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
+[2020.06.08-11.55.43:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Collections/' took 0.01s
+[2020.06.08-11.55.43:057][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.06.08-11.55.43:076][  0]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 2578 classes and 606 folders.
+[2020.06.08-11.55.43:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.08-11.55.43:169][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.08-11.55.43:182][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.06.08-11.55.43:199][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.08-11.55.43:206][  0]LogSlate: Took 0.000471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.08-11.55.43:213][  0]LogSlate: Took 0.000472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.08-11.55.43:351][  0]LogRenderer: Reallocating scene render targets to support 756x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-11.55.43:700][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.08-11.55.43:700][  0]LogLoad: (Engine Initialization) Total time: 17.90 seconds
+[2020.06.08-11.55.43:700][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.08-11.55.43:738][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.08-11.55.43:748][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-11.55.43:970][  4]LogAssetRegistry: Asset discovery search completed in 11.7307 seconds
+[2020.06.08-11.55.43:975][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.06.08-11.55.43:975][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
+[2020.06.08-11.55.44:795][ 45]LogSlate: Took 0.000945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-11.55.56:672][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-11.56.03:233][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-11.57.03:296][315]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-11.57.05:738][315]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2020.06.08-11.57.09:197][315]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.08-11.57.09:197][315]LogSlate: Took 0.141242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.08-11.57.09:981][316]LogSlate: Took 0.026264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.08-11.57.29:190][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-11.57.29:190][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:191][916]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2020.06.08-11.57.29:191][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-11.57.29:192][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:192][916]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2020.06.08-11.57.29:192][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-11.57.29:192][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:193][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-11.57.29:193][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:193][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-11.57.29:194][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:194][916]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset
+[2020.06.08-11.57.29:194][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-11.57.29:194][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:194][916]LoadErrors: Error: /Game/Geometry/Meshes/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2020.06.08-11.57.29:195][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-11.57.29:195][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:195][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-11.57.29:195][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Geometry/Meshes/SK_Mannequin.uasset.
+[2020.06.08-11.57.29:196][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2020.06.08-11.57.29:196][916]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2020.06.08-11.57.29:197][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2020.06.08-11.57.29:197][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2020.06.08-11.57.29:197][916]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2020.06.08-11.57.29:197][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2020.06.08-11.57.29:198][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2020.06.08-11.57.29:198][916]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2020.06.08-11.57.29:198][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2020.06.08-11.57.29:199][916]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2020.06.08-11.57.29:199][916]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2020.06.08-11.57.29:199][916]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2020.06.08-11.57.29:339][916]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Geometry/Meshes/SK_Mannequin.SK_Mannequin
+[2020.06.08-11.57.34:410][916]LogSlate: Window 'Message' being destroyed
+[2020.06.08-11.57.34:692][916]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.08-11.57.36:157][916]LogSlate: Window 'Choose Skeleton' being destroyed
+[2020.06.08-11.57.37:536][916]LogSlate: Window 'Message' being destroyed
+[2020.06.08-11.57.37:618][916]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.37:843][925]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:019][929]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:169][933]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:331][937]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:494][941]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:657][945]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:826][949]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.38:982][953]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.39:164][958]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.39:326][962]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.39:488][966]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.39:651][970]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.39:814][974]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.39:977][978]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.40:144][982]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.40:303][986]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.40:466][990]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.40:628][994]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.40:791][998]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.40:999][  5]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.57.41:152][  7]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.06.08-11.57.41:180][  7]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.06.08-11.57.41:903][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-11.57.41:915][  7]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.06.08-11.57.42:137][  7]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-11.57.43:079][  7]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.06.08-11.57.45:386][ 87]LogRenderer: Reallocating scene render targets to support 808x652 Format 10 NumSamples 1 (Frame:83).
+[2020.06.08-11.57.45:812][106]LogSlate: Window 'SK_Mannequin' being destroyed
+[2020.06.08-11.57.46:871][154]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.06.08-11.57.46:901][154]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-11.57.46:949][154]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-11.58.19:776][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-11.59.08:076][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-11.59.10:320][ 99]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.59.25:291][643]Cmd: TRANSACTION UNDO
+[2020.06.08-11.59.25:291][643]LogEditorTransaction: Undo Create Mesh Socket
+[2020.06.08-11.59.25:328][643]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2020.06.08-11.59.25:475][643]LogSkeletalMesh: Built Skeletal Mesh [0.15s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.06.08-11.59.25:826][643]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-11.59.25:871][643]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-11.59.31:927][877]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-11.59.41:752][223]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.00.19:321][653]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2020.06.08-12.00.19:654][653]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.06.08-12.00.19:655][653]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.06.08-12.00.19:655][653]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.06.08-12.00.19:655][653]LogMaterial: Display: Missing cached shader map for material M_Master, compiling. 
+[2020.06.08-12.00.19:712][653]LogSkeletalMesh: Building Skeletal Mesh Prototype_SniperRifle...
+[2020.06.08-12.00.19:718][653]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/PrototypeWeap/Prototype_SniperRifle.Prototype_SniperRifle
+[2020.06.08-12.00.24:628][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-12.00.26:457][867]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.00.33:390][138]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.00.49:833][713]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.06.08-12.00.50:826][713]LogSlate: Window 'Message' being destroyed
+[2020.06.08-12.00.51:644][744]Cmd: TRANSACTION UNDO
+[2020.06.08-12.00.51:644][744]LogEditorTransaction: Undo Attach Assets to Skeleton
+[2020.06.08-12.00.52:390][744]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.06.08-12.00.52:390][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.00.52:396][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.00.55:397][861]Cmd: TRANSACTION UNDO
+[2020.06.08-12.00.55:397][861]LogEditorTransaction: Undo Attach Assets to Skeleton
+[2020.06.08-12.00.56:166][861]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.00.56:171][861]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.01.00:940][ 47]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.01.10:827][395]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.06.08-12.01.17:544][649]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.01.25:952][933]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.06.08-12.01.32:825][ 49]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.06.08-12.01.46:365][405]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.06.08-12.01.46:506][406]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.06.08-12.02.05:216][  6]Cmd: TRANSACTION UNDO
+[2020.06.08-12.02.05:216][  6]LogEditorTransaction: Undo Translate Socket
+[2020.06.08-12.02.05:901][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.05:906][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.06:818][ 23]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.06.08-12.02.08:977][ 86]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.06.08-12.02.26:809][652]Cmd: TRANSACTION UNDO
+[2020.06.08-12.02.26:809][652]LogEditorTransaction: Undo Rotate Socket
+[2020.06.08-12.02.27:568][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.27:575][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.27:821][655]Cmd: TRANSACTION UNDO
+[2020.06.08-12.02.27:821][655]LogEditorTransaction: Undo Rotate Socket
+[2020.06.08-12.02.28:552][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.28:557][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.29:369][684]Cmd: TRANSACTION UNDO
+[2020.06.08-12.02.29:369][684]LogEditorTransaction: Undo Copy Socket
+[2020.06.08-12.02.30:132][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.30:137][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.02.34:181][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-12.02.44:507][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-12.03.35:301][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-12.03.40:842][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-12.03.47:013][287]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.47:158][291]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.47:334][295]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.47:505][299]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.47:679][303]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.47:998][320]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.48:152][324]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.48:288][325]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.06.08-12.03.48:317][325]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.03.48:402][325]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-12.03.48:934][329]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.03.51:656][405]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/SK_MannequinCE7E42C64AD18083AA3034B20A42534D.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2020.06.08-12.03.52:307][431]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.06.08-12.03.52:340][431]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.08-12.03.52:398][431]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.08-12.03.53:344][447]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/UE4_Mannequin_Skeleton903359BB4DD5612FB7FFC0BE96C041AB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2020.06.08-12.04.27:262][816]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-12.05.39:777][372]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-12.05.41:179][403]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayerBE92F9894067990F35A767900EF17140.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-12.08.01:222][590]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-12.08.02:488][621]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer0FA7B8EF45E596744F108481B4BE2638.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-12.08.49:343][564]BlueprintLog: New page: Compile GravityPlayer
+[2020.06.08-12.08.50:568][592]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/GravityPlayer98141D4044EC9567D4DDC0B96F3F4BE5.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/GravityPlayer.uasset'
+[2020.06.08-12.09.54:784][443]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.09.54:995][448]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.09.55:184][453]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.09.55:342][457]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.09.55:509][461]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.09.55:673][465]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.09.55:839][469]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2020.06.08-12.10.02:577][700]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/BPPlayerController.BPPlayerController
+[2020.06.08-12.11.15:127][446]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerController6F62BEBE4D4B0F7328B185A1ADF491A9.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BPPlayerController.uasset'
+[2020.06.08-12.12.23:846][966]LogEditorTransaction: Undo Move Node
+[2020.06.08-12.12.34:942][681]BlueprintLog: New page: Compile BPPlayerController
+[2020.06.08-12.12.35:755][692]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPPlayerControllerDF0BE6C14CBD43604A437B92541B15F6.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/GravityBP/BPPlayerController.uasset'
+[2020.06.08-12.12.46:283][185]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/Espectador.Espectador
+[2020.06.08-12.13.16:178][ 23]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPP_Arma.BPP_Arma
+[2020.06.08-12.17.48:714][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.134
+[2020.06.08-12.17.48:725][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPP_Arma] ([1] browsable assets)...
+[2020.06.08-12.17.48:725][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPP_Arma]
+[2020.06.08-12.17.48:891][792]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma_Auto188997AAD4B4274DE345999A412C1B537.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Autosaves/Game/BluePrints/BPP_Arma_Auto1.uasset'
+[2020.06.08-12.17.48:894][792]LogFileHelpers: Auto-saving content packages took 0.178
+[2020.06.08-12.18.04:419][344]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-12.18.31:250][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-12.18.31:343][388]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_ArmaD05741D94DAF7B630917B487AD15DEF6.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-12.18.38:958][734]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PickUp/BP_PickUp.BP_PickUp
+[2020.06.08-12.19.47:324][163]BlueprintLog: New page: Compile BPP_Arma
+[2020.06.08-12.19.48:171][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPP_Arma" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset" SILENT=true
+[2020.06.08-12.19.48:258][188]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BPP_Arma2F3FA6904D152FA0EA8C20920F6ED518.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BPP_Arma.uasset'
+[2020.06.08-12.19.49:288][283]BlueprintLog: New page: Compile BP_PickUp
+[2020.06.08-12.19.50:138][304]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_PickUpAF6716BB4DD3249B3D2FD2ACC15CE5CB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_PickUp.uasset'
+[2020.06.08-12.20.30:861][446]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_PickUp749FC4DA478D7F8C10820D8072FFDCAA.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_PickUp.uasset'
+[2020.06.08-12.20.51:853][757]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_PickUp47D382364759C50203310493364E24B3.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_PickUp.uasset'
+[2020.06.08-12.20.55:336][  1]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Arma_PickUp347A089E4574F6A994E7D5A4B79620B7.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/PickUp/BP_Arma_PickUp.uasset'
+[2020.06.08-12.21.00:486][206]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/BPPlayerController.BPPlayerController
+[2020.06.08-12.21.19:364][ 95]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/Espectador.Espectador
+[2020.06.08-12.21.32:657][574]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.08-12.21.49:679][939]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-12.21.51:133][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-12.21.52:244][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.08-12.22.48:068][870]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BP_Pistola.BP_Pistola
+[2020.06.08-12.22.52:936][  3]LogSlate: Window 'BP_Pistola*' being destroyed
+[2020.06.08-12.23.43:467][537]BlueprintLog: New page: Compile BP_Pistola
+[2020.06.08-12.23.44:175][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Pistola" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BP_Pistola.uasset" SILENT=true
+[2020.06.08-12.23.44:209][566]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/BP_Pistola89D0628A4CA091CBD73B20958C302883.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/BluePrints/BP_Pistola.uasset'
+[2020.06.08-12.24.08:909][715]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BP_RifleAsalto.BP_RifleAsalto
+[2020.06.08-12.24.12:709][786]LogSlate: Window 'BP_RifleAsalto*' being destroyed
+[2020.06.08-12.24.24:157][685]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BP_Pistola.BP_Pistola

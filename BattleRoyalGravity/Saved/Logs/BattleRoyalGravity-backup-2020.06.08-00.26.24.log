@@ -1,0 +1,993 @@
+﻿Log file open, 06/08/20 00:07:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleRoyalGravity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.277718
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.333s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 5500
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="Fernan_D029" -epicuserid=858d9f6218454b52ae30699b795dc1d3 -epiclocale=es-MX
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.06.08-05.07.13:431][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-05.07.13:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.08-05.07.13:462][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.08-05.07.13:462][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.06.08-05.07.13:462][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.08-05.07.13:463][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
+[2020.06.08-05.07.13:463][  0]LogInit: User: FernanD02
+[2020.06.08-05.07.13:463][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.08-05.07.13:463][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.08-05.07.13:464][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.08-05.07.13:464][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.08-05.07.13:464][  0]LogMemory: Process Physical Memory: 100.52 MB used, 100.52 MB peak
+[2020.06.08-05.07.13:464][  0]LogMemory: Process Virtual Memory: 88.54 MB used, 88.54 MB peak
+[2020.06.08-05.07.13:464][  0]LogMemory: Physical Memory: 6335.09 MB used,  1771.37 MB free, 8106.46 MB total
+[2020.06.08-05.07.13:464][  0]LogMemory: Virtual Memory: 4608.99 MB used,  1771.37 MB free, 134217728.00 MB total
+[2020.06.08-05.07.13:491][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.08-05.07.13:492][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.08-05.07.14:236][  0]LogStreaming: Display: Took  0.745s to InitEngineTextLocalization.
+[2020.06.08-05.07.14:237][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.08-05.07.14:323][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.08-05.07.14:323][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.08-05.07.14:892][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-05.07.14:892][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.08-05.07.14:905][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2020.06.08-05.07.14:905][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.08-05.07.15:115][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
+[2020.06.08-05.07.15:115][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.06.08-05.07.15:121][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.08-05.07.15:121][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.08-05.07.15:121][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.06.08-05.07.15:152][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.08-05.07.15:152][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.08-05.07.15:152][  0]LogWindows: EnumDisplayDevices:
+[2020.06.08-05.07.15:152][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2020.06.08-05.07.15:153][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2020.06.08-05.07.15:153][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2020.06.08-05.07.15:153][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:154][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:155][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:156][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:157][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:158][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:159][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:159][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:160][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:161][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:162][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:162][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:163][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:163][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:164][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:165][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.08-05.07.15:165][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
+[2020.06.08-05.07.15:165][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
+[2020.06.08-05.07.15:165][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2020.06.08-05.07.15:165][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2020.06.08-05.07.15:166][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.06.08-05.07.15:253][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.08-05.07.15:273][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.08-05.07.15:277][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/184748/).
+[2020.06.08-05.07.15:277][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/168F40D34C6D4277ECB27682135911A5/'.
+[2020.06.08-05.07.16:137][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.08-05.07.16:177][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.06.08-05.07.16:219][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.08-05.07.16:260][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.06.08-05.07.16:293][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.06.08-05.07.16:329][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.08-05.07.16:363][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.08-05.07.16:398][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.08-05.07.16:414][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.08-05.07.16:625][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.06.08-05.07.16:729][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-05.07.16:729][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.08-05.07.16:788][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-05.07.16:788][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.08-05.07.16:819][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.08-05.07.16:847][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.08-05.07.16:871][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.08-05.07.16:903][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.06.08-05.07.16:926][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.06.08-05.07.16:926][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.08-05.07.17:057][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.08-05.07.17:058][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.08-05.07.17:058][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.08-05.07.19:270][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.08-05.07.19:405][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-05.07.19:406][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.06.08-05.07.19:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.08-05.07.19:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.08-05.07.19:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.08-05.07.19:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.08-05.07.19:437][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.08-05.07.19:451][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.08-05.07.19:451][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.08-05.07.19:451][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.08-05.07.19:488][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.08-05.07.19:492][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.08-05.07.19:494][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.08-05.07.19:621][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
+[2020.06.08-05.07.20:538][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.08-05.07.20:935][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.08-05.07.20:946][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.08-05.07.20:946][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.08-05.07.20:946][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.08-05.07.20:946][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.06.08-05.07.20:998][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
+[2020.06.08-05.07.22:401][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.165054 seconds
+[2020.06.08-05.07.22:420][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.06.08-05.07.22:421][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.06.08-05.07.22:421][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.08-05.07.25:092][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.08-05.07.25:157][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.08-05.07.25:550][  0]SourceControl: Source control is disabled
+[2020.06.08-05.07.25:550][  0]SourceControl: Source control is disabled
+[2020.06.08-05.07.25:553][  0]SourceControl: Source control is disabled
+[2020.06.08-05.07.25:555][  0]SourceControl: Source control is disabled
+[2020.06.08-05.07.25:857][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.08-05.07.26:059][  0]LogOcInput: OculusInput pre-init called
+[2020.06.08-05.07.26:186][  0]LogEngine: Initializing Engine...
+[2020.06.08-05.07.26:187][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.08-05.07.26:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-05.07.26:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-05.07.26:191][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2020.06.08-05.07.26:191][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-05.07.26:745][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.08-05.07.26:787][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.08-05.07.26:853][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.08-05.07.26:902][  0]LogInit: FAudioDevice initialized.
+[2020.06.08-05.07.26:903][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.08-05.07.27:266][  0]LogDerivedDataCache: Saved boot cache 0.36s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.08-05.07.27:282][  0]LogInit: Texture streaming: Enabled
+[2020.06.08-05.07.27:336][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.08-05.07.27:400][  0]LogInit: Transaction tracking system initialized
+[2020.06.08-05.07.27:459][  0]BlueprintLog: New page: Editor Load
+[2020.06.08-05.07.27:877][  0]LocalizationService: Localization service is disabled
+[2020.06.08-05.07.28:765][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.08-05.07.28:765][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.08-05.07.28:765][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.06.08-05.07.28:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.08-05.07.28:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.08-05.07.28:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.08-05.07.28:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.08-05.07.29:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/' took 0.02s
+[2020.06.08-05.07.29:141][  0]SourceControl: Source control is disabled
+[2020.06.08-05.07.29:192][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
+[2020.06.08-05.07.29:379][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.06.08-05.07.29:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.06.08-05.07.29:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.06.08-05.07.29:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.06.08-05.07.29:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.06.08-05.07.29:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.06.08-05.07.29:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.06.08-05.07.29:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.06.08-05.07.29:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.06.08-05.07.29:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.06.08-05.07.30:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.06.08-05.07.30:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.06.08-05.07.30:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.06.08-05.07.30:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.06.08-05.07.30:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.06.08-05.07.30:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.06.08-05.07.30:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.06.08-05.07.30:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.06.08-05.07.30:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Fire01.uasset"
+[2020.06.08-05.07.30:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.06.08-05.07.30:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.06.08-05.07.30:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.06.08-05.07.30:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Light01.uasset"
+[2020.06.08-05.07.30:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.06.08-05.07.30:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Light02.uasset"
+[2020.06.08-05.07.30:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.06.08-05.07.31:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.06.08-05.07.31:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.06.08-05.07.31:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.06.08-05.07.31:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.06.08-05.07.31:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.06.08-05.07.32:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.06.08-05.07.32:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.06.08-05.07.32:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.06.08-05.07.32:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Steam01.uasset"
+[2020.06.08-05.07.32:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.06.08-05.07.33:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.06.08-05.07.33:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.06.08-05.07.33:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.06.08-05.07.33:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.06.08-05.07.33:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.06.08-05.07.33:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.06.08-05.07.33:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.06.08-05.07.33:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.06.08-05.07.33:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.06.08-05.07.33:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.06.08-05.07.33:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.06.08-05.07.33:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.06.08-05.07.33:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.06.08-05.07.33:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.06.08-05.07.33:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.06.08-05.07.33:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.06.08-05.07.40:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.06.08-05.07.40:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.06.08-05.07.40:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.06.08-05.07.41:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.06.08-05.07.41:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.06.08-05.07.41:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Maps/StarterMap.umap"
+[2020.06.08-05.07.44:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.06.08-05.07.44:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.06.08-05.07.44:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.06.08-05.07.44:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.06.08-05.07.44:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.06.08-05.07.44:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.06.08-05.07.44:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.06.08-05.07.44:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.06.08-05.07.44:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.06.08-05.07.44:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.06.08-05.07.44:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.06.08-05.07.45:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.06.08-05.07.45:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.06.08-05.07.45:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.06.08-05.07.45:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.06.08-05.07.45:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.06.08-05.07.45:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.06.08-05.07.45:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.06.08-05.07.45:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.06.08-05.07.45:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.06.08-05.07.45:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.06.08-05.07.45:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.06.08-05.07.45:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.06.08-05.07.45:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.06.08-05.07.45:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.06.08-05.07.45:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.06.08-05.07.45:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.06.08-05.07.46:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.06.08-05.07.46:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.06.08-05.07.46:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.06.08-05.07.46:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.06.08-05.07.46:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.06.08-05.07.46:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.06.08-05.07.46:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.06.08-05.07.46:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.06.08-05.07.46:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.06.08-05.07.46:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.06.08-05.07.46:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.06.08-05.07.46:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.06.08-05.07.46:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.06.08-05.07.46:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.06.08-05.07.47:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.06.08-05.07.47:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.06.08-05.07.47:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.06.08-05.07.47:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.06.08-05.07.47:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.06.08-05.07.47:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.06.08-05.07.47:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.06.08-05.07.47:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.06.08-05.07.47:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.06.08-05.07.47:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.06.08-05.07.47:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.06.08-05.07.47:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.06.08-05.07.47:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.06.08-05.07.47:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.06.08-05.07.47:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.06.08-05.07.47:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.06.08-05.07.47:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.06.08-05.07.48:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.06.08-05.07.48:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.06.08-05.07.48:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.06.08-05.07.48:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.06.08-05.07.48:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.06.08-05.07.48:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.06.08-05.07.48:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.06.08-05.07.48:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Door.uasset"
+[2020.06.08-05.07.48:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.06.08-05.07.48:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.06.08-05.07.48:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.06.08-05.07.48:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.06.08-05.07.48:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.06.08-05.07.48:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.06.08-05.07.48:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.06.08-05.07.48:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.06.08-05.07.48:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.06.08-05.07.49:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.06.08-05.07.49:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.06.08-05.07.49:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.06.08-05.07.49:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.06.08-05.07.49:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.06.08-05.07.49:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.06.08-05.07.49:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.06.08-05.07.49:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.06.08-05.07.49:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.06.08-05.07.49:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.06.08-05.07.49:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.06.08-05.07.49:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.06.08-05.07.49:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.06.08-05.07.49:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.06.08-05.07.49:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.06.08-05.07.50:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.06.08-05.07.50:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.06.08-05.07.50:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.06.08-05.07.50:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.06.08-05.07.50:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.06.08-05.07.50:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.06.08-05.07.50:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.06.08-05.07.50:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.06.08-05.07.50:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.06.08-05.07.50:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.06.08-05.07.50:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.06.08-05.07.50:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.06.08-05.07.50:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.06.08-05.07.50:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.06.08-05.07.50:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.06.08-05.07.50:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.06.08-05.07.50:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.06.08-05.07.51:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.06.08-05.07.51:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.06.08-05.07.51:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.06.08-05.07.51:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.06.08-05.07.51:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.06.08-05.07.51:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.06.08-05.07.52:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.06.08-05.07.52:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.06.08-05.07.53:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.06.08-05.07.53:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.06.08-05.07.54:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.06.08-05.07.55:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.06.08-05.07.55:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.06.08-05.07.55:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.06.08-05.07.56:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.06.08-05.07.56:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.06.08-05.07.56:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.06.08-05.07.56:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.06.08-05.07.56:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.06.08-05.07.56:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.06.08-05.07.56:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.06.08-05.07.56:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.06.08-05.07.56:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.06.08-05.07.56:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.06.08-05.07.57:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.06.08-05.07.57:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.06.08-05.07.59:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.06.08-05.07.59:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.06.08-05.07.59:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.06.08-05.08.00:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.06.08-05.08.00:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.06.08-05.08.01:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.06.08-05.08.02:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.06.08-05.08.02:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.06.08-05.08.03:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.06.08-05.08.03:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.06.08-05.08.04:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.06.08-05.08.04:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.06.08-05.08.04:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.06.08-05.08.05:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.06.08-05.08.05:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.06.08-05.08.05:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.06.08-05.08.05:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.06.08-05.08.05:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.06.08-05.08.05:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.06.08-05.08.05:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.06.08-05.08.05:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.06.08-05.08.05:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.06.08-05.08.05:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.06.08-05.08.05:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.06.08-05.08.05:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.06.08-05.08.06:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.06.08-05.08.07:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.06.08-05.08.07:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.06.08-05.08.08:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.06.08-05.08.08:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.06.08-05.08.09:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.06.08-05.08.09:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.06.08-05.08.10:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.06.08-05.08.10:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.06.08-05.08.11:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.06.08-05.08.12:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.06.08-05.08.13:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.06.08-05.08.13:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.06.08-05.08.13:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.06.08-05.08.14:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.06.08-05.08.14:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.06.08-05.08.14:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.06.08-05.08.16:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.06.08-05.08.16:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.06.08-05.08.16:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.06.08-05.08.16:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.06.08-05.08.17:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.06.08-05.08.17:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.06.08-05.08.19:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.06.08-05.08.20:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.06.08-05.08.20:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.06.08-05.08.21:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.06.08-05.08.21:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.06.08-05.08.21:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.06.08-05.08.22:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.06.08-05.08.22:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.06.08-05.08.22:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.06.08-05.08.22:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.06.08-05.08.22:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.06.08-05.08.23:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.06.08-05.08.23:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.06.08-05.08.23:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.06.08-05.08.23:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.06.08-05.08.23:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.06.08-05.08.23:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.06.08-05.08.23:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.06.08-05.08.24:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.06.08-05.08.24:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.06.08-05.08.24:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.06.08-05.08.24:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.06.08-05.08.24:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.06.08-05.08.24:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.06.08-05.08.25:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.06.08-05.08.25:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.06.08-05.08.26:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.06.08-05.08.27:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.06.08-05.08.27:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.06.08-05.08.28:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.06.08-05.08.28:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.06.08-05.08.28:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.06.08-05.08.29:800][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2020.06.08-05.08.29:876][  0]LogStaticMesh: Built static mesh [0.14s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.06.08-05.08.36:087][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-05.08.37:272][  0]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.08-05.08.38:093][  0]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Floor_400x4008710683E4D145015D3CCCE987356C8B2.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.06.08-05.08.38:193][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2020.06.08-05.08.38:247][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.08-05.08.38:273][  0]LightingResults: New page: Lighting Build
+[2020.06.08-05.08.38:804][  0]MapCheck: New page: Map Check
+[2020.06.08-05.08.38:804][  0]LightingResults: New page: Lighting Build
+[2020.06.08-05.08.46:805][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2020.06.08-05.08.46:805][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2020.06.08-05.08.49:698][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2020.06.08-05.08.55:191][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2020.06.08-05.08.55:191][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2020.06.08-05.08.55:192][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2020.06.08-05.08.55:192][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2020.06.08-05.08.55:192][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2020.06.08-05.08.55:192][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2020.06.08-05.08.55:192][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2020.06.08-05.08.55:192][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2020.06.08-05.08.58:091][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2020.06.08-05.08.58:911][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2020.06.08-05.08.58:911][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.08-05.08.59:909][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.06.08-05.09.00:418][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.08-05.09.00:656][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 238.507ms to complete.
+[2020.06.08-05.09.00:703][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 22.493
+[2020.06.08-05.09.02:502][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.09.02:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.09.02:574][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.09.02:590][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.08-05.09.03:129][  0]LogCollectionManager: Loaded 0 collections in 0.003916 seconds
+[2020.06.08-05.09.03:535][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Saved/Collections/' took 0.01s
+[2020.06.08-05.09.03:536][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
+[2020.06.08-05.09.03:536][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Content/Collections/' took 0.01s
+[2020.06.08-05.09.03:536][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.06.08-05.09.03:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2572 classes and 603 folders.
+[2020.06.08-05.09.03:662][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.08-05.09.04:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.08-05.09.04:927][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.06.08-05.09.05:245][  0]LogSlate: Took 0.003046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.08-05.09.05:343][  0]LogSlate: Took 0.014609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.08-05.09.05:353][  0]LogSlate: Took 0.002758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.08-05.09.05:682][  0]LogRenderer: Reallocating scene render targets to support 756x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.08-05.09.06:391][  0]LogSlate: Took 0.022902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.08-05.09.07:161][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.08-05.09.07:161][  0]LogLoad: (Engine Initialization) Total time: 116.80 seconds
+[2020.06.08-05.09.07:161][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.08-05.09.09:803][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.08-05.09.10:321][  2]LogAssetRegistry: Asset discovery search completed in 110.7225 seconds
+[2020.06.08-05.09.10:327][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.06.08-05.09.10:327][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000132 seconds (updated 0 objects)
+[2020.06.08-05.09.27:157][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.08-05.10.29:600][291]LogSlate: Window 'Plugins' being destroyed
+[2020.06.08-05.10.29:612][291]LogSlate: Window 'Plugins' being destroyed
+[2020.06.08-05.10.29:612][291]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.06.08-05.10.29:612][291]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Dell Inspiron 5548/Documents/Unreal Projects/BattleRoyalGravity/Plugins/' was aborted.
+[2020.06.08-05.10.31:103][365]LogSlate: Window 'BattleRoyalGravity - Unreal Editor' being destroyed
+[2020.06.08-05.10.31:104][365]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.08-05.10.31:526][366]Cmd: QUIT_EDITOR
+[2020.06.08-05.10.31:630][366]LogExit: Preparing to exit.
+[2020.06.08-05.10.32:441][366]LogExit: Editor shut down
+[2020.06.08-05.10.32:442][366]LogExit: Transaction tracking system shut down
+[2020.06.08-05.10.33:287][366]LogExit: Object subsystem successfully closed.
+[2020.06.08-05.10.33:341][366]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.08-05.10.33:347][366]LogD3D11RHI: Shutdown
+[2020.06.08-05.10.33:347][366]LogD3D11RHI: CleanupD3DDevice
+[2020.06.08-05.10.33:355][366]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.06.08-05.10.33:515][366]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2020.06.08-05.10.33:516][366]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2020.06.08-05.10.33:516][366]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2020.06.08-05.10.33:516][366]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2020.06.08-05.10.33:516][366]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2020.06.08-05.10.33:516][366]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2020.06.08-05.10.33:517][366]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2020.06.08-05.10.33:517][366]LogModuleManager: Shutting down and abandoning module MeshBuilder (598)
+[2020.06.08-05.10.33:518][366]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2020.06.08-05.10.33:518][366]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2020.06.08-05.10.33:522][366]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2020.06.08-05.10.33:523][366]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2020.06.08-05.10.33:523][366]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2020.06.08-05.10.33:523][366]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2020.06.08-05.10.33:523][366]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2020.06.08-05.10.33:523][366]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2020.06.08-05.10.33:524][366]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2020.06.08-05.10.33:542][366]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2020.06.08-05.10.33:542][366]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2020.06.08-05.10.33:545][366]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2020.06.08-05.10.33:545][366]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2020.06.08-05.10.33:545][366]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2020.06.08-05.10.33:548][366]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2020.06.08-05.10.33:548][366]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2020.06.08-05.10.33:548][366]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2020.06.08-05.10.33:548][366]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2020.06.08-05.10.33:549][366]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2020.06.08-05.10.33:551][366]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2020.06.08-05.10.33:597][366]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2020.06.08-05.10.33:600][366]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2020.06.08-05.10.33:600][366]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2020.06.08-05.10.33:601][366]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2020.06.08-05.10.33:602][366]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2020.06.08-05.10.33:602][366]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2020.06.08-05.10.33:602][366]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2020.06.08-05.10.33:602][366]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2020.06.08-05.10.34:161][366]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2020.06.08-05.10.34:161][366]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2020.06.08-05.10.34:161][366]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2020.06.08-05.10.34:161][366]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2020.06.08-05.10.34:161][366]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2020.06.08-05.10.34:186][366]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2020.06.08-05.10.34:188][366]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2020.06.08-05.10.34:218][366]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2020.06.08-05.10.34:219][366]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2020.06.08-05.10.34:219][366]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2020.06.08-05.10.34:219][366]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2020.06.08-05.10.34:230][366]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2020.06.08-05.10.34:230][366]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2020.06.08-05.10.34:230][366]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2020.06.08-05.10.34:231][366]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2020.06.08-05.10.34:232][366]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2020.06.08-05.10.34:232][366]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2020.06.08-05.10.34:236][366]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2020.06.08-05.10.34:238][366]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2020.06.08-05.10.34:239][366]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2020.06.08-05.10.34:239][366]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2020.06.08-05.10.34:240][366]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2020.06.08-05.10.34:295][366]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2020.06.08-05.10.34:296][366]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2020.06.08-05.10.34:298][366]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2020.06.08-05.10.34:303][366]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2020.06.08-05.10.34:303][366]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2020.06.08-05.10.34:306][366]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2020.06.08-05.10.34:306][366]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2020.06.08-05.10.34:309][366]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2020.06.08-05.10.34:309][366]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2020.06.08-05.10.34:309][366]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2020.06.08-05.10.34:311][366]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2020.06.08-05.10.34:316][366]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2020.06.08-05.10.34:316][366]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2020.06.08-05.10.34:317][366]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2020.06.08-05.10.34:317][366]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2020.06.08-05.10.34:318][366]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2020.06.08-05.10.34:318][366]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2020.06.08-05.10.34:319][366]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2020.06.08-05.10.34:319][366]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2020.06.08-05.10.34:319][366]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2020.06.08-05.10.34:320][366]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2020.06.08-05.10.34:321][366]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2020.06.08-05.10.34:321][366]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2020.06.08-05.10.34:321][366]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2020.06.08-05.10.34:321][366]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2020.06.08-05.10.34:321][366]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2020.06.08-05.10.34:321][366]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2020.06.08-05.10.34:323][366]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2020.06.08-05.10.34:323][366]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2020.06.08-05.10.34:324][366]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2020.06.08-05.10.34:324][366]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2020.06.08-05.10.34:324][366]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2020.06.08-05.10.34:507][366]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2020.06.08-05.10.34:509][366]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2020.06.08-05.10.34:509][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2020.06.08-05.10.34:509][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2020.06.08-05.10.34:509][366]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2020.06.08-05.10.34:509][366]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2020.06.08-05.10.34:509][366]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2020.06.08-05.10.34:510][366]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2020.06.08-05.10.34:529][366]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2020.06.08-05.10.34:530][366]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2020.06.08-05.10.34:530][366]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2020.06.08-05.10.34:530][366]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2020.06.08-05.10.34:537][366]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2020.06.08-05.10.34:537][366]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2020.06.08-05.10.34:537][366]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2020.06.08-05.10.34:537][366]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.06.08-05.10.34:538][366]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2020.06.08-05.10.34:539][366]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2020.06.08-05.10.34:539][366]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.06.08-05.10.34:540][366]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.06.08-05.10.34:540][366]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.06.08-05.10.34:541][366]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2020.06.08-05.10.34:541][366]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2020.06.08-05.10.34:567][366]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2020.06.08-05.10.34:569][366]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2020.06.08-05.10.34:569][366]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2020.06.08-05.10.34:569][366]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2020.06.08-05.10.34:570][366]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2020.06.08-05.10.34:570][366]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2020.06.08-05.10.34:571][366]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2020.06.08-05.10.34:573][366]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2020.06.08-05.10.34:575][366]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2020.06.08-05.10.34:575][366]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2020.06.08-05.10.34:575][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2020.06.08-05.10.34:575][366]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2020.06.08-05.10.34:575][366]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2020.06.08-05.10.34:575][366]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2020.06.08-05.10.34:601][366]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2020.06.08-05.10.34:602][366]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2020.06.08-05.10.34:602][366]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2020.06.08-05.10.34:602][366]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2020.06.08-05.10.34:602][366]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2020.06.08-05.10.34:603][366]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2020.06.08-05.10.34:603][366]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2020.06.08-05.10.34:603][366]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2020.06.08-05.10.34:603][366]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.06.08-05.10.34:603][366]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.06.08-05.10.34:703][366]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.06.08-05.10.34:805][366]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2020.06.08-05.10.34:805][366]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2020.06.08-05.10.34:832][366]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2020.06.08-05.10.34:833][366]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2020.06.08-05.10.34:833][366]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2020.06.08-05.10.34:833][366]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2020.06.08-05.10.34:835][366]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2020.06.08-05.10.34:837][366]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2020.06.08-05.10.34:837][366]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2020.06.08-05.10.34:838][366]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2020.06.08-05.10.34:838][366]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2020.06.08-05.10.34:839][366]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2020.06.08-05.10.34:841][366]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2020.06.08-05.10.34:841][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2020.06.08-05.10.34:841][366]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2020.06.08-05.10.34:841][366]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2020.06.08-05.10.34:843][366]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2020.06.08-05.10.34:844][366]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2020.06.08-05.10.34:846][366]LogModuleManager: Shutting down and abandoning module Media (243)
+[2020.06.08-05.10.34:854][366]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2020.06.08-05.10.34:854][366]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2020.06.08-05.10.34:854][366]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2020.06.08-05.10.34:881][366]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2020.06.08-05.10.34:881][366]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2020.06.08-05.10.34:882][366]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2020.06.08-05.10.34:882][366]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2020.06.08-05.10.34:882][366]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2020.06.08-05.10.34:883][366]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2020.06.08-05.10.34:883][366]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2020.06.08-05.10.34:887][366]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2020.06.08-05.10.34:888][366]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2020.06.08-05.10.34:890][366]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2020.06.08-05.10.34:890][366]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2020.06.08-05.10.34:890][366]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2020.06.08-05.10.34:939][366]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2020.06.08-05.10.34:944][366]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2020.06.08-05.10.34:944][366]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2020.06.08-05.10.34:988][366]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2020.06.08-05.10.34:988][366]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.06.08-05.10.34:990][366]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module Core (188)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2020.06.08-05.10.34:991][366]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2020.06.08-05.10.34:992][366]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2020.06.08-05.10.34:993][366]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2020.06.08-05.10.34:993][366]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2020.06.08-05.10.34:994][366]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2020.06.08-05.10.34:995][366]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2020.06.08-05.10.34:995][366]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2020.06.08-05.10.34:996][366]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2020.06.08-05.10.34:996][366]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2020.06.08-05.10.35:001][366]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2020.06.08-05.10.35:063][366]LogDerivedDataCache: Shutdown
+[2020.06.08-05.10.35:063][366]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2020.06.08-05.10.35:063][366]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2020.06.08-05.10.35:063][366]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2020.06.08-05.10.35:065][366]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2020.06.08-05.10.35:067][366]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2020.06.08-05.10.35:068][366]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2020.06.08-05.10.35:068][366]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2020.06.08-05.10.35:069][366]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2020.06.08-05.10.35:070][366]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2020.06.08-05.10.35:070][366]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2020.06.08-05.10.35:070][366]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2020.06.08-05.10.35:070][366]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.06.08-05.10.35:070][366]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2020.06.08-05.10.35:070][366]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.06.08-05.10.35:071][366]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2020.06.08-05.10.35:072][366]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.06.08-05.10.35:072][366]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.06.08-05.10.35:073][366]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2020.06.08-05.10.35:073][366]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2020.06.08-05.10.35:083][366]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2020.06.08-05.10.35:084][366]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2020.06.08-05.10.35:084][366]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2020.06.08-05.10.35:084][366]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2020.06.08-05.10.35:086][366]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2020.06.08-05.10.35:091][366]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2020.06.08-05.10.35:145][366]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2020.06.08-05.10.35:145][366]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.08-05.10.35:145][366]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF6B21A7-44A7-8470-BBF8-52A047A2ADD6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=017fe7c947916f9a7657cb8dc26e9cfe%7C858d9f6218454b52ae30699b795dc1d3%7C52edb43f-7cd5-4815-af90-20eb9e7b1fd5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.06.08-05.10.35:145][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.35:646][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.36:152][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.36:654][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.37:155][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.37:656][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.38:158][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.38:660][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.39:160][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.39:663][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.40:163][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.40:664][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.41:168][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.41:670][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.42:170][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.42:671][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.43:171][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.43:672][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.44:173][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.44:673][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.45:174][366]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.08-05.10.45:692][366]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2020.06.08-05.10.45:702][366]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2020.06.08-05.10.45:702][366]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2020.06.08-05.10.45:702][366]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2020.06.08-05.10.45:702][366]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2020.06.08-05.10.45:702][366]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2020.06.08-05.10.45:703][366]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2020.06.08-05.10.45:703][366]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2020.06.08-05.10.45:703][366]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2020.06.08-05.10.45:703][366]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2020.06.08-05.10.45:703][366]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.08-05.10.45:703][366]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2020.06.08-05.10.45:703][366]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.06.08-05.10.45:706][366]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.06.08-05.10.45:706][366]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.06.08-05.10.45:708][366]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.06.08-05.10.45:709][366]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.06.08-05.10.45:709][366]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.06.08-05.10.45:709][366]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.06.08-05.10.45:711][366]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.06.08-05.10.45:711][366]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.06.08-05.10.45:711][366]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.06.08-05.10.45:721][366]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.06.08-05.10.45:721][366]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.06.08-05.10.45:721][366]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.06.08-05.10.45:721][366]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.06.08-05.10.45:721][366]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.06.08-05.10.45:722][366]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.06.08-05.10.45:722][366]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.06.08-05.10.45:722][366]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.06.08-05.10.45:736][366]LogExit: Exiting.
+[2020.06.08-05.10.45:828][366]Log file closed, 06/08/20 00:10:45
