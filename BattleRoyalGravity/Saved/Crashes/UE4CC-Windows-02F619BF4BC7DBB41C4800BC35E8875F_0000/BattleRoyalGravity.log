@@ -1,0 +1,640 @@
+﻿Log file open, 06/14/20 02:21:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleRoyalGravity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.498148
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin FalseDirectionalGravity
+LogStreaming: Display: Took  0.686s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 5500
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.016s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.06.14-07.21.41:175][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.14-07.21.41:176][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.14-07.21.41:373][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.14-07.21.41:386][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.06.14-07.21.41:419][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.14-07.21.41:649][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
+[2020.06.14-07.21.41:649][  0]LogInit: User: FernanD02
+[2020.06.14-07.21.41:650][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.14-07.21.41:650][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.14-07.21.41:650][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.14-07.21.41:650][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.14-07.21.41:650][  0]LogMemory: Process Physical Memory: 102.25 MB used, 102.25 MB peak
+[2020.06.14-07.21.41:650][  0]LogMemory: Process Virtual Memory: 92.06 MB used, 92.06 MB peak
+[2020.06.14-07.21.41:650][  0]LogMemory: Physical Memory: 5152.72 MB used,  2953.74 MB free, 8106.46 MB total
+[2020.06.14-07.21.41:650][  0]LogMemory: Virtual Memory: 4612.63 MB used,  2953.74 MB free, 134217728.00 MB total
+[2020.06.14-07.21.44:027][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.14-07.21.44:027][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.14-07.21.46:774][  0]LogStreaming: Display: Took  2.728s to InitEngineTextLocalization.
+[2020.06.14-07.21.46:794][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.14-07.21.49:050][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.14-07.21.49:051][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.14-07.21.59:237][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.14-07.21.59:237][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.14-07.21.59:245][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2020.06.14-07.21.59:245][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.14-07.21.59:997][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
+[2020.06.14-07.21.59:997][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.06.14-07.22.00:000][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.14-07.22.00:000][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.14-07.22.00:000][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.06.14-07.22.00:032][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.14-07.22.00:033][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.14-07.22.00:055][  0]LogWindows: EnumDisplayDevices:
+[2020.06.14-07.22.00:057][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2020.06.14-07.22.00:057][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2020.06.14-07.22.00:058][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2020.06.14-07.22.00:058][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:059][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:059][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:060][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:061][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:061][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:062][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:062][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:063][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:064][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:064][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:065][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:065][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:066][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:067][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:067][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.14-07.22.00:068][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
+[2020.06.14-07.22.00:068][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
+[2020.06.14-07.22.00:068][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2020.06.14-07.22.00:068][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2020.06.14-07.22.00:068][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.06.14-07.22.00:229][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.14-07.22.00:675][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.14-07.22.00:776][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/30116/).
+[2020.06.14-07.22.00:776][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/B394AB2347380145661E84BAD634B5E4/'.
+[2020.06.14-07.22.02:328][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.14-07.22.02:382][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.06.14-07.22.02:410][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.14-07.22.02:463][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.06.14-07.22.02:613][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.06.14-07.22.02:696][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.14-07.22.02:741][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.14-07.22.02:803][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.14-07.22.02:882][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.14-07.22.03:257][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.06.14-07.22.03:548][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.14-07.22.03:548][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.14-07.22.03:621][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.14-07.22.03:621][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.14-07.22.03:695][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.14-07.22.03:759][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.14-07.22.03:858][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.14-07.22.03:987][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.06.14-07.22.04:033][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.06.14-07.22.04:033][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.14-07.22.05:527][  0]LogXGEController: Cleaning working directory: C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.14-07.22.05:527][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.14-07.22.05:527][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.14-07.22.05:527][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.14-07.22.17:412][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.14-07.22.18:391][  0]LogDerivedDataCache: Loaded boot cache 0.96s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.14-07.22.18:391][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.06.14-07.22.18:392][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.14-07.22.18:392][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.14-07.22.18:392][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.14-07.22.18:392][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.14-07.22.18:536][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.14-07.22.18:597][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.14-07.22.18:597][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.14-07.22.18:597][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.14-07.22.18:671][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.14-07.22.18:765][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.14-07.22.19:002][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.14-07.22.21:365][  0]LogAssetRegistry: FAssetRegistry took 0.0318 seconds to start up
+[2020.06.14-07.22.26:877][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.14-07.22.31:568][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.14-07.22.31:728][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.14-07.22.31:728][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.14-07.22.31:729][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.14-07.22.31:729][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.06.14-07.22.32:434][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
+[2020.06.14-07.22.41:555][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.135189 seconds
+[2020.06.14-07.22.41:627][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.06.14-07.22.41:627][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.06.14-07.22.41:627][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.14-07.23.16:210][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.14-07.23.16:245][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.14-07.23.18:137][  0]SourceControl: Source control is disabled
+[2020.06.14-07.23.18:138][  0]SourceControl: Source control is disabled
+[2020.06.14-07.23.18:243][  0]SourceControl: Source control is disabled
+[2020.06.14-07.23.18:258][  0]SourceControl: Source control is disabled
+[2020.06.14-07.23.20:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.14-07.23.20:537][  0]LogOcInput: OculusInput pre-init called
+[2020.06.14-07.23.21:422][  0]LogEngine: Initializing Engine...
+[2020.06.14-07.23.21:483][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.14-07.23.21:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2020.06.14-07.23.21:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.14-07.23.21:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.14-07.23.21:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.14-07.23.23:334][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.14-07.23.24:012][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.14-07.23.24:305][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.14-07.23.24:345][  0]LogInit: FAudioDevice initialized.
+[2020.06.14-07.23.24:345][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.14-07.23.24:608][  0]LogDerivedDataCache: Saved boot cache 0.26s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.14-07.23.24:617][  0]LogInit: Texture streaming: Enabled
+[2020.06.14-07.23.24:785][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.14-07.23.25:363][  0]LogInit: Transaction tracking system initialized
+[2020.06.14-07.23.27:048][  0]BlueprintLog: New page: Editor Load
+[2020.06.14-07.23.30:467][  0]LocalizationService: Localization service is disabled
+[2020.06.14-07.23.38:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/' took 0.05s
+[2020.06.14-07.23.38:322][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.14-07.23.38:409][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.14-07.23.38:433][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.06.14-07.23.38:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.14-07.23.38:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.14-07.23.38:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.14-07.23.38:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.14-07.23.47:921][  0]SourceControl: Source control is disabled
+[2020.06.14-07.23.47:981][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.14-07.23.48:065][  0]LightingResults: New page: Lighting Build
+[2020.06.14-07.23.48:417][  0]MapCheck: New page: Map Check
+[2020.06.14-07.23.48:417][  0]LightingResults: New page: Lighting Build
+[2020.06.14-07.23.55:733][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.06.14-07.23.55:770][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0174.13] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 452 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2020.06.14-07.23.59:152][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2020.06.14-07.23.59:152][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2020.06.14-07.23.59:152][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2020.06.14-07.23.59:243][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2020.06.14-07.23.59:243][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2020.06.14-07.23.59:243][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2020.06.14-07.23.59:616][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2020.06.14-07.23.59:617][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2020.06.14-07.23.59:617][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2020.06.14-07.23.59:617][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2020.06.14-07.24.01:532][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2020.06.14-07.24.01:533][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.06.14-07.24.01:533][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2020.06.14-07.24.01:534][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.06.14-07.24.10:609][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.14-07.24.11:693][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.14-07.24.12:232][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.14-07.24.12:437][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 204.446ms to complete.
+[2020.06.14-07.24.12:437][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 24.491
+[2020.06.14-07.24.15:538][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.24.15:568][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.24.15:594][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.24.15:637][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.24.18:437][  0]LogCollectionManager: Loaded 0 collections in 0.008366 seconds
+[2020.06.14-07.24.19:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Collections/' took 0.01s
+[2020.06.14-07.24.19:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
+[2020.06.14-07.24.19:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/Collections/' took 0.01s
+[2020.06.14-07.24.19:099][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.06.14-07.24.19:175][  0]LogContentBrowser: Native class hierarchy populated in 0.0730 seconds. Added 2578 classes and 606 folders.
+[2020.06.14-07.24.19:428][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.14-07.24.24:993][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.06.14-07.24.25:547][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.06.14-07.24.26:134][  0]LogSlate: Took 0.043960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.14-07.24.26:326][  0]LogSlate: Took 0.095050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.14-07.24.26:551][  0]LogSlate: Took 0.059121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.14-07.24.27:711][  0]LogRenderer: Reallocating scene render targets to support 756x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.14-07.24.28:599][  0]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.14-07.24.29:569][  0]LogSlate: Took 0.043531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.14-07.24.30:221][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.06.14-07.24.30:221][  0]LogLoad: (Engine Initialization) Total time: 208.59 seconds
+[2020.06.14-07.24.30:222][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.14-07.24.30:495][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.14-07.24.30:530][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.14-07.24.31:302][  4]LogAssetRegistry: Asset discovery search completed in 129.9616 seconds
+[2020.06.14-07.24.31:305][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.06.14-07.24.31:305][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000138 seconds (updated 0 objects)
+[2020.06.14-07.24.31:644][  5]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.14-07.24.52:088][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.14-07.25.03:390][664]LogSlate: Window 'Message Log' being destroyed
+[2020.06.14-07.25.03:401][664]LogSlate: Window 'Message Log' being destroyed
+[2020.06.14-07.25.19:172][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mapa_V2_Tubo)
+[2020.06.14-07.25.23:789][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.25.24:647][538]LogSlate: Took 0.023829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.14-07.26.25:723][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.26.39:180][369]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.14-07.26.46:739][686]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.06.14-07.26.52:093][923]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.14-07.26.53:985][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.26.54:060][  9]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.14-07.26.54:138][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.06.14-07.26.54:139][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-07.26.54:258][  9]PIE: New page: PIE session: FirstPersonExampleMap (Jun 13, 2020, 9:26:54 PM)
+[2020.06.14-07.26.54:259][  9]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2020.06.14-07.26.54:302][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043625s)
+[2020.06.14-07.26.54:304][  9]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.14-07.26.54:304][  9]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2020.06.14-07.26.54:305][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.046028s)
+[2020.06.14-07.26.54:409][  9]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.14-07.26.54:424][  9]LogInit: FAudioDevice initialized.
+[2020.06.14-07.26.54:457][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.26.54:543][  9]LogLoad: Game class is 'BRGameMode_C'
+[2020.06.14-07.26.54:556][  9]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.06.14-02.26.54
+[2020.06.14-07.26.54:558][  9]LogWorld: Bringing up level for play took: 0.005171
+[2020.06.14-07.26.54:750][  9]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2020.06.14-07.26.54:757][  9]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.14-07.26.54:764][  9]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2020.06.14-07.26.54:764][  9]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.14-07.26.54:765][  9]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.14-07.26.54:766][  9]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.14-07.26.54:766][  9]LogInit: WinSock: I am DESKTOP-TMVGJ7Q (192.168.0.2:0)
+[2020.06.14-07.26.54:766][  9]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.14-07.26.54:766][  9]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.06.14-07.26.54:766][  9]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.14-07.26.54:766][  9]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.14-07.26.54:766][  9]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.14-07.26.55:022][  9]LogBlueprintUserMessages: [GravityPlayer_C_0] Server: Hello
+[2020.06.14-07.26.55:027][  9]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.14-07.26.55:051][  9]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap 1.005
+[2020.06.14-07.26.55:069][  9]PIE: New page: PIE session: FirstPersonExampleMap (Jun 13, 2020, 9:26:55 PM)
+[2020.06.14-07.26.55:084][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.14-07.26.55:096][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.26.55:164][  9]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2020.06.14-07.26.55:165][  9]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.14-07.26.55:165][  9]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2020.06.14-07.26.55:165][  9]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.14-07.26.55:165][  9]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.14-07.26.55:166][  9]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.14-07.26.55:187][  9]LogNet: Game client on port 17777, rate 10000
+[2020.06.14-07.26.55:195][  9]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 1.149
+[2020.06.14-07.26.55:211][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.06.14-07.26.55:213][  9]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61625
+[2020.06.14-07.26.55:213][  9]LogHandshake: SendConnectChallenge. Timestamp: 0.015164, Cookie: 053188072212213209181106079097078156134052175244243203024042
+[2020.06.14-07.26.55:310][  9]LogHandshake: SendChallengeResponse. Timestamp: 0.015164, Cookie: 053188072212213209181106079097078156134052175244243203024042
+[2020.06.14-07.26.55:389][  9]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2020.06.14-07.26.55:616][ 10]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61625
+[2020.06.14-07.26.55:617][ 10]LogHandshake: SendChallengeAck. InCookie: 053188072212213209181106079097078156134052175244243203024042
+[2020.06.14-07.26.55:617][ 10]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61625
+[2020.06.14-07.26.55:617][ 10]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.14-07.26.55:618][ 10]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 06/14/20 02:26:55, [UNetConnection] RemoteAddr: 127.0.0.1:61625, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.14-07.26.55:618][ 10]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61625, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.14-07.26.55:633][ 10]LogNetVersion: BattleRoyalGravity 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2402070122)
+[2020.06.14-07.26.55:633][ 10]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.14-07.26.55:659][ 11]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2020.06.14-07.26.55:684][ 11]LogNet: Remote platform little endian=1
+[2020.06.14-07.26.55:684][ 11]LogNet: This platform little endian=1
+[2020.06.14-07.26.55:721][ 12]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347 userId: DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347
+[2020.06.14-07.26.55:725][ 12]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/GravityBP/BRGameMode.BRGameMode_C)
+[2020.06.14-07.26.55:727][ 12]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/GravityBP/BRGameMode.BRGameMode_C
+[2020.06.14-07.26.55:804][ 12]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.14-07.26.55:805][ 12]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.14-07.26.55:808][ 12]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.06.14-02.26.55
+[2020.06.14-07.26.55:808][ 12]LogWorld: Bringing up level for play took: 0.002458
+[2020.06.14-07.26.55:809][ 12]LogLoad: Took 0.081659 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2020.06.14-07.26.55:839][ 13]LogNet: Client netspeed is 10000
+[2020.06.14-07.26.55:839][ 13]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347?SplitscreenCount=1
+[2020.06.14-07.26.55:840][ 13]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.14-07.26.55:844][ 13]LogBlueprintUserMessages: [GravityPlayer_C_1] Server: Hello
+[2020.06.14-07.26.55:845][ 13]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-A9FC
+[2020.06.14-07.26.55:893][ 14]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.14-07.26.56:001][ 16]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.14-07.27.28:112][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.06.14-07.27.28:113][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.27.28:194][544]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.14-07.27.28:273][544]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.14-07.27.28:273][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-07.27.28:311][544]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.14-07.27.28:365][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-07.27.28:365][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.06.14-07.27.28:441][544]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61625, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347
+[2020.06.14-07.27.28:441][544]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61625, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347, Channels: 2, Time: 2020.06.14-07.27.28
+[2020.06.14-07.27.28:441][544]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61625, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347
+[2020.06.14-07.27.28:442][544]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347
+[2020.06.14-07.27.28:442][544]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347, Channels: 2, Time: 2020.06.14-07.27.28
+[2020.06.14-07.27.28:442][544]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-A9FC7F55421FE47C715F8997D2BC3347
+[2020.06.14-07.27.28:511][544]LogExit: GameNetDriver None shut down
+[2020.06.14-07.27.28:512][544]LogExit: GameNetDriver None shut down
+[2020.06.14-07.27.28:563][545]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.06.14-07.27.28:563][545]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.06.14-07.27.45:444][ 95]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.14-07.27.56:991][576]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/SpaceShip.SpaceShip
+[2020.06.14-07.27.58:727][576]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2020.06.14-07.28.04:041][667]LogSlate: Window 'SpaceShip*' being destroyed
+[2020.06.14-07.28.29:888][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.28.44:460][167]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.30.46:324][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2131ae13fa0 [can pipeline])
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.45.111.172) port 443 (#2))
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 3 (upload completely sent off: 764 out of 764 bytes)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 6 (Closing connection 2)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B894FE5FB-4CFD-F761-4D6F-96BBEE7746A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=017fe7c947916f9a7657cb8dc26e9cfe%7C858d9f6218454b52ae30699b795dc1d3%7C52edb43f-7cd5-4815-af90-20eb9e7b1fd5&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.14-07.30.49:502][408]LogHttp: Warning: 0000021381B61940: libcurl info message cache 9 (Closing connection 3)
+[2020.06.14-07.30.50:649][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.14-07.30.55:992][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.31.20:992][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.32.04:450][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.32.17:098][656]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.14-07.32.34:953][991]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.14-07.32.44:328][369]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/SpaceShip.SpaceShip
+[2020.06.14-07.32.47:948][450]LogSlate: Window 'SpaceShip*' being destroyed
+[2020.06.14-07.32.53:824][766]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/Espectador.Espectador
+[2020.06.14-07.32.54:642][766]LogSlate: Took 0.042654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.14-07.33.36:281][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.33.38:361][420]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.33.47:653][885]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.14-07.34.37:673][498]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.14-07.34.41:369][709]LogHttp: Warning: 0000021304B42840: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.14-07.34.41:369][709]LogHttp: Warning: 0000021304B42840: libcurl info message cache 0 (Connection 4 seems to be dead!)
+[2020.06.14-07.34.41:369][709]LogHttp: Warning: 0000021304B42840: libcurl info message cache 1 (Closing connection 4)
+[2020.06.14-07.34.41:369][709]LogHttp: Warning: 0000021304B42840: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.06.14-07.34.41:369][709]LogHttp: Warning: 0000021304B42840: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.14-07.34.41:369][709]LogHttp: Warning: 0000021304B42840: libcurl info message cache 4 (Closing connection 5)
+[2020.06.14-07.34.42:827][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.34.47:550][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.34.59:843][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.34.59:907][428]BlueprintLog: New page: Compile Espectador
+[2020.06.14-07.35.09:580][795]BlueprintLog: New page: Compile Espectador
+[2020.06.14-07.35.11:908][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/Espectador" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/Espectador.uasset" SILENT=true
+[2020.06.14-07.35.12:243][880]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/EspectadorFE3770D847DDD4E4BB5ADEA79C46C2E9.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/Espectador.uasset'
+[2020.06.14-07.35.18:984][258]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.18:984][258]LogEditorTransaction: Undo Rename Component Variable
+[2020.06.14-07.35.19:282][260]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.19:282][260]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.14-07.35.19:467][264]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.19:467][264]LogEditorTransaction: Undo Set Scale
+[2020.06.14-07.35.19:715][275]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.19:716][275]LogEditorTransaction: Undo Set Scale
+[2020.06.14-07.35.19:939][286]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.19:939][286]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.14-07.35.20:180][296]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.20:180][296]LogEditorTransaction: Undo Set Scale
+[2020.06.14-07.35.20:781][329]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.20:782][329]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.14-07.35.21:178][349]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.21:178][349]LogEditorTransaction: Undo Add Component
+[2020.06.14-07.35.21:492][364]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.21:492][364]LogEditorTransaction: Undo Add Component
+[2020.06.14-07.35.21:791][380]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.21:791][380]LogEditorTransaction: Undo Make New Scene Root
+[2020.06.14-07.35.22:125][398]Cmd: TRANSACTION UNDO
+[2020.06.14-07.35.22:125][398]LogEditorTransaction: Undo Add Component
+[2020.06.14-07.36.18:802][608]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/FirstPersonExampleMap_Auto104654C3F42F53E7E3E4C719E378E8BE7.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.06.14-07.36.18:823][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.587
+[2020.06.14-07.36.18:823][608]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.587
+[2020.06.14-07.36.18:827][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GravityBP/Espectador] ([1] browsable assets)...
+[2020.06.14-07.36.18:827][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/Espectador]
+[2020.06.14-07.36.18:904][608]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Espectador_Auto1CF87AB884DEC7B09B3B9469914B1AC6B.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/Espectador_Auto1.uasset'
+[2020.06.14-07.36.18:909][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GravityBP/SpaceShip] ([1] browsable assets)...
+[2020.06.14-07.36.18:909][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/SpaceShip]
+[2020.06.14-07.36.18:951][608]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShip_Auto14D9491064D30D1F1FB5E4EA7AC39B5F9.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/SpaceShip_Auto1.uasset'
+[2020.06.14-07.36.18:955][608]LogFileHelpers: Auto-saving content packages took 0.129
+[2020.06.14-07.37.30:293][962]BlueprintLog: New page: Compile Espectador
+[2020.06.14-07.37.31:613][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/Espectador" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/Espectador.uasset" SILENT=true
+[2020.06.14-07.37.31:696][999]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/EspectadorDC93DD0A4B2C3699814D79BF11FA81A3.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/Espectador.uasset'
+[2020.06.14-07.37.40:853][610]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.37.41:537][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/SpaceShip" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset" SILENT=true
+[2020.06.14-07.37.41:574][634]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShipB6F770AC4C9F656C29D1148D393C8CEB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset'
+[2020.06.14-07.38.03:729][995]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.38.04:433][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/SpaceShip" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset" SILENT=true
+[2020.06.14-07.38.04:508][ 20]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShipCC07DA33494F1C10D7B605ADFA63BA6F.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset'
+[2020.06.14-07.38.11:829][490]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.38.12:483][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/SpaceShip" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset" SILENT=true
+[2020.06.14-07.38.12:532][506]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShip469AC0FD40F339151481D1A4D0D6A162.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset'
+[2020.06.14-07.38.32:752][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.38.32:828][299]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.38.33:517][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/SpaceShip" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset" SILENT=true
+[2020.06.14-07.38.33:587][313]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShip4B32D04B403213915559D39436D66D55.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset'
+[2020.06.14-07.38.54:891][168]LogSlate: Took 0.025188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.14-07.38.59:567][597]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.40.35:648][650]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GravityBP/GravityPlayer.GravityPlayer
+[2020.06.14-07.41.02:894][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.14-07.46.19:650][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.084
+[2020.06.14-07.46.19:656][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GravityBP/SpaceShip] ([1] browsable assets)...
+[2020.06.14-07.46.19:695][207]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GravityBP/SpaceShip.SpaceShip]
+[2020.06.14-07.46.19:695][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/GravityBP/SpaceShip]
+[2020.06.14-07.46.19:812][207]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShip_Auto2205A1EBD4042AD4A9AA0D493C3BD26A1.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Autosaves/Game/GravityBP/SpaceShip_Auto2.uasset'
+[2020.06.14-07.46.19:817][207]LogFileHelpers: Auto-saving content packages took 0.165
+[2020.06.14-07.55.41:643][864]LogHttp: Warning: 00000213B424BEC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.14-07.55.41:643][864]LogHttp: Warning: 00000213B424BEC0: libcurl info message cache 0 (Connection 13 seems to be dead!)
+[2020.06.14-07.55.41:643][864]LogHttp: Warning: 00000213B424BEC0: libcurl info message cache 1 (Closing connection 13)
+[2020.06.14-07.55.41:643][864]LogHttp: Warning: 00000213B424BEC0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.06.14-07.55.41:643][864]LogHttp: Warning: 00000213B424BEC0: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.14-07.55.41:643][864]LogHttp: Warning: 00000213B424BEC0: libcurl info message cache 4 (Closing connection 14)
+[2020.06.14-07.57.04:061][185]LogEditorTransaction: Undo Promote To Variable
+[2020.06.14-07.57.52:768][ 55]LogHttp: Warning: 00000213B3912340: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.14-07.57.52:768][ 55]LogHttp: Warning: 00000213B3912340: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.14-07.57.52:768][ 55]LogHttp: Warning: 00000213B3912340: libcurl info message cache 1 (Closing connection 15)
+[2020.06.14-07.58.25:065][196]BlueprintLog: New page: Compile SpaceShip
+[2020.06.14-07.58.26:115][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GravityBP/SpaceShip" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset" SILENT=true
+[2020.06.14-07.58.26:191][263]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/SpaceShip157ABE934F5AFF981E11AA9EB5E23CB3.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/GravityBP/SpaceShip.uasset'
+[2020.06.14-07.58.41:046][261]LogOutputDevice: Warning: 
+
+Script Stack:
+SpaceShip_C.ExecuteUbergraph_SpaceShip
+SpaceShip_C.ReceiveTick
+
+[2020.06.14-07.58.44:972][261]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.925 s
+[2020.06.14-07.58.44:972][261]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.14-07.58.44:972][261]LogOutputDevice: Error: 
+[2020.06.14-07.58.44:972][261]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 611]
+[2020.06.14-07.58.44:972][261]LogOutputDevice: Error: 
+[2020.06.14-07.58.44:972][261]LogOutputDevice: Error: Stack: 
+[2020.06.14-07.58.44:972][261]LogOutputDevice: Error: [Callstack] 0x00007fff892f71f6 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff89030c92 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff8904b356 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d71aada UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d6f7d20 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d6fa6be UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d70d320 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d70db88 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d6cde7a UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d19d575 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff880d6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff882e16ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:973][261]LogOutputDevice: Error: [Callstack] 0x00007fff88301b96 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff882e205d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff88301b96 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff880d6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff88301133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d248033 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7e597f1a UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d266b7e UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d26730c UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7d225630 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7e4216bd UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff88eb1f92 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff88eb2456 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff88ec6d25 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7e475b04 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7e484d92 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7db887e4 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:974][261]LogOutputDevice: Error: [Callstack] 0x00007fff7db94003 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007fff8275a38d UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007fff7bd676e2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007fff7c65f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007ff67c395cbd UE4Editor.exe!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007ff67c3a5b3c UE4Editor.exe!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007ff67c3a5bba UE4Editor.exe!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007ff67c3b3dac UE4Editor.exe!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007ff67c3b5aaa UE4Editor.exe!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007fffde937bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: [Callstack] 0x00007fffded0ce51 ntdll.dll!UnknownFunction []
+[2020.06.14-07.58.44:975][261]LogOutputDevice: Error: 
+[2020.06.14-07.58.45:005][261]LogStats:                SubmitErrorReport -  0.025 s
