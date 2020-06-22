@@ -21,7 +21,7 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -75,11 +75,11 @@
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSteamSessions"
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Source"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSteamSessions"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Source"
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions"
 /I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I Runtime\CoreUObject
@@ -229,10 +229,10 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions"
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSessions\Source"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
 /I ThirdParty\Steamworks\Steamv139\sdk\public
 /I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4\Inc\OnlineSubsystemSteam
 /I ..\Plugins\Online\OnlineSubsystemSteam
@@ -247,12 +247,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
 /D_HAS_EXCEPTIONS=0
 /D_HAS_EXCEPTIONS=0
-/FI"C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Intermediate\Build\Win64\BattleRoyalGravity\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Intermediate\Build\Win64\BattleRoyalGravity\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Intermediate\Build\Win64\BattleRoyalGravity\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp"
-/FI"C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
-/Fo"C:\Users\Dell Inspiron 5548\Documents\BattleRoyalGravity - copia\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
+/FI"C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Intermediate\Build\Win64\BattleRoyalGravity\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Intermediate\Build\Win64\BattleRoyalGravity\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Intermediate\Build\Win64\BattleRoyalGravity\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp"
+/FI"C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
+/Fo"C:\Users\Dell Inspiron 5548\Documents\BattleRoyal\BattleRoyalGravity\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
 /TP
 /GR-
 /W4
