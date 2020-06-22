@@ -1,4 +1,4 @@
-﻿Log file open, 06/22/20 15:55:47
+﻿Log file open, 06/22/20 16:03:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BattleRoyalGravity
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.216128
+LogStats: Stats thread started at 0.283966
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -97,7 +97,7 @@ LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin AdvancedSessions
 LogPluginManager: Mounting plugin AdvancedSteamSessions
 LogPluginManager: Mounting plugin FalseDirectionalGravity
-LogStreaming: Display: Took  0.222s to configure plugins.
+LogStreaming: Display: Took  0.292s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -154,712 +154,886 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.009s to delete old logs.
+LogStreaming: Display: Took  0.010s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.06.22-20.55.48:095][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.22-20.55.48:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.22-20.55.48:120][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.22-20.55.48:120][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2020.06.22-20.55.48:120][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.22-20.55.48:121][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
-[2020.06.22-20.55.48:121][  0]LogInit: User: FernanD02
-[2020.06.22-20.55.48:121][  0]LogInit: CPU Page size=4096, Cores=2
-[2020.06.22-20.55.48:121][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.22-20.55.48:121][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.06.22-20.55.48:121][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.22-20.55.48:121][  0]LogMemory: Process Physical Memory: 102.44 MB used, 102.44 MB peak
-[2020.06.22-20.55.48:121][  0]LogMemory: Process Virtual Memory: 96.15 MB used, 96.15 MB peak
-[2020.06.22-20.55.48:121][  0]LogMemory: Physical Memory: 5502.34 MB used,  2604.12 MB free, 8106.46 MB total
-[2020.06.22-20.55.48:121][  0]LogMemory: Virtual Memory: 4617.90 MB used,  2604.12 MB free, 134217728.00 MB total
-[2020.06.22-20.55.48:148][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.06.22-20.55.48:149][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2020.06.22-20.55.49:066][  0]LogStreaming: Display: Took  0.918s to InitEngineTextLocalization.
-[2020.06.22-20.55.49:066][  0]LogInit: Setting process to per monitor DPI aware
-[2020.06.22-20.55.49:311][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.22-20.55.49:311][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.22-20.55.52:965][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.22-20.55.52:965][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.22-20.55.52:976][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2020.06.22-20.55.52:976][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2020.06.22-20.55.53:707][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
-[2020.06.22-20.55.53:707][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
-[2020.06.22-20.55.53:717][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.22-20.55.53:717][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.22-20.55.53:717][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2020.06.22-20.55.53:740][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.22-20.55.53:740][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.22-20.55.53:740][  0]LogWindows: EnumDisplayDevices:
-[2020.06.22-20.55.53:741][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2020.06.22-20.55.53:742][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
-[2020.06.22-20.55.53:744][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2020.06.22-20.55.53:745][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:747][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:748][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:750][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:752][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:753][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:755][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:757][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:758][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:760][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:762][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:763][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:765][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:767][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:768][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:769][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
-[2020.06.22-20.55.53:770][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
-[2020.06.22-20.55.53:770][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
-[2020.06.22-20.55.53:770][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
-[2020.06.22-20.55.53:770][  0]LogD3D11RHI:      Driver Date: 10-26-2017
-[2020.06.22-20.55.53:770][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
-[2020.06.22-20.55.53:841][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.22-20.55.53:856][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2020.06.22-20.55.53:858][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/17008/).
-[2020.06.22-20.55.53:858][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/ACAEEEF24F7CDDC3701EFABCE0CCCA7A/'.
-[2020.06.22-20.55.54:596][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.06.22-20.55.54:614][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.06.22-20.55.54:633][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.06.22-20.55.54:651][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.06.22-20.55.54:675][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.06.22-20.55.54:693][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.06.22-20.55.54:711][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.06.22-20.55.54:729][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.06.22-20.55.54:738][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:856][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.06.22-20.55.54:859][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.06.22-20.55.54:944][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.06.22-20.55.54:944][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.06.22-20.55.54:977][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.06.22-20.55.54:977][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.06.22-20.55.54:995][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.06.22-20.55.55:011][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.06.22-20.55.55:028][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.06.22-20.55.55:057][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.06.22-20.55.55:069][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.06.22-20.55.55:070][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.22-20.55.55:161][  0]LogXGEController: Cleaning working directory: C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.06.22-20.55.55:162][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.22-20.55.55:162][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.22-20.55.55:162][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.22-20.55.57:992][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.22-20.55.59:173][  0]LogDerivedDataCache: Loaded boot cache 1.18s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.06.22-20.55.59:173][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2020.06.22-20.55.59:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.22-20.55.59:174][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.22-20.55.59:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.22-20.55.59:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.22-20.55.59:259][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.22-20.55.59:272][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.22-20.55.59:272][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.22-20.55.59:272][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.22-20.55.59:298][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.22-20.55.59:300][  0]LogSlate: Using FreeType 2.6.0
-[2020.06.22-20.55.59:301][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.22-20.55.59:389][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
-[2020.06.22-20.55.59:888][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.22-20.55.59:959][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.06.22-20.55.59:964][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.06.22-20.55.59:964][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.22-20.55.59:964][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.22-20.55.59:964][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.06.22-20.56.00:094][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
-[2020.06.22-20.56.00:743][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.072347 seconds
-[2020.06.22-20.56.00:751][  0]LogUObjectArray: 38434 objects as part of root set at end of initial load.
-[2020.06.22-20.56.00:751][  0]LogUObjectAllocator: 6701144 out of 0 bytes used by permanent object pool.
-[2020.06.22-20.56.00:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.22-20.56.01:789][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.22-20.56.01:803][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.22-20.56.01:988][  0]SourceControl: Source control is disabled
-[2020.06.22-20.56.01:988][  0]SourceControl: Source control is disabled
-[2020.06.22-20.56.01:990][  0]SourceControl: Source control is disabled
-[2020.06.22-20.56.01:992][  0]SourceControl: Source control is disabled
-[2020.06.22-20.56.02:198][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.22-20.56.02:339][  0]LogOcInput: OculusInput pre-init called
-[2020.06.22-20.56.02:421][  0]LogEngine: Initializing Engine...
-[2020.06.22-20.56.02:422][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.22-20.56.02:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.06.22-20.56.02:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.06.22-20.56.02:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.06.22-20.56.02:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.06.22-20.56.02:696][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.22-20.56.02:718][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.22-20.56.02:784][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.06.22-20.56.02:868][  0]LogInit: FAudioDevice initialized.
-[2020.06.22-20.56.02:868][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.22-20.56.03:065][  0]LogDerivedDataCache: Saved boot cache 0.20s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.06.22-20.56.03:095][  0]LogInit: Texture streaming: Enabled
-[2020.06.22-20.56.03:128][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.22-20.56.03:148][  0]LogInit: Transaction tracking system initialized
-[2020.06.22-20.56.03:179][  0]BlueprintLog: New page: Editor Load
-[2020.06.22-20.56.03:285][  0]LocalizationService: Localization service is disabled
-[2020.06.22-20.56.03:910][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.06.22-20.56.03:910][  0]LogCook: Display: Mobile HDR setting 1
-[2020.06.22-20.56.03:910][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.06.22-20.56.03:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.06.22-20.56.03:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.06.22-20.56.03:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.06.22-20.56.03:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.06.22-20.56.04:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/' took 0.04s
-[2020.06.22-20.56.04:832][  0]SourceControl: Source control is disabled
-[2020.06.22-20.56.04:833][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/FirstPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.22-20.56.04:891][  0]LightingResults: New page: Lighting Build
-[2020.06.22-20.56.04:895][  0]MapCheck: New page: Map Check
-[2020.06.22-20.56.04:895][  0]LightingResults: New page: Lighting Build
-[2020.06.22-20.56.05:874][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2020.06.22-20.56.06:068][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0023.04] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 441 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
-[2020.06.22-20.56.08:884][  0]LogAIModule: Creating AISystem for world MainMenu
-[2020.06.22-20.56.08:886][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.22-20.56.08:920][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.22-20.56.09:073][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 152.648ms to complete.
-[2020.06.22-20.56.09:073][  0]LogFileHelpers: Loading map 'MainMenu' took 4.241
-[2020.06.22-20.56.09:294][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.56.09:302][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.56.09:311][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.56.09:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.56.09:425][  0]LogCollectionManager: Loaded 0 collections in 0.002195 seconds
-[2020.06.22-20.56.09:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Collections/' took 0.01s
-[2020.06.22-20.56.09:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
-[2020.06.22-20.56.09:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/Collections/' took 0.01s
-[2020.06.22-20.56.09:475][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.06.22-20.56.09:488][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2604 classes and 616 folders.
-[2020.06.22-20.56.09:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2020.06.22-20.56.10:595][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
-[2020.06.22-20.56.10:607][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
-[2020.06.22-20.56.10:635][  0]LogSlate: Took 0.012067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.06.22-20.56.10:653][  0]LogSlate: Took 0.010831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.06.22-20.56.10:665][  0]LogSlate: Took 0.007371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.06.22-20.56.10:739][  0]LogRenderer: Reallocating scene render targets to support 780x652 Format 10 NumSamples 1 (Frame:1).
-[2020.06.22-20.56.10:820][  0]LogSlate: Took 0.005509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.22-20.56.11:013][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2020.06.22-20.56.11:013][  0]LogLoad: (Engine Initialization) Total time: 27.98 seconds
-[2020.06.22-20.56.11:013][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.22-20.56.11:056][  0]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
-[2020.06.22-20.56.11:056][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.06.22-20.56.11:137][  2]LogAssetRegistry: Asset discovery search completed in 11.7708 seconds
-[2020.06.22-20.56.11:139][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.06.22-20.56.11:139][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
-[2020.06.22-20.57.41:394][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.06.22-20.57.41:491][707]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2020.06.22-20.57.41:532][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.06.22-20.57.41:533][707]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.06.22-20.57.41:533][707]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.06.22-20.57.41:556][707]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 10:57:41 AM)
-[2020.06.22-20.57.41:557][707]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
-[2020.06.22-20.57.41:558][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001182s)
-[2020.06.22-20.57.41:559][707]LogAIModule: Creating AISystem for world MainMenu
-[2020.06.22-20.57.41:559][707]LogPlayLevel: PIE: World Init took: (0.001163s)
-[2020.06.22-20.57.41:560][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.002603s)
-[2020.06.22-20.57.41:617][707]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.06.22-20.57.41:629][707]LogInit: FAudioDevice initialized.
-[2020.06.22-20.57.41:653][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.57.41:736][707]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
-[2020.06.22-20.57.41:739][707]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-15.57.41
-[2020.06.22-20.57.41:739][707]LogWorld: Bringing up level for play took: 0.000776
-[2020.06.22-20.57.41:791][707]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 10 classes and 0 folders.
-[2020.06.22-20.57.41:791][707]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.06.22-20.57.41:791][707]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.06.22-20.57.41:791][707]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.57.41:791][707]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2020.06.22-20.57.41:791][707]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.57.41:792][707]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.06.22-20.57.41:792][707]LogInit: WinSock: Socket queue 131072 / 131072
-[2020.06.22-20.57.41:792][707]LogInit: WinSock: I am DESKTOP-TMVGJ7Q (192.168.0.4:0)
-[2020.06.22-20.57.41:792][707]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.06.22-20.57.41:792][707]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2020.06.22-20.57.41:792][707]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.06.22-20.57.41:792][707]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.06.22-20.57.41:792][707]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.06.22-20.57.41:795][707]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.06.22-20.57.41:798][707]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu -0.279
-[2020.06.22-20.57.41:809][707]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 10:57:41 AM)
-[2020.06.22-20.57.41:827][707]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.06.22-20.57.41:837][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.57.41:895][707]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
-[2020.06.22-20.57.41:895][707]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.06.22-20.57.41:895][707]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.06.22-20.57.41:895][707]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.57.41:895][707]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2020.06.22-20.57.41:896][707]LogTemp: Display: ParseSettings for PendingNetDriver
-[2020.06.22-20.57.41:896][707]LogInit: WinSock: Socket queue 32768 / 32768
-[2020.06.22-20.57.41:897][707]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.06.22-20.57.41:897][707]LogNet: Game client on port 17777, rate 10000
-[2020.06.22-20.57.41:901][707]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu -0.176
-[2020.06.22-20.57.41:919][707]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61988
-[2020.06.22-20.57.41:919][707]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 034011103158219167244187206221029026097016215216127115246135
-[2020.06.22-20.57.41:934][707]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 034011103158219167244187206221029026097016215216127115246135
-[2020.06.22-20.57.41:961][707]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2020.06.22-20.57.42:096][708]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61988
-[2020.06.22-20.57.42:096][708]LogHandshake: SendChallengeAck. InCookie: 034011103158219167244187206221029026097016215216127115246135
-[2020.06.22-20.57.42:096][708]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61988
-[2020.06.22-20.57.42:097][708]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.06.22-20.57.42:097][708]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 15:57:42, [UNetConnection] RemoteAddr: 127.0.0.1:61988, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.06.22-20.57.42:097][708]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61988, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.06.22-20.57.42:098][708]LogNetVersion: BattleRoyalGravity 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2402070122)
-[2020.06.22-20.57.42:098][708]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.06.22-20.57.42:121][709]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
-[2020.06.22-20.57.42:121][709]LogNet: Remote platform little endian=1
-[2020.06.22-20.57.42:121][709]LogNet: This platform little endian=1
-[2020.06.22-20.57.42:142][710]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11 userId: DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11
-[2020.06.22-20.57.42:143][710]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
-[2020.06.22-20.57.42:153][710]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
-[2020.06.22-20.57.42:191][710]LogAIModule: Creating AISystem for world MainMenu
-[2020.06.22-20.57.42:191][710]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.57.42:193][710]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-15.57.42
-[2020.06.22-20.57.42:193][710]LogWorld: Bringing up level for play took: 0.000477
-[2020.06.22-20.57.42:193][710]LogLoad: Took 0.040248 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
-[2020.06.22-20.57.42:206][711]LogNet: Client netspeed is 10000
-[2020.06.22-20.57.42:206][711]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11?SplitscreenCount=1
-[2020.06.22-20.57.42:207][711]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2020.06.22-20.57.42:209][711]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-D9DA
-[2020.06.22-20.57.42:223][712]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2020.06.22-20.57.42:310][715]LogOnline: Warning: OSS: No game present to join for session (GameSession)
-[2020.06.22-20.57.45:589][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.06.22-20.57.46:535][848]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
-[2020.06.22-20.57.51:567][  6]LogNet: Browse: /Game/Nivel/LvLTubo?listen
-[2020.06.22-20.57.51:591][  6]LogLoad: LoadMap: /Game/Nivel/LvLTubo?listen
-[2020.06.22-20.57.51:592][  6]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
-[2020.06.22-20.57.51:592][  6]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
-[2020.06.22-20.57.51:592][  6]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11, Channels: 10, Time: 2020.06.22-20.57.51
-[2020.06.22-20.57.51:592][  6]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11
-[2020.06.22-20.57.51:593][  6]LogExit: GameNetDriver IpNetDriver_1 shut down
-[2020.06.22-20.57.58:085][  6]LogAIModule: Creating AISystem for world LvLTubo
-[2020.06.22-20.57.58:086][  6]LogLoad: Game class is 'BRGameMode_C'
-[2020.06.22-20.57.58:087][  6]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.06.22-20.57.58:087][  6]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.06.22-20.57.58:088][  6]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.57.58:088][  6]LogTemp: Display: ParseSettings for IpNetDriver_2
-[2020.06.22-20.57.58:089][  6]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.57.58:089][  6]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.06.22-20.57.58:090][  6]LogInit: WinSock: Socket queue 131072 / 131072
-[2020.06.22-20.57.58:092][  6]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.06.22-20.57.58:092][  6]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
-[2020.06.22-20.57.58:184][  6]LogWorld: Bringing World /Game/Nivel/UEDPIE_2_LvLTubo.LvLTubo up for play (max tick rate 0) at 2020.06.22-15.57.58
-[2020.06.22-20.57.58:185][  6]LogWorld: Bringing up level for play took: 0.091622
-[2020.06.22-20.57.58:186][  6]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.06.22-20.57.58:186][  6]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.06.22-20.57.58:186][  6]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.06.22-20.57.58:191][  6]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2020.06.22-20.57.58:191][  6]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.06.22-20.57.58:191][  6]LogLoad: Took 6.600261 seconds to LoadMap(/Game/Nivel/LvLTubo)
-[2020.06.22-20.57.58:255][  7]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 6.69, Realtime: 6.69. IpNetDriver_0
-[2020.06.22-20.57.58:255][  7]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2020.06.22-20.57.58:255][  7]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61988, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MainMenu_Controller_C_1, Owner: MainMenu_Controller_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11
-[2020.06.22-20.57.58:255][  7]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61988, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MainMenu_Controller_C_1, Owner: MainMenu_Controller_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11, Channels: 10, Time: 2020.06.22-20.57.58
-[2020.06.22-20.57.58:255][  7]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61988, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MainMenu_Controller_C_1, Owner: MainMenu_Controller_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-D9DA97BC45DC0EFD4A412386188A4E11
-[2020.06.22-20.57.58:256][  7]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
-[2020.06.22-20.57.58:257][  7]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 6.69, Realtime: 0.07. IpNetDriver_2
-[2020.06.22-20.58.01:561][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.06.22-20.58.03:006][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.06.22-20.58.05:571][130]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
-[2020.06.22-20.58.10:599][222]LogOnline: Warning: OSS: Cannot create session 'GameSession': session already exists.
-[2020.06.22-20.58.10:599][222]LogBlueprintUserMessages: [Menuprofe_C_0] Server: Error al crear una sesion
-[2020.06.22-20.58.10:600][222]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2020.06.22-20.58.10:600][222]LogGameState: Match State Changed from InProgress to LeavingMap
-[2020.06.22-20.58.10:600][222]LogNet: Browse: 192.168.0.4//Game/FirstPersonBP/Maps/MainMenu
-[2020.06.22-20.58.10:600][222]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.06.22-20.58.10:600][222]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.06.22-20.58.10:600][222]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.06.22-20.58.10:600][222]LogOnline: Warning: STEAM: Steam API disabled!
-[2020.06.22-20.58.10:600][222]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.06.22-20.58.10:602][222]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.58.10:602][222]LogTemp: Display: ParseSettings for IpNetDriver_3
-[2020.06.22-20.58.10:602][222]LogTemp: Display: ParseSettings for PendingNetDriver
-[2020.06.22-20.58.10:603][222]LogInit: WinSock: Socket queue 32768 / 32768
-[2020.06.22-20.58.10:604][222]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.06.22-20.58.10:604][222]LogNet: Game client on port 7777, rate 10000
-[2020.06.22-20.58.10:605][222]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.06.22-20.58.10:605][222]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.4:58715
-[2020.06.22-20.58.10:605][222]LogHandshake: SendConnectChallenge. Timestamp: 19.072641, Cookie: 185071202100072236084080240155137152102060144182004232146040
-[2020.06.22-20.58.10:653][223]LogHandshake: SendChallengeResponse. Timestamp: 19.072641, Cookie: 185071202100072236084080240155137152102060144182004232146040
-[2020.06.22-20.58.10:654][223]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.06.22-20.58.10:654][223]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.4:58715
-[2020.06.22-20.58.10:654][223]LogHandshake: SendChallengeAck. InCookie: 185071202100072236084080240155137152102060144182004232146040
-[2020.06.22-20.58.10:655][223]LogNet: Server accepting post-challenge connection from: 192.168.0.4:58715
-[2020.06.22-20.58.10:655][223]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.06.22-20.58.10:655][223]LogNet: NotifyAcceptedConnection: Name: LvLTubo, TimeStamp: 06/22/20 15:58:10, [UNetConnection] RemoteAddr: 192.168.0.4:58715, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.06.22-20.58.10:655][223]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.0.4:58715, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.06.22-20.58.10:708][224]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.06.22-20.58.10:709][224]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.06.22-20.58.10:709][224]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Nivel/UEDPIE_2_LvLTubo.LvLTubo: Accepted
-[2020.06.22-20.58.10:709][224]LogNet: Remote platform little endian=1
-[2020.06.22-20.58.10:709][224]LogNet: This platform little endian=1
-[2020.06.22-20.58.10:767][225]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2020.06.22-20.58.10:768][225]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C userId: DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C
-[2020.06.22-20.58.10:820][226]LogNet: Welcomed by server (Level: /Game/Nivel/UEDPIE_2_LvLTubo, Game: /Game/GravityBP/BRGameMode.BRGameMode_C)
-[2020.06.22-20.58.10:874][226]LogLoad: LoadMap: 192.168.0.4//Game/Nivel/UEDPIE_2_LvLTubo?game=/Game/GravityBP/BRGameMode.BRGameMode_C
-[2020.06.22-20.58.11:742][226]LogAIModule: Creating AISystem for world LvLTubo
-[2020.06.22-20.58.11:743][226]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.06.22-20.58.11:795][226]LogWorld: Bringing World /Game/Nivel/UEDPIE_1_LvLTubo.LvLTubo up for play (max tick rate 0) at 2020.06.22-15.58.11
-[2020.06.22-20.58.11:796][226]LogWorld: Bringing up level for play took: 0.052053
-[2020.06.22-20.58.11:796][226]LogLoad: Took 0.922319 seconds to LoadMap(/Game/Nivel/UEDPIE_2_LvLTubo)
-[2020.06.22-20.58.11:797][226]LogNet: Client netspeed is 10000
-[2020.06.22-20.58.11:797][226]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C?SplitscreenCount=1
-[2020.06.22-20.58.11:803][226]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2020.06.22-20.58.11:805][226]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-E375
-[2020.06.22-20.58.27:151][382]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.06.22-20.58.38:811][471]LogBlueprintUserMessages: [Bumpers_BP28_101] Client 0: Hello
-[2020.06.22-20.58.38:811][471]LogBlueprintUserMessages: [Bumpers_BP28_101] Client 0: Hello
-[2020.06.22-20.58.38:821][471]LogBlueprintUserMessages: [Bumpers_BP28_101] Server: Hello
-[2020.06.22-20.58.38:821][471]LogBlueprintUserMessages: [Bumpers_BP28_101] Server: Hello
-[2020.06.22-20.58.48:522][550]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.22-20.58.51:322][616]LogBlueprintUserMessages: [Bumpers_BP29_104] Client 0: Hello
-[2020.06.22-20.58.51:322][616]LogBlueprintUserMessages: [Bumpers_BP29_104] Client 0: Hello
-[2020.06.22-20.58.51:333][616]LogBlueprintUserMessages: [Bumpers_BP29_104] Server: Hello
-[2020.06.22-20.58.51:333][616]LogBlueprintUserMessages: [Bumpers_BP29_104] Server: Hello
-[2020.06.22-20.58.59:317][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.58.59:367][682]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2020.06.22-20.58.59:518][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.22-20.58.59:566][682]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
-[2020.06.22-20.58.59:617][682]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.06.22-20.58.59:653][682]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:58715, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: BPPlayerController_C_1, Owner: BPPlayerController_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C
-[2020.06.22-20.58.59:653][682]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.4:58715, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: BPPlayerController_C_1, Owner: BPPlayerController_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C, Channels: 38, Time: 2020.06.22-20.58.59
-[2020.06.22-20.58.59:653][682]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:58715, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: BPPlayerController_C_1, Owner: BPPlayerController_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C
-[2020.06.22-20.58.59:653][682]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: BPPlayerController_C_0, Owner: BPPlayerController_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C
-[2020.06.22-20.58.59:653][682]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: BPPlayerController_C_0, Owner: BPPlayerController_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C, Channels: 38, Time: 2020.06.22-20.58.59
-[2020.06.22-20.58.59:653][682]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: BPPlayerController_C_0, Owner: BPPlayerController_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-E375581E4C5717EE0DA758AABCED224C
-[2020.06.22-20.58.59:661][682]LogExit: GameNetDriver None shut down
-[2020.06.22-20.58.59:661][682]LogExit: GameNetDriver None shut down
-[2020.06.22-20.58.59:682][683]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2020.06.22-20.58.59:683][683]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2020.06.22-20.59.05:566][ 13]LogSlate: Window 'BattleRoyalGravity - Unreal Editor' being destroyed
-[2020.06.22-20.59.05:567][ 13]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.06.22-20.59.05:859][ 14]Cmd: QUIT_EDITOR
-[2020.06.22-20.59.06:789][ 14]LogExit: Preparing to exit.
-[2020.06.22-20.59.06:963][ 14]LogExit: Editor shut down
-[2020.06.22-20.59.06:963][ 14]LogExit: Transaction tracking system shut down
-[2020.06.22-20.59.08:054][ 14]LogExit: Object subsystem successfully closed.
-[2020.06.22-20.59.08:075][ 14]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.06.22-20.59.08:082][ 14]LogD3D11RHI: Shutdown
-[2020.06.22-20.59.08:082][ 14]LogD3D11RHI: CleanupD3DDevice
-[2020.06.22-20.59.08:085][ 14]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.06.22-20.59.08:130][ 14]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (622)
-[2020.06.22-20.59.08:130][ 14]LogModuleManager: Shutting down and abandoning module Voice (620)
-[2020.06.22-20.59.08:130][ 14]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (618)
-[2020.06.22-20.59.08:130][ 14]LogModuleManager: Shutting down and abandoning module SceneOutliner (616)
-[2020.06.22-20.59.08:130][ 14]LogModuleManager: Shutting down and abandoning module AddContentDialog (614)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module WidgetCarousel (613)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module EditorWidgets (610)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module CollectionManager (608)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module StatsViewer (606)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module FoliageEdit (604)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module LandscapeEditor (602)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module MeshPaintMode (600)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (598)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module ActorPickerMode (596)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module GeometryMode (594)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module TextureAlignMode (592)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module BspMode (590)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (588)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (586)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module AutomationWorker (584)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (582)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (578)
-[2020.06.22-20.59.08:131][ 14]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (576)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module PlacementMode (575)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module MaterialEditor (574)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (570)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (568)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (564)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (562)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (560)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (558)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (556)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (554)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (552)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (550)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (548)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (546)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module CharacterAI (544)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module SmartSnapping (542)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module SessionServices (540)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module ViewportSnapping (538)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module ViewportInteraction (536)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module ClothPainter (534)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (533)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module LogVisualizer (530)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module IntroTutorials (528)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (527)
-[2020.06.22-20.59.08:132][ 14]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (524)
-[2020.06.22-20.59.08:133][ 14]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (522)
-[2020.06.22-20.59.08:133][ 14]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (520)
-[2020.06.22-20.59.08:133][ 14]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (518)
-[2020.06.22-20.59.08:133][ 14]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (517)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (514)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (512)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (510)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (508)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module MergeActors (504)
-[2020.06.22-20.59.08:437][ 14]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module XmlParser (492)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module Blutility (490)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
-[2020.06.22-20.59.08:438][ 14]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module AutomationController (470)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module Layers (466)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module Persona (458)
-[2020.06.22-20.59.08:497][ 14]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
-[2020.06.22-20.59.08:498][ 14]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
-[2020.06.22-20.59.08:498][ 14]LogModuleManager: Shutting down and abandoning module Kismet (452)
-[2020.06.22-20.59.08:503][ 14]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module Toolbox (446)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module ModuleUI (444)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module MovieSceneTools (442)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module OutputLog (440)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module GammaUI (438)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module Documentation (436)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module MovieScene (432)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
-[2020.06.22-20.59.08:504][ 14]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module PortalServices (424)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module AIModule (418)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
-[2020.06.22-20.59.08:505][ 14]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
-[2020.06.22-20.59.08:677][ 14]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
-[2020.06.22-20.59.08:677][ 14]LogModuleManager: Shutting down and abandoning module FalseDirectionalGravity (404)
-[2020.06.22-20.59.08:677][ 14]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
-[2020.06.22-20.59.08:677][ 14]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
-[2020.06.22-20.59.08:677][ 14]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module OculusInput (396)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module CableComponent (388)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (376)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
-[2020.06.22-20.59.08:678][ 14]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module HTML5Networking (368)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (366)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (364)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module BackChannel (362)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module AppleVision (360)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module AppleImageUtils (358)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module AlembicImporter (356)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module AlembicLibrary (355)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
-[2020.06.22-20.59.08:683][ 14]LogModuleManager: Shutting down and abandoning module DatasmithContent (346)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (344)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module PluginBrowser (342)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (340)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module PolygonModeling (338)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module MeshEditor (336)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module SourceControl (319)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module MeshPaint (307)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (304)
-[2020.06.22-20.59.08:684][ 14]LogModuleManager: Shutting down and abandoning module AdvancedSessions (302)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
-[2020.06.22-20.59.08:685][ 14]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
-[2020.06.22-20.59.08:786][ 14]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
-[2020.06.22-20.59.08:887][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
-[2020.06.22-20.59.08:887][ 14]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
-[2020.06.22-20.59.08:887][ 14]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
-[2020.06.22-20.59.08:887][ 14]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
-[2020.06.22-20.59.08:887][ 14]LogModuleManager: Shutting down and abandoning module DataValidation (272)
-[2020.06.22-20.59.08:888][ 14]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
-[2020.06.22-20.59.08:888][ 14]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2020.06.22-20.59.08:890][ 14]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2020.06.22-20.59.08:890][ 14]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
-[2020.06.22-20.59.08:890][ 14]LogModuleManager: Shutting down and abandoning module MainFrame (264)
-[2020.06.22-20.59.08:891][ 14]LogModuleManager: Shutting down and abandoning module HotReload (263)
-[2020.06.22-20.59.08:892][ 14]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
-[2020.06.22-20.59.08:895][ 14]LogModuleManager: Shutting down and abandoning module TreeMap (257)
-[2020.06.22-20.59.08:896][ 14]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
-[2020.06.22-20.59.08:896][ 14]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
-[2020.06.22-20.59.08:896][ 14]LogModuleManager: Shutting down and abandoning module Paper2D (250)
-[2020.06.22-20.59.08:896][ 14]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
-[2020.06.22-20.59.08:896][ 14]LogModuleManager: Shutting down and abandoning module WmfMedia (246)
-[2020.06.22-20.59.08:898][ 14]LogModuleManager: Shutting down and abandoning module Media (245)
-[2020.06.22-20.59.08:904][ 14]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module Overlay (234)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module VREditor (230)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2020.06.22-20.59.08:905][ 14]LogModuleManager: Shutting down and abandoning module UMG (216)
-[2020.06.22-20.59.08:906][ 14]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
-[2020.06.22-20.59.08:906][ 14]LogModuleManager: Shutting down and abandoning module Sequencer (214)
-[2020.06.22-20.59.08:906][ 14]LogModuleManager: Shutting down and abandoning module MessageLog (211)
-[2020.06.22-20.59.08:906][ 14]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
-[2020.06.22-20.59.08:906][ 14]LogModuleManager: Shutting down and abandoning module Slate (204)
-[2020.06.22-20.59.08:906][ 14]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
-[2020.06.22-20.59.08:910][ 14]LogModuleManager: Shutting down and abandoning module MRMesh (200)
-[2020.06.22-20.59.08:910][ 14]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (198)
-[2020.06.22-20.59.08:910][ 14]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (196)
-[2020.06.22-20.59.08:910][ 14]LogModuleManager: Shutting down and abandoning module XAudio2 (194)
-[2020.06.22-20.59.08:910][ 14]LogModuleManager: Shutting down and abandoning module Networking (192)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module Core (190)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module LevelSequence (188)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module KismetCompiler (186)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module MeshUtilities (184)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (183)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (182)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (181)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (179)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (177)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (167)
-[2020.06.22-20.59.08:911][ 14]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
-[2020.06.22-20.59.08:958][ 14]LogDerivedDataCache: Shutdown
-[2020.06.22-20.59.08:958][ 14]LogModuleManager: Shutting down and abandoning module XGEController (162)
-[2020.06.22-20.59.08:958][ 14]LogXGEController: Cleaning working directory: C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
-[2020.06.22-20.59.08:959][ 14]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
-[2020.06.22-20.59.08:960][ 14]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
-[2020.06.22-20.59.08:960][ 14]LogModuleManager: Shutting down and abandoning module Messaging (117)
-[2020.06.22-20.59.08:960][ 14]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
-[2020.06.22-20.59.08:961][ 14]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
-[2020.06.22-20.59.08:961][ 14]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module InputCore (90)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module Settings (88)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module PhysXCooking (86)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module SteamVR (84)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
-[2020.06.22-20.59.08:969][ 14]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
-[2020.06.22-20.59.08:970][ 14]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2020.06.22-20.59.08:970][ 14]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2020.06.22-20.59.08:973][ 14]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2020.06.22-20.59.08:973][ 14]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.06.22-20.59.08:973][ 14]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B86D3BCFD-4E41-D21B-4EDD-8FA9921FA25F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=017fe7c947916f9a7657cb8dc26e9cfe%7C858d9f6218454b52ae30699b795dc1d3%7C52edb43f-7cd5-4815-af90-20eb9e7b1fd5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2020.06.22-20.59.08:983][ 14]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2020.06.22-20.59.08:985][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2020.06.22-20.59.08:986][ 14]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.06.22-20.59.08:986][ 14]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2020.06.22-20.59.08:986][ 14]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2020.06.22-20.59.08:986][ 14]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2020.06.22-20.59.08:987][ 14]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2020.06.22-20.59.08:987][ 14]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2020.06.22-20.59.08:989][ 14]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2020.06.22-20.59.08:989][ 14]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2020.06.22-20.59.08:989][ 14]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2020.06.22-20.59.08:990][ 14]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2020.06.22-20.59.08:996][ 14]LogExit: Exiting.
-[2020.06.22-20.59.08:999][ 14]Log file closed, 06/22/20 15:59:08
+[2020.06.22-21.03.32:453][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.22-21.03.32:453][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.22-21.03.32:489][  0]LogHAL: Display: Platform has ~ 8 GB [8500240384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.22-21.03.32:489][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.06.22-21.03.32:489][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.22-21.03.32:490][  0]LogInit: Computer: DESKTOP-TMVGJ7Q
+[2020.06.22-21.03.32:490][  0]LogInit: User: FernanD02
+[2020.06.22-21.03.32:490][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.22-21.03.32:490][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.22-21.03.32:490][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.22-21.03.32:490][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.22-21.03.32:490][  0]LogMemory: Process Physical Memory: 102.06 MB used, 102.06 MB peak
+[2020.06.22-21.03.32:490][  0]LogMemory: Process Virtual Memory: 96.17 MB used, 96.17 MB peak
+[2020.06.22-21.03.32:490][  0]LogMemory: Physical Memory: 5746.63 MB used,  2359.83 MB free, 8106.46 MB total
+[2020.06.22-21.03.32:490][  0]LogMemory: Virtual Memory: 4617.90 MB used,  2359.83 MB free, 134217728.00 MB total
+[2020.06.22-21.03.32:521][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.22-21.03.32:521][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.22-21.03.33:132][  0]LogStreaming: Display: Took  0.612s to InitEngineTextLocalization.
+[2020.06.22-21.03.33:133][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.22-21.03.33:218][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.22-21.03.33:218][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.22-21.03.33:686][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.22-21.03.33:686][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.22-21.03.33:698][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2020.06.22-21.03.33:698][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.22-21.03.34:426][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M270' (Feature Level 11_0)
+[2020.06.22-21.03.34:426][  0]LogD3D11RHI:       4076/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.06.22-21.03.34:432][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.22-21.03.34:432][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.22-21.03.34:432][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.06.22-21.03.34:443][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.22-21.03.34:443][  0]LogD3D11RHI:     GPU DeviceId: 0x6604 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.22-21.03.34:444][  0]LogWindows: EnumDisplayDevices:
+[2020.06.22-21.03.34:444][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2020.06.22-21.03.34:445][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2020.06.22-21.03.34:446][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2020.06.22-21.03.34:447][  0]LogWindows:    3. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:449][  0]LogWindows:    4. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:450][  0]LogWindows:    5. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:452][  0]LogWindows:    6. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:453][  0]LogWindows:    7. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:454][  0]LogWindows:    8. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:456][  0]LogWindows:    9. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:457][  0]LogWindows:    10. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:458][  0]LogWindows:    11. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:459][  0]LogWindows:    12. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:461][  0]LogWindows:    13. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:462][  0]LogWindows:    14. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:463][  0]LogWindows:    15. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:464][  0]LogWindows:    16. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:466][  0]LogWindows:    17. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:467][  0]LogWindows:    18. 'AMD Radeon R7 M270' (P:0 D:0)
+[2020.06.22-21.03.34:468][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:16 
+[2020.06.22-21.03.34:468][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M270
+[2020.06.22-21.03.34:468][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2020.06.22-21.03.34:468][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2020.06.22-21.03.34:468][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.06.22-21.03.34:552][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.22-21.03.34:567][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.22-21.03.34:568][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Intermediate/Shaders/WorkingDirectory/16240/).
+[2020.06.22-21.03.34:569][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealShaderWorkingDir/109DBAC04A0B0579009B7B99967FE395/'.
+[2020.06.22-21.03.35:127][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.22-21.03.35:153][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.06.22-21.03.35:182][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.22-21.03.35:207][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.06.22-21.03.35:232][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.06.22-21.03.35:265][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.22-21.03.35:289][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.22-21.03.35:316][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.22-21.03.35:329][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.06.22-21.03.35:498][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.06.22-21.03.35:582][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.22-21.03.35:582][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.06.22-21.03.35:631][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.22-21.03.35:631][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.06.22-21.03.35:659][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.22-21.03.35:682][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.22-21.03.35:714][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.22-21.03.35:743][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.06.22-21.03.35:761][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.06.22-21.03.35:761][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.22-21.03.35:890][  0]LogXGEController: Cleaning working directory: C:/Users/Dell Inspiron 5548/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.22-21.03.35:891][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.22-21.03.35:891][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.22-21.03.35:891][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.22-21.03.37:611][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.22-21.03.37:712][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.22-21.03.37:713][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.06.22-21.03.37:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.22-21.03.37:713][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.22-21.03.37:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.22-21.03.37:713][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.22-21.03.37:746][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.22-21.03.37:759][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.22-21.03.37:759][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.22-21.03.37:759][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.22-21.03.37:789][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.22-21.03.37:791][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.22-21.03.37:792][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.22-21.03.37:906][  0]LogAssetRegistry: FAssetRegistry took 0.0359 seconds to start up
+[2020.06.22-21.03.38:589][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.22-21.03.38:844][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.22-21.03.38:851][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.22-21.03.38:851][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.22-21.03.38:851][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.22-21.03.38:851][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.06.22-21.03.38:889][  0]LogNetVersion: BattleRoyalGravity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4043254389)
+[2020.06.22-21.03.39:772][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.120776 seconds
+[2020.06.22-21.03.39:787][  0]LogUObjectArray: 38434 objects as part of root set at end of initial load.
+[2020.06.22-21.03.39:787][  0]LogUObjectAllocator: 6701144 out of 0 bytes used by permanent object pool.
+[2020.06.22-21.03.39:787][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.22-21.03.41:331][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.22-21.03.41:346][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.22-21.03.41:586][  0]SourceControl: Source control is disabled
+[2020.06.22-21.03.41:586][  0]SourceControl: Source control is disabled
+[2020.06.22-21.03.41:589][  0]SourceControl: Source control is disabled
+[2020.06.22-21.03.41:592][  0]SourceControl: Source control is disabled
+[2020.06.22-21.03.41:835][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.22-21.03.42:027][  0]LogOcInput: OculusInput pre-init called
+[2020.06.22-21.03.42:134][  0]LogEngine: Initializing Engine...
+[2020.06.22-21.03.42:135][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.22-21.03.42:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.22-21.03.42:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.22-21.03.42:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.22-21.03.42:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.22-21.03.42:543][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.22-21.03.42:569][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.22-21.03.42:646][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.03.42:674][  0]LogInit: FAudioDevice initialized.
+[2020.06.22-21.03.42:674][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.22-21.03.42:977][  0]LogDerivedDataCache: Saved boot cache 0.30s 71MB C:/Users/Dell Inspiron 5548/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.06.22-21.03.42:994][  0]LogInit: Texture streaming: Enabled
+[2020.06.22-21.03.43:030][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.22-21.03.43:051][  0]LogInit: Transaction tracking system initialized
+[2020.06.22-21.03.43:096][  0]BlueprintLog: New page: Editor Load
+[2020.06.22-21.03.43:246][  0]LocalizationService: Localization service is disabled
+[2020.06.22-21.03.43:760][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.22-21.03.43:760][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.22-21.03.43:760][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.06.22-21.03.43:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.06.22-21.03.43:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.22-21.03.43:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.06.22-21.03.43:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.22-21.03.44:018][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/' took 0.04s
+[2020.06.22-21.03.44:018][  0]SourceControl: Source control is disabled
+[2020.06.22-21.03.44:018][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/FirstPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.22-21.03.44:019][  0]LightingResults: New page: Lighting Build
+[2020.06.22-21.03.44:025][  0]MapCheck: New page: Map Check
+[2020.06.22-21.03.44:025][  0]LightingResults: New page: Lighting Build
+[2020.06.22-21.03.45:360][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.06.22-21.03.45:664][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0016.11] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 671 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2020.06.22-21.03.47:228][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.03.47:231][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.22-21.03.47:281][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.22-21.03.47:492][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 211.104ms to complete.
+[2020.06.22-21.03.47:493][  0]LogFileHelpers: Loading map 'MainMenu' took 3.474
+[2020.06.22-21.03.47:686][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.03.47:704][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.03.47:723][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.03.47:738][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.03.47:881][  0]LogCollectionManager: Loaded 0 collections in 0.002691 seconds
+[2020.06.22-21.03.47:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Collections/' took 0.01s
+[2020.06.22-21.03.47:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/Developers/FernanD02/Collections/' took 0.01s
+[2020.06.22-21.03.47:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/Collections/' took 0.01s
+[2020.06.22-21.03.47:937][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.06.22-21.03.47:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0221 seconds. Added 2604 classes and 616 folders.
+[2020.06.22-21.03.47:971][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2020.06.22-21.03.48:051][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2020.06.22-21.03.48:064][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
+[2020.06.22-21.03.48:079][  0]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.22-21.03.48:086][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.22-21.03.48:093][  0]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.22-21.03.48:207][  0]LogRenderer: Reallocating scene render targets to support 780x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.22-21.03.48:308][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.22-21.03.48:527][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2020.06.22-21.03.48:527][  0]LogLoad: (Engine Initialization) Total time: 18.97 seconds
+[2020.06.22-21.03.48:527][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.22-21.03.48:572][  0]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 2. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.22-21.03.48:572][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.22-21.03.48:765][  3]LogAssetRegistry: Asset discovery search completed in 10.8816 seconds
+[2020.06.22-21.03.48:770][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.06.22-21.03.48:770][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2020.06.22-21.04.01:173][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.04.16:996][993]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.22-21.04.17:089][993]LogAssetTools: Warning: Failed to import 'C:\Users\Dell Inspiron 5548\Desktop\ínfdice.jfif'. Unknown extension 'jfif'.
+[2020.06.22-21.04.17:113][993]LogAssetTools: Warning: Failed to import 'C:\Users\Dell Inspiron 5548\Desktop\índgice.jfif'. Unknown extension 'jfif'.
+[2020.06.22-21.04.17:139][993]LogAssetTools: Warning: Failed to import 'C:\Users\Dell Inspiron 5548\Desktop\índice.jfif'. Unknown extension 'jfif'.
+[2020.06.22-21.06.30:878][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dell Inspiron 5548\Downloads\índgice.png)
+[2020.06.22-21.06.30:916][768]LogTexture: Display: Building textures: índgice (BGRA8, 484X154)
+[2020.06.22-21.06.30:995][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dell Inspiron 5548\Downloads\índice.png)
+[2020.06.22-21.06.30:999][768]LogTexture: Display: Building textures: índice (BGRA8, 487X172)
+[2020.06.22-21.06.31:015][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dell Inspiron 5548\Downloads\ínfdice.png)
+[2020.06.22-21.06.31:061][768]LogTexture: Display: Building textures: ínfdice (AutoDXT, 1280X720)
+[2020.06.22-21.06.50:190][828]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/HUD/LobbyHUD.LobbyHUD
+[2020.06.22-21.06.50:876][828]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0036 seconds. Added 116 classes and 0 folders.
+[2020.06.22-21.06.52:692][828]LogSlate: Took 0.024249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.22-21.06.57:111][101]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/HUD/Menu/V2/v3/prueba.prueba
+[2020.06.22-21.07.35:090][399]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/HUD/ínfdice.ínfdice
+[2020.06.22-21.07.35:149][399]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2020.06.22-21.07.37:679][554]LogSlate: Window 'ínfdice*' being destroyed
+[2020.06.22-21.08.19:832][682]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.09.01:454][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.09.01:738][ 96]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/prueba35A354DC48BAAF922D6FB98E8AA55BBB.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.09.01:767][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/índgice" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índgice.uasset" SILENT=true
+[2020.06.22-21.09.01:803][ 96]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/índgiceB1A4E38B42BCEFA41B560691E39C6E8D.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índgice.uasset'
+[2020.06.22-21.09.01:816][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/índice" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índice.uasset" SILENT=true
+[2020.06.22-21.09.01:840][ 96]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/índiceB32A967C4D4D6D3E9E72F49DAE3C743F.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índice.uasset'
+[2020.06.22-21.09.01:856][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/ínfdice" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/ínfdice.uasset" SILENT=true
+[2020.06.22-21.09.01:958][ 96]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/ínfdice565A6D014EFE08108E1545AA741BB814.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/ínfdice.uasset'
+[2020.06.22-21.09.27:761][722]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.09.28:427][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.09.28:484][748]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/pruebaE7C4E59546645797BEF720BBB26408EE.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.09.54:479][ 70]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.10.43:011][724]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.10.52:959][360]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.14.02:987][617]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/MainMenu' took 0.040
+[2020.06.22-21.14.03:079][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/Menu/V2/v3/prueba] ([1] browsable assets)...
+[2020.06.22-21.14.03:079][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/Menu/V2/v3/prueba]
+[2020.06.22-21.14.03:192][617]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/prueba_Auto1CAA8018A4E210ED24D631B910980E4F3.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/Autosaves/Game/HUD/Menu/V2/v3/prueba_Auto1.uasset'
+[2020.06.22-21.14.03:196][617]LogFileHelpers: Auto-saving content packages took 0.208
+[2020.06.22-21.17.28:884][777]LogEditorFactories: Performing atomic reimport of [C:/Users/Dell Inspiron 5548/Desktop/índice.png]
+[2020.06.22-21.17.28:884][777]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Dell Inspiron 5548/Desktop/índice.png)
+[2020.06.22-21.17.28:944][777]LogTexture: Display: Building textures: índice (BGRA8, 487X172)
+[2020.06.22-21.17.28:952][777]LogEditorFactories: -- imported successfully
+[2020.06.22-21.17.28:970][777]LogEditorFactories: Performing atomic reimport of [C:/Users/Dell Inspiron 5548/Desktop/índgice.png]
+[2020.06.22-21.17.28:970][777]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Dell Inspiron 5548/Desktop/índgice.png)
+[2020.06.22-21.17.28:975][777]LogTexture: Display: Building textures: índgice (BGRA8, 484X154)
+[2020.06.22-21.17.28:981][777]LogEditorFactories: -- imported successfully
+[2020.06.22-21.17.46:517][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.17.46:575][  7]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/pruebaB97C3787455685D6155AC7BDC619376F.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.17.46:587][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/índgice" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índgice.uasset" SILENT=true
+[2020.06.22-21.17.46:802][  7]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/índgice485ECD174A64448F01FF009B33D13489.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índgice.uasset'
+[2020.06.22-21.17.46:824][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/índice" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índice.uasset" SILENT=true
+[2020.06.22-21.17.47:091][  7]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/índice7490E86045F309D2E0C94CA750BFAC83.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/índice.uasset'
+[2020.06.22-21.20.14:312][369]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.20.14:338][369]LogBlueprint: Warning: [Compiler prueba] Could not find a variable named "TextBlock_79" in 'prueba_C'.
+Make sure 'prueba_C' has been compiled for  Get TextBlock_79
+[2020.06.22-21.20.14:338][369]LogBlueprint: Warning: [Compiler prueba] Could not find a variable named "TextBlock_79" in 'prueba_C'.
+Make sure 'prueba_C' has been compiled for  Get TextBlock_79
+[2020.06.22-21.20.14:339][369]LogBlueprint: Error: [Compiler prueba] The property associated with  Text Block 79  could not be found in '/Game/HUD/Menu/V2/v3/prueba.prueba_C'
+[2020.06.22-21.20.14:339][369]LogBlueprint: Error: [Compiler prueba] The property associated with  Text Block 79  could not be found in '/Game/HUD/Menu/V2/v3/prueba.prueba_C'
+[2020.06.22-21.20.14:662][369]LogBlueprint: Warning: [Compiler prueba] [1005.10] Compile of prueba failed. 2 Fatal Issue(s) 2 Warning(s) [in 349 ms] (/Game/HUD/Menu/V2/v3/prueba.prueba)
+[2020.06.22-21.20.18:130][578]LogSlate: Took 0.020829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.22-21.21.11:409][692]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.21.54:814][746]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.21.55:540][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.21.55:609][802]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/pruebaD0794E81419E2755933743AB1B84FE30.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.22.00:643][255]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.22-21.22.00:754][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-21.22.00:798][255]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.00:798][255]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.00:884][255]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:22:00 AM)
+[2020.06.22-21.22.00:905][255]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
+[2020.06.22-21.22.00:963][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058994s)
+[2020.06.22-21.22.00:966][255]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.22.00:968][255]LogPlayLevel: PIE: World Init took: (0.004631s)
+[2020.06.22-21.22.00:969][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.065095s)
+[2020.06.22-21.22.01:127][255]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.22.01:141][255]LogInit: FAudioDevice initialized.
+[2020.06.22-21.22.01:209][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.01:338][255]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
+[2020.06.22-21.22.01:363][255]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.22.01
+[2020.06.22-21.22.01:383][255]LogWorld: Bringing up level for play took: 0.021015
+[2020.06.22-21.22.01:783][255]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0829 seconds. Added 10 classes and 0 folders.
+[2020.06.22-21.22.01:810][255]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.01:810][255]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.01:840][255]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.01:850][255]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2020.06.22-21.22.01:850][255]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.01:858][255]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.22.01:858][255]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.22.01:860][255]LogInit: WinSock: I am DESKTOP-TMVGJ7Q (192.168.0.4:0)
+[2020.06.22-21.22.01:863][255]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.01:865][255]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.06.22-21.22.01:865][255]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.22.01:866][255]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.22.01:866][255]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.22.01:975][255]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.22.01:984][255]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu 1.907
+[2020.06.22-21.22.02:022][255]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:22:02 AM)
+[2020.06.22-21.22.02:052][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.22.02:060][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.02:123][255]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.22.02:123][255]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.02:123][255]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.02:123][255]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.02:123][255]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2020.06.22-21.22.02:123][255]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.22.02:123][255]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.22.02:131][255]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.02:133][255]LogNet: Game client on port 17777, rate 10000
+[2020.06.22-21.22.02:143][255]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu 2.066
+[2020.06.22-21.22.02:164][255]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61628
+[2020.06.22-21.22.02:164][255]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 058170226092124205182116207183080033157088215127059216064117
+[2020.06.22-21.22.02:194][255]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 058170226092124205182116207183080033157088215127059216064117
+[2020.06.22-21.22.02:229][255]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2020.06.22-21.22.02:414][256]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61628
+[2020.06.22-21.22.02:415][256]LogHandshake: SendChallengeAck. InCookie: 058170226092124205182116207183080033157088215127059216064117
+[2020.06.22-21.22.02:415][256]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61628
+[2020.06.22-21.22.02:416][256]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.02:416][256]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 16:22:02, [UNetConnection] RemoteAddr: 127.0.0.1:61628, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.02:416][256]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61628, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.02:440][256]LogNetVersion: BattleRoyalGravity 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2402070122)
+[2020.06.22-21.22.02:440][256]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.02:471][257]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2020.06.22-21.22.02:471][257]LogNet: Remote platform little endian=1
+[2020.06.22-21.22.02:471][257]LogNet: This platform little endian=1
+[2020.06.22-21.22.02:524][258]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095 userId: DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095
+[2020.06.22-21.22.02:525][258]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
+[2020.06.22-21.22.02:525][258]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
+[2020.06.22-21.22.02:581][258]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.22.02:581][258]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.02:583][258]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.22.02
+[2020.06.22-21.22.02:583][258]LogWorld: Bringing up level for play took: 0.000458
+[2020.06.22-21.22.02:583][258]LogLoad: Took 0.058041 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
+[2020.06.22-21.22.02:618][259]LogNet: Client netspeed is 10000
+[2020.06.22-21.22.02:618][259]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095?SplitscreenCount=1
+[2020.06.22-21.22.02:618][259]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.02:676][259]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-8B21
+[2020.06.22-21.22.02:695][260]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.02:696][260]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.04:864][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.22.04:920][328]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.22.04:986][328]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.22-21.22.04:989][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.05:039][328]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.22.05:075][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-21.22.05:131][328]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61628, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095
+[2020.06.22-21.22.05:132][328]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61628, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095, Channels: 2, Time: 2020.06.22-21.22.05
+[2020.06.22-21.22.05:132][328]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61628, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095
+[2020.06.22-21.22.05:132][328]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095
+[2020.06.22-21.22.05:132][328]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095, Channels: 2, Time: 2020.06.22-21.22.05
+[2020.06.22-21.22.05:132][328]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-8B21ABB6436CE84DF85FED89924C3095
+[2020.06.22-21.22.05:218][328]LogExit: GameNetDriver None shut down
+[2020.06.22-21.22.05:219][328]LogExit: GameNetDriver None shut down
+[2020.06.22-21.22.05:272][329]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.06.22-21.22.05:272][329]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.06.22-21.22.16:872][272]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.22.17:892][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.22.17:950][348]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/prueba32042F1740DDA3359D5DC2873775AD27.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.22.19:740][470]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.22-21.22.19:814][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-21.22.19:825][470]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:22:19 AM)
+[2020.06.22-21.22.19:826][470]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
+[2020.06.22-21.22.19:827][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000845s)
+[2020.06.22-21.22.19:827][470]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.22.19:828][470]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2020.06.22-21.22.19:828][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.002322s)
+[2020.06.22-21.22.19:908][470]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.22.19:920][470]LogInit: FAudioDevice initialized.
+[2020.06.22-21.22.19:944][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.20:006][470]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
+[2020.06.22-21.22.20:007][470]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.22.20
+[2020.06.22-21.22.20:008][470]LogWorld: Bringing up level for play took: 0.000809
+[2020.06.22-21.22.20:021][470]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.20:021][470]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.20:021][470]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.20:021][470]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2020.06.22-21.22.20:021][470]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.20:021][470]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.22.20:021][470]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.22.20:022][470]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.20:022][470]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2020.06.22-21.22.20:022][470]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.22.20:022][470]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.22.20:022][470]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.22.20:024][470]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.22.20:029][470]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu -0.049
+[2020.06.22-21.22.20:041][470]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:22:20 AM)
+[2020.06.22-21.22.20:061][470]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.22.20:071][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.20:138][470]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.22.20:139][470]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.20:139][470]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.20:139][470]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.20:139][470]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2020.06.22-21.22.20:139][470]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.22.20:139][470]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.22.20:140][470]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.20:140][470]LogNet: Game client on port 17777, rate 10000
+[2020.06.22-21.22.20:143][470]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu 0.065
+[2020.06.22-21.22.20:161][470]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61629
+[2020.06.22-21.22.20:161][470]LogHandshake: SendConnectChallenge. Timestamp: 0.009216, Cookie: 110141234175001120235237221188043012180012067035041075119160
+[2020.06.22-21.22.20:162][470]LogHandshake: SendChallengeResponse. Timestamp: 0.009216, Cookie: 110141234175001120235237221188043012180012067035041075119160
+[2020.06.22-21.22.20:280][471]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61629
+[2020.06.22-21.22.20:280][471]LogHandshake: SendChallengeAck. InCookie: 110141234175001120235237221188043012180012067035041075119160
+[2020.06.22-21.22.20:281][471]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61629
+[2020.06.22-21.22.20:281][471]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.20:281][471]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 16:22:20, [UNetConnection] RemoteAddr: 127.0.0.1:61629, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.20:281][471]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61629, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.20:283][471]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.20:308][472]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2020.06.22-21.22.20:308][472]LogNet: Remote platform little endian=1
+[2020.06.22-21.22.20:308][472]LogNet: This platform little endian=1
+[2020.06.22-21.22.20:338][473]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9 userId: DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9
+[2020.06.22-21.22.20:338][473]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
+[2020.06.22-21.22.20:340][473]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
+[2020.06.22-21.22.20:388][473]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.22.20:389][473]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.20:390][473]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.22.20
+[2020.06.22-21.22.20:390][473]LogWorld: Bringing up level for play took: 0.000433
+[2020.06.22-21.22.20:390][473]LogLoad: Took 0.049933 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
+[2020.06.22-21.22.20:403][474]LogNet: Client netspeed is 10000
+[2020.06.22-21.22.20:403][474]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9?SplitscreenCount=1
+[2020.06.22-21.22.20:403][474]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.20:405][474]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-5910
+[2020.06.22-21.22.20:420][475]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.20:505][478]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.25:568][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.22.25:686][639]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.22.25:741][639]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.22-21.22.25:741][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.25:791][639]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.22.25:829][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-21.22.25:877][639]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61629, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9
+[2020.06.22-21.22.25:877][639]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61629, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9, Channels: 10, Time: 2020.06.22-21.22.25
+[2020.06.22-21.22.25:877][639]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61629, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9
+[2020.06.22-21.22.25:877][639]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9
+[2020.06.22-21.22.25:877][639]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9, Channels: 10, Time: 2020.06.22-21.22.25
+[2020.06.22-21.22.25:877][639]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-59100F5A455B3A46E0F12CBBA06394E9
+[2020.06.22-21.22.25:882][639]LogExit: GameNetDriver None shut down
+[2020.06.22-21.22.25:883][639]LogExit: GameNetDriver None shut down
+[2020.06.22-21.22.25:904][640]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.06.22-21.22.25:904][640]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.06.22-21.22.44:134][ 96]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.22.45:166][140]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.22-21.22.45:211][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-21.22.45:223][140]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:22:45 AM)
+[2020.06.22-21.22.45:223][140]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
+[2020.06.22-21.22.45:224][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000847s)
+[2020.06.22-21.22.45:225][140]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.22.45:225][140]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2020.06.22-21.22.45:225][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.001951s)
+[2020.06.22-21.22.45:293][140]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.22.45:304][140]LogInit: FAudioDevice initialized.
+[2020.06.22-21.22.45:329][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.45:387][140]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
+[2020.06.22-21.22.45:388][140]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.22.45
+[2020.06.22-21.22.45:389][140]LogWorld: Bringing up level for play took: 0.000851
+[2020.06.22-21.22.45:401][140]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.06.22-21.22.45:402][140]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.45:402][140]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.45:402][140]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.45:402][140]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2020.06.22-21.22.45:402][140]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.45:403][140]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.22.45:403][140]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.22.45:403][140]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.45:403][140]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2020.06.22-21.22.45:403][140]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.22.45:403][140]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.22.45:403][140]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.22.45:405][140]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.22.45:408][140]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu -0.669
+[2020.06.22-21.22.45:420][140]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:22:45 AM)
+[2020.06.22-21.22.45:438][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.22.45:447][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.45:509][140]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.22.45:509][140]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.22.45:509][140]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.22.45:509][140]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.45:510][140]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2020.06.22-21.22.45:510][140]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.22.45:510][140]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.22.45:510][140]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.45:510][140]LogNet: Game client on port 17777, rate 10000
+[2020.06.22-21.22.45:513][140]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu -0.564
+[2020.06.22-21.22.45:533][140]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59834
+[2020.06.22-21.22.45:533][140]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 076212029102195159080140000147178061164072216055000215057196
+[2020.06.22-21.22.45:534][140]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 076212029102195159080140000147178061164072216055000215057196
+[2020.06.22-21.22.45:665][141]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59834
+[2020.06.22-21.22.45:665][141]LogHandshake: SendChallengeAck. InCookie: 076212029102195159080140000147178061164072216055000215057196
+[2020.06.22-21.22.45:665][141]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59834
+[2020.06.22-21.22.45:666][141]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.22.45:666][141]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 16:22:45, [UNetConnection] RemoteAddr: 127.0.0.1:59834, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.45:666][141]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59834, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.45:667][141]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.22.45:702][142]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2020.06.22-21.22.45:703][142]LogNet: Remote platform little endian=1
+[2020.06.22-21.22.45:703][142]LogNet: This platform little endian=1
+[2020.06.22-21.22.45:743][143]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B userId: DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B
+[2020.06.22-21.22.45:743][143]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
+[2020.06.22-21.22.45:746][143]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
+[2020.06.22-21.22.45:794][143]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.22.45:795][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.22.45:795][143]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.22.45
+[2020.06.22-21.22.45:796][143]LogWorld: Bringing up level for play took: 0.000436
+[2020.06.22-21.22.45:796][143]LogLoad: Took 0.050633 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
+[2020.06.22-21.22.45:821][144]LogNet: Client netspeed is 10000
+[2020.06.22-21.22.45:821][144]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B?SplitscreenCount=1
+[2020.06.22-21.22.45:821][144]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.45:821][144]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.06.22-21.22.45:823][144]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-7E33
+[2020.06.22-21.22.45:852][145]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.45:888][146]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.22.48:072][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.22.48:160][216]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.22.48:211][216]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.22-21.22.48:211][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.22.48:268][216]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.22.48:303][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-21.22.48:357][216]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59834, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B
+[2020.06.22-21.22.48:357][216]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59834, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B, Channels: 4, Time: 2020.06.22-21.22.48
+[2020.06.22-21.22.48:357][216]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59834, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B
+[2020.06.22-21.22.48:357][216]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B
+[2020.06.22-21.22.48:357][216]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B, Channels: 6, Time: 2020.06.22-21.22.48
+[2020.06.22-21.22.48:357][216]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-7E33FB39406B971E0B6848925A7CFB0B
+[2020.06.22-21.22.48:361][216]LogExit: GameNetDriver None shut down
+[2020.06.22-21.22.48:362][216]LogExit: GameNetDriver None shut down
+[2020.06.22-21.22.48:391][217]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.06.22-21.22.48:392][217]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.06.22-21.22.56:466][697]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.23.09:226][586]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.23.15:604][948]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.23.17:414][ 52]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.23.18:069][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.23.18:131][ 70]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/prueba772FA6B34DDC111D4B9490B0612AA431.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.23.18:879][133]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.22-21.23.18:924][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-21.23.18:935][133]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:23:18 AM)
+[2020.06.22-21.23.18:936][133]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
+[2020.06.22-21.23.18:937][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000826s)
+[2020.06.22-21.23.18:938][133]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.23.18:938][133]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2020.06.22-21.23.18:938][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.002165s)
+[2020.06.22-21.23.19:005][133]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.23.19:017][133]LogInit: FAudioDevice initialized.
+[2020.06.22-21.23.19:043][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.23.19:110][133]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
+[2020.06.22-21.23.19:112][133]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.23.19
+[2020.06.22-21.23.19:113][133]LogWorld: Bringing up level for play took: 0.001374
+[2020.06.22-21.23.19:126][133]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.06.22-21.23.19:127][133]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.23.19:127][133]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.23.19:127][133]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.19:127][133]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2020.06.22-21.23.19:127][133]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.19:127][133]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.23.19:128][133]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.23.19:129][133]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.23.19:129][133]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2020.06.22-21.23.19:130][133]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.23.19:130][133]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.23.19:130][133]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.23.19:132][133]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.23.19:136][133]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu 1.058
+[2020.06.22-21.23.19:150][133]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:23:19 AM)
+[2020.06.22-21.23.19:169][133]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.23.19:177][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.23.19:240][133]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.23.19:240][133]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.23.19:240][133]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.23.19:241][133]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.19:241][133]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2020.06.22-21.23.19:241][133]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.23.19:241][133]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.23.19:241][133]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.23.19:242][133]LogNet: Game client on port 17777, rate 10000
+[2020.06.22-21.23.19:244][133]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu 1.167
+[2020.06.22-21.23.19:261][133]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63835
+[2020.06.22-21.23.19:261][133]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 041030183239161074082130182096053220046020204190168147034041
+[2020.06.22-21.23.19:263][133]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 041030183239161074082130182096053220046020204190168147034041
+[2020.06.22-21.23.19:400][134]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63835
+[2020.06.22-21.23.19:400][134]LogHandshake: SendChallengeAck. InCookie: 041030183239161074082130182096053220046020204190168147034041
+[2020.06.22-21.23.19:400][134]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63835
+[2020.06.22-21.23.19:401][134]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.23.19:401][134]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 16:23:19, [UNetConnection] RemoteAddr: 127.0.0.1:63835, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.23.19:401][134]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63835, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.23.19:402][134]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.23.19:434][135]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2020.06.22-21.23.19:434][135]LogNet: Remote platform little endian=1
+[2020.06.22-21.23.19:434][135]LogNet: This platform little endian=1
+[2020.06.22-21.23.19:476][136]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013 userId: DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013
+[2020.06.22-21.23.19:476][136]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
+[2020.06.22-21.23.19:479][136]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
+[2020.06.22-21.23.19:534][136]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.23.19:535][136]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.19:537][136]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.23.19
+[2020.06.22-21.23.19:537][136]LogWorld: Bringing up level for play took: 0.000703
+[2020.06.22-21.23.19:538][136]LogLoad: Took 0.058896 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
+[2020.06.22-21.23.19:565][137]LogNet: Client netspeed is 10000
+[2020.06.22-21.23.19:565][137]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013?SplitscreenCount=1
+[2020.06.22-21.23.19:566][137]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.23.19:566][137]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.06.22-21.23.19:567][137]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-0251
+[2020.06.22-21.23.19:598][138]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.23.19:627][139]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.23.22:007][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.23.22:118][216]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.23.22:166][216]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.22-21.23.22:167][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.23.22:219][216]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.23.22:264][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-21.23.22:321][216]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63835, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013
+[2020.06.22-21.23.22:321][216]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63835, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013, Channels: 8, Time: 2020.06.22-21.23.22
+[2020.06.22-21.23.22:321][216]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63835, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013
+[2020.06.22-21.23.22:321][216]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013
+[2020.06.22-21.23.22:321][216]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013, Channels: 8, Time: 2020.06.22-21.23.22
+[2020.06.22-21.23.22:321][216]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-02519031477C811D4B4896A3BDC46013
+[2020.06.22-21.23.22:325][216]LogExit: GameNetDriver None shut down
+[2020.06.22-21.23.22:326][216]LogExit: GameNetDriver None shut down
+[2020.06.22-21.23.22:358][217]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.06.22-21.23.22:359][217]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.06.22-21.23.27:207][485]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.23.34:159][887]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.22-21.23.35:397][954]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.23.48:864][786]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.23.49:780][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.23.49:838][818]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/prueba8B5763CF406D485B2812BE8881F7D6B9.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.23.51:318][924]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.22-21.23.51:364][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-21.23.51:377][924]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:23:51 AM)
+[2020.06.22-21.23.51:377][924]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
+[2020.06.22-21.23.51:378][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000830s)
+[2020.06.22-21.23.51:379][924]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.23.51:379][924]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2020.06.22-21.23.51:379][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.001921s)
+[2020.06.22-21.23.51:449][924]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.23.51:461][924]LogInit: FAudioDevice initialized.
+[2020.06.22-21.23.51:483][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.23.51:545][924]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
+[2020.06.22-21.23.51:548][924]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.23.51
+[2020.06.22-21.23.51:548][924]LogWorld: Bringing up level for play took: 0.000948
+[2020.06.22-21.23.51:563][924]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.23.51:563][924]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.23.51:563][924]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.51:563][924]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2020.06.22-21.23.51:563][924]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.51:563][924]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.23.51:563][924]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.23.51:564][924]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.23.51:564][924]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2020.06.22-21.23.51:564][924]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.23.51:564][924]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.23.51:564][924]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.23.51:566][924]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.23.51:570][924]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu -0.508
+[2020.06.22-21.23.51:583][924]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:23:51 AM)
+[2020.06.22-21.23.51:602][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.23.51:612][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.23.51:677][924]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.23.51:677][924]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.23.51:677][924]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.23.51:677][924]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.51:677][924]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2020.06.22-21.23.51:677][924]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.23.51:678][924]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.23.51:679][924]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.23.51:679][924]LogNet: Game client on port 17777, rate 10000
+[2020.06.22-21.23.51:684][924]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu -0.394
+[2020.06.22-21.23.51:703][924]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58299
+[2020.06.22-21.23.51:703][924]LogHandshake: SendConnectChallenge. Timestamp: 0.009326, Cookie: 147140169087035197181240164000055033251251192211080168175072
+[2020.06.22-21.23.51:704][924]LogHandshake: SendChallengeResponse. Timestamp: 0.009326, Cookie: 147140169087035197181240164000055033251251192211080168175072
+[2020.06.22-21.23.51:824][925]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58299
+[2020.06.22-21.23.51:825][925]LogHandshake: SendChallengeAck. InCookie: 147140169087035197181240164000055033251251192211080168175072
+[2020.06.22-21.23.51:825][925]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58299
+[2020.06.22-21.23.51:825][925]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.23.51:825][925]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 16:23:51, [UNetConnection] RemoteAddr: 127.0.0.1:58299, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.23.51:825][925]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58299, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.23.51:826][925]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.23.51:839][926]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2020.06.22-21.23.51:839][926]LogNet: Remote platform little endian=1
+[2020.06.22-21.23.51:839][926]LogNet: This platform little endian=1
+[2020.06.22-21.23.51:864][927]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06 userId: DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06
+[2020.06.22-21.23.51:865][927]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
+[2020.06.22-21.23.51:871][927]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
+[2020.06.22-21.23.51:923][927]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.23.51:923][927]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.23.51:924][927]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.23.51
+[2020.06.22-21.23.51:924][927]LogWorld: Bringing up level for play took: 0.000370
+[2020.06.22-21.23.51:924][927]LogLoad: Took 0.052886 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
+[2020.06.22-21.23.51:936][928]LogNet: Client netspeed is 10000
+[2020.06.22-21.23.51:937][928]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06?SplitscreenCount=1
+[2020.06.22-21.23.51:938][928]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.23.51:939][928]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-2C8A
+[2020.06.22-21.23.51:953][929]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.23.52:006][931]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.23.57:705][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.23.57:841][113]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.23.57:892][113]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.22-21.23.57:892][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.23.57:946][113]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.23.57:984][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-21.23.58:039][113]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58299, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06
+[2020.06.22-21.23.58:039][113]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58299, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06, Channels: 2, Time: 2020.06.22-21.23.58
+[2020.06.22-21.23.58:039][113]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58299, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06
+[2020.06.22-21.23.58:039][113]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06
+[2020.06.22-21.23.58:039][113]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06, Channels: 2, Time: 2020.06.22-21.23.58
+[2020.06.22-21.23.58:039][113]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-2C8A355748ED1BB1FC134D86ACE32F06
+[2020.06.22-21.23.58:043][113]LogExit: GameNetDriver None shut down
+[2020.06.22-21.23.58:043][113]LogExit: GameNetDriver None shut down
+[2020.06.22-21.23.58:072][114]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.06.22-21.23.58:072][114]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.06.22-21.24.07:638][762]BlueprintLog: New page: Compile prueba
+[2020.06.22-21.24.08:314][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Menu/V2/v3/prueba" FILE="../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset" SILENT=true
+[2020.06.22-21.24.08:378][781]LogSavePackage: Moving '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Saved/prueba7AB1ABFE4C78564780944A82091A97D0.tmp' to '../../../../../../Users/Dell Inspiron 5548/Documents/BattleRoyal/BattleRoyalGravity/Content/HUD/Menu/V2/v3/prueba.uasset'
+[2020.06.22-21.24.09:588][860]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.22-21.24.09:636][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-21.24.09:648][860]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:24:09 AM)
+[2020.06.22-21.24.09:648][860]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu
+[2020.06.22-21.24.09:649][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000930s)
+[2020.06.22-21.24.09:650][860]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.24.09:651][860]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2020.06.22-21.24.09:651][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu (0.002713s)
+[2020.06.22-21.24.09:719][860]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.06.22-21.24.09:731][860]LogInit: FAudioDevice initialized.
+[2020.06.22-21.24.09:756][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.24.09:817][860]LogLoad: Game class is 'BR_GameMode_MainMenu_C'
+[2020.06.22-21.24.09:819][860]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.24.09
+[2020.06.22-21.24.09:819][860]LogWorld: Bringing up level for play took: 0.000920
+[2020.06.22-21.24.09:833][860]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.24.09:833][860]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.24.09:833][860]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.24.09:833][860]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2020.06.22-21.24.09:833][860]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.24.09:834][860]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.24.09:834][860]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.24.09:834][860]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.24.09:834][860]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2020.06.22-21.24.09:834][860]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.24.09:834][860]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.24.09:834][860]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.24.09:836][860]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.24.09:840][860]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu -0.238
+[2020.06.22-21.24.09:852][860]PIE: New page: PIE session: MainMenu (Jun 22, 2020, 11:24:09 AM)
+[2020.06.22-21.24.09:872][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.24.09:879][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.24.09:945][860]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.24.09:945][860]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.24.09:945][860]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.24.09:946][860]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.24.09:946][860]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2020.06.22-21.24.09:946][860]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.24.09:946][860]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.24.09:947][860]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.24.09:947][860]LogNet: Game client on port 17777, rate 10000
+[2020.06.22-21.24.09:950][860]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/MainMenu -0.126
+[2020.06.22-21.24.09:970][860]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58300
+[2020.06.22-21.24.09:970][860]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 055240114178123166047043226151143029054255104233065033244093
+[2020.06.22-21.24.09:971][860]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 055240114178123166047043226151143029054255104233065033244093
+[2020.06.22-21.24.10:100][861]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58300
+[2020.06.22-21.24.10:100][861]LogHandshake: SendChallengeAck. InCookie: 055240114178123166047043226151143029054255104233065033244093
+[2020.06.22-21.24.10:100][861]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58300
+[2020.06.22-21.24.10:102][861]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.24.10:102][861]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/20 16:24:10, [UNetConnection] RemoteAddr: 127.0.0.1:58300, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.24.10:102][861]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58300, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.24.10:104][861]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.24.10:124][862]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2020.06.22-21.24.10:124][862]LogNet: Remote platform little endian=1
+[2020.06.22-21.24.10:124][862]LogNet: This platform little endian=1
+[2020.06.22-21.24.10:149][863]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA userId: DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA
+[2020.06.22-21.24.10:151][863]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu, Game: /Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C)
+[2020.06.22-21.24.10:154][863]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu?game=/Game/GravityBP/Menu/BR_GameMode_MainMenu.BR_GameMode_MainMenu_C
+[2020.06.22-21.24.10:204][863]LogAIModule: Creating AISystem for world MainMenu
+[2020.06.22-21.24.10:205][863]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.24.10:206][863]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2020.06.22-16.24.10
+[2020.06.22-21.24.10:206][863]LogWorld: Bringing up level for play took: 0.000459
+[2020.06.22-21.24.10:206][863]LogLoad: Took 0.052565 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_MainMenu)
+[2020.06.22-21.24.10:220][864]LogNet: Client netspeed is 10000
+[2020.06.22-21.24.10:220][864]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA?SplitscreenCount=1
+[2020.06.22-21.24.10:221][864]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.24.10:223][864]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-9514
+[2020.06.22-21.24.10:237][865]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.24.10:293][867]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2020.06.22-21.24.34:451][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.24.39:811][795]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.06.22-21.24.44:886][952]LogNet: Browse: /Game/Nivel/LvLTubo?listen
+[2020.06.22-21.24.44:887][952]LogLoad: LoadMap: /Game/Nivel/LvLTubo?listen
+[2020.06.22-21.24.44:887][952]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2020.06.22-21.24.44:887][952]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2020.06.22-21.24.44:887][952]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA, Channels: 10, Time: 2020.06.22-21.24.44
+[2020.06.22-21.24.44:887][952]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: MainMenu_Controller_C_0, Owner: MainMenu_Controller_C_0, UniqueId: NULL:DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA
+[2020.06.22-21.24.44:887][952]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2020.06.22-21.25.01:780][952]LogAIModule: Creating AISystem for world LvLTubo
+[2020.06.22-21.25.01:781][952]LogLoad: Game class is 'BRGameMode_C'
+[2020.06.22-21.25.01:781][952]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.25.01:781][952]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.25.01:782][952]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.25.01:782][952]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2020.06.22-21.25.01:782][952]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.25.01:783][952]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.06.22-21.25.01:783][952]LogInit: WinSock: Socket queue 131072 / 131072
+[2020.06.22-21.25.01:784][952]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.25.01:784][952]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2020.06.22-21.25.02:146][952]LogWorld: Bringing World /Game/Nivel/UEDPIE_2_LvLTubo.LvLTubo up for play (max tick rate 0) at 2020.06.22-16.25.02
+[2020.06.22-21.25.02:179][952]LogWorld: Bringing up level for play took: 0.393677
+[2020.06.22-21.25.02:212][952]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.25.02:212][952]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.22-21.25.02:212][952]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.25.02:599][952]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2020.06.22-21.25.02:601][952]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.22-21.25.02:601][952]LogLoad: Took 17.713908 seconds to LoadMap(/Game/Nivel/LvLTubo)
+[2020.06.22-21.25.03:318][953]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 18.04, Realtime: 18.43. IpNetDriver_10
+[2020.06.22-21.25.03:319][953]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2020.06.22-21.25.03:319][953]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58300, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: MainMenu_Controller_C_1, Owner: MainMenu_Controller_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA
+[2020.06.22-21.25.03:319][953]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58300, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: MainMenu_Controller_C_1, Owner: MainMenu_Controller_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA, Channels: 10, Time: 2020.06.22-21.25.03
+[2020.06.22-21.25.03:319][953]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58300, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: MainMenu_Controller_C_1, Owner: MainMenu_Controller_C_1, UniqueId: NULL:DESKTOP-TMVGJ7Q-9514D16B4307D502FBCD298C52F3A9CA
+[2020.06.22-21.25.03:319][953]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2020.06.22-21.25.03:320][953]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 18.04, Realtime: 0.72. IpNetDriver_12
+[2020.06.22-21.25.05:722][  4]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.22-21.25.09:348][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.22-21.25.09:436][ 86]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.06.22-21.25.14:458][200]LogOnline: Warning: OSS: Cannot create session 'GameSession': session already exists.
+[2020.06.22-21.25.14:460][200]LogBlueprintUserMessages: [Menuprofe_C_10] Server: Error al crear una sesion
+[2020.06.22-21.25.14:461][200]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2020.06.22-21.25.14:461][200]LogGameState: Match State Changed from InProgress to LeavingMap
+[2020.06.22-21.25.14:461][200]LogNet: Browse: 192.168.0.4//Game/FirstPersonBP/Maps/MainMenu
+[2020.06.22-21.25.14:462][200]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2020.06.22-21.25.14:462][200]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2020.06.22-21.25.14:463][200]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2020.06.22-21.25.14:463][200]LogOnline: Warning: STEAM: Steam API disabled!
+[2020.06.22-21.25.14:463][200]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.06.22-21.25.14:463][200]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.25.14:464][200]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2020.06.22-21.25.14:464][200]LogTemp: Display: ParseSettings for PendingNetDriver
+[2020.06.22-21.25.14:464][200]LogInit: WinSock: Socket queue 32768 / 32768
+[2020.06.22-21.25.14:465][200]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.25.14:465][200]LogNet: Game client on port 7777, rate 10000
+[2020.06.22-21.25.14:466][200]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
+[2020.06.22-21.25.14:466][200]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.4:53822
+[2020.06.22-21.25.14:466][200]LogHandshake: SendConnectChallenge. Timestamp: 29.682268, Cookie: 160073019228074069076059245166201198081197012242151080022057
+[2020.06.22-21.25.14:502][201]LogHandshake: SendChallengeResponse. Timestamp: 29.682268, Cookie: 160073019228074069076059245166201198081197012242151080022057
+[2020.06.22-21.25.14:503][201]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
+[2020.06.22-21.25.14:504][201]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.4:53822
+[2020.06.22-21.25.14:504][201]LogHandshake: SendChallengeAck. InCookie: 160073019228074069076059245166201198081197012242151080022057
+[2020.06.22-21.25.14:504][201]LogNet: Server accepting post-challenge connection from: 192.168.0.4:53822
+[2020.06.22-21.25.14:505][201]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.06.22-21.25.14:505][201]LogNet: NotifyAcceptedConnection: Name: LvLTubo, TimeStamp: 06/22/20 16:25:14, [UNetConnection] RemoteAddr: 192.168.0.4:53822, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.25.14:505][201]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.0.4:53822, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.25.14:546][202]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.06.22-21.25.14:547][202]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
+[2020.06.22-21.25.14:547][202]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Nivel/UEDPIE_2_LvLTubo.LvLTubo: Accepted
+[2020.06.22-21.25.14:547][202]LogNet: Remote platform little endian=1
+[2020.06.22-21.25.14:547][202]LogNet: This platform little endian=1
+[2020.06.22-21.25.14:594][203]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
+[2020.06.22-21.25.14:594][203]LogNet: Login request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF userId: DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF
+[2020.06.22-21.25.14:637][204]LogNet: Welcomed by server (Level: /Game/Nivel/UEDPIE_2_LvLTubo, Game: /Game/GravityBP/BRGameMode.BRGameMode_C)
+[2020.06.22-21.25.14:679][204]LogLoad: LoadMap: 192.168.0.4//Game/Nivel/UEDPIE_2_LvLTubo?game=/Game/GravityBP/BRGameMode.BRGameMode_C
+[2020.06.22-21.25.19:096][204]LogAIModule: Creating AISystem for world LvLTubo
+[2020.06.22-21.25.19:097][204]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.06.22-21.25.19:164][204]LogWorld: Bringing World /Game/Nivel/UEDPIE_1_LvLTubo.LvLTubo up for play (max tick rate 0) at 2020.06.22-16.25.19
+[2020.06.22-21.25.19:165][204]LogWorld: Bringing up level for play took: 0.065705
+[2020.06.22-21.25.19:166][204]LogLoad: Took 4.486416 seconds to LoadMap(/Game/Nivel/UEDPIE_2_LvLTubo)
+[2020.06.22-21.25.19:167][204]LogNet: Client netspeed is 10000
+[2020.06.22-21.25.19:167][204]LogNet: Join request: /Game/FirstPersonBP/Maps/MainMenu?Name=DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF?SplitscreenCount=1
+[2020.06.22-21.25.19:173][204]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2020.06.22-21.25.19:192][204]LogNet: Join succeeded: DESKTOP-TMVGJ7Q-1096
+[2020.06.22-21.25.21:726][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.25.21:806][241]LogSlate: Window 'BattleRoyalGravity Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.25.21:870][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-21.25.21:912][241]LogSlate: Window 'BattleRoyalGravity Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.06.22-21.25.21:963][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-21.25.22:040][241]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:53822, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF
+[2020.06.22-21.25.22:040][241]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.4:53822, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF, Channels: 2, Time: 2020.06.22-21.25.22
+[2020.06.22-21.25.22:040][241]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:53822, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF
+[2020.06.22-21.25.22:040][241]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF
+[2020.06.22-21.25.22:040][241]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF, Channels: 2, Time: 2020.06.22-21.25.22
+[2020.06.22-21.25.22:040][241]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.4:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-TMVGJ7Q-10968D2340BC662C122F46B2AC211AAF
+[2020.06.22-21.25.22:045][241]LogExit: GameNetDriver None shut down
+[2020.06.22-21.25.22:045][241]LogExit: GameNetDriver None shut down
+[2020.06.22-21.25.22:085][242]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.06.22-21.25.22:085][242]LogPlayLevel: Display: Destroying online subsystem :Context_17
