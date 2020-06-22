@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FalseDirectionalGravity.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\FalseGravityExample\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\FalseGravityExample\Plugins\FalseDirectionalGravity\Intermediate\Build\Win64\UE4Editor\Development\FalseDirectionalGravity\Module.FalseDirectionalGravity.cpp.obj"
+"E:\FalseGravityExample\Plugins\FalseDirectionalGravity\Intermediate\Build\Win64\UE4Editor\Development\FalseDirectionalGravity\Module.FalseDirectionalGravity.gen.cpp.obj"
+"E:\FalseGravityExample\Plugins\FalseDirectionalGravity\Intermediate\Build\Win64\UE4Editor\Development\FalseDirectionalGravity\PCLaunch.rc.res"
+/OUT:"E:\FalseGravityExample\Plugins\FalseDirectionalGravity\Intermediate\Build\Win64\UE4Editor\Development\FalseDirectionalGravity\UE4Editor-FalseDirectionalGravity.lib"

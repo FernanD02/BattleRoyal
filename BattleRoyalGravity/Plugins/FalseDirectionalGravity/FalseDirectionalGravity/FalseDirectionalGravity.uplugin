@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 110,
+	"VersionName": "1.10",
+	"FriendlyName": "False Directional Gravity",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Alex Davis",
+	"CreatedByURL": "http://recursivepain.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.20.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "FalseDirectionalGravity",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
